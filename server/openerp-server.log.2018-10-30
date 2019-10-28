@@ -1,0 +1,24 @@
+2018-10-30 17:36:12,904 18892 INFO ? openerp: OpenERP version 7.0-20150328
+2018-10-30 17:36:12,904 18892 INFO ? openerp: addons paths: S:\OpenERP 7.0-20150328\server\openerp\addons
+2018-10-30 17:36:12,904 18892 INFO ? openerp: database hostname: localhost
+2018-10-30 17:36:12,904 18892 INFO ? openerp: database port: 5432
+2018-10-30 17:36:12,904 18892 INFO ? openerp: database user: openpg
+2018-10-30 17:36:43,457 18892 WARNING ? openerp.addons.google_docs.google_docs: Please install latest gdata-python-client from http://code.google.com/p/gdata-python-client/downloads/list
+2018-10-30 17:37:32,318 18892 INFO ? openerp: OpenERP server is running, waiting for connections...
+2018-10-30 17:37:32,753 18892 INFO ? openerp.service.wsgi_server: HTTP service (werkzeug) running on 0.0.0.0:8090
+2018-10-30 18:09:10,226 16488 INFO ? openerp: OpenERP version 7.0-20150328
+2018-10-30 18:09:10,226 16488 INFO ? openerp: addons paths: S:\OpenERP 7.0-20150328\server\openerp\addons
+2018-10-30 18:09:10,226 16488 INFO ? openerp: database hostname: localhost
+2018-10-30 18:09:10,226 16488 INFO ? openerp: database port: 5432
+2018-10-30 18:09:10,226 16488 INFO ? openerp: database user: openpg
+2018-10-30 18:09:23,661 16488 WARNING ? openerp.addons.google_docs.google_docs: Please install latest gdata-python-client from http://code.google.com/p/gdata-python-client/downloads/list
+2018-10-30 18:09:39,282 16488 INFO ? openerp: OpenERP server is running, waiting for connections...
+2018-10-30 18:09:39,299 16488 INFO ? openerp.service.wsgi_server: HTTP service (werkzeug) running on 0.0.0.0:8090
+2018-10-30 18:10:04,625 8940 INFO ? openerp: OpenERP version 7.0-20150328
+2018-10-30 18:10:04,625 8940 INFO ? openerp: addons paths: S:\OpenERP 7.0-20150328\server\openerp\addons
+2018-10-30 18:10:04,625 8940 INFO ? openerp: database hostname: localhost
+2018-10-30 18:10:04,625 8940 INFO ? openerp: database port: 5432
+2018-10-30 18:10:04,625 8940 INFO ? openerp: database user: openpg
+2018-10-30 18:10:09,828 8940 WARNING ? openerp.addons.google_docs.google_docs: Please install latest gdata-python-client from http://code.google.com/p/gdata-python-client/downloads/list
+2018-10-30 18:10:14,414 8940 INFO ? openerp: OpenERP server is running, waiting for connections...
+2018-10-30 18:10:14,430 8940 INFO ? openerp.service.wsgi_server: HTTP service (werkzeug) running on 0.0.0.0:8090

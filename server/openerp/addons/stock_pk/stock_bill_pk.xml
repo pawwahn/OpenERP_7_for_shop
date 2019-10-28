@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- Top menu item -->
+        <menuitem id='menu_stock_customer' name='Payments' sequence="150"/>
+		<menuitem name="Configuration" parent="menu_stock_customer" id="menu_customer_details" sequence="3" />
+		<menuitem name="Manufacturer Bills" parent="menu_stock_customer" id="menu_sac_customer_pay_bill" sequence="2" />   
+				
+		<!-- pay to manufacturer below-->
+
+        <record id="view_manufacturer_bill_tree" model="ir.ui.view">
+            <field name="name">Pay Details</field>
+            <field name="model">sac.pay.bill.to.agent</field>
+            <field name="arch" type="xml">
+                <tree string="Pay Details">
+                    <field name="my_own_bill_no"/>
+                    <field name="manufacturer_name" string="Manufacturer"/>
+					<field name="bill_date" string="Manf. Bill Date"/>
+                    <field name="manufacturer_bill_no" string="Bill No"/>
+					<field name="haste_or_agent" string=" Agent" />
+					<field name="sno" string="Serial Number"/>
+					<!-- <field name="discount_before" string='Disc. Before' /> -->
+					<field name="bill_amount" string="Bill Amount" sum="Bill Amount" />
+					<field name="paid_amount" string="Paid Amount" sum="Paid Amount"/>
+					<field name="pay_on_today" string="Pay On"/>
+					<field name="state" string="State"/>
+					
+                </tree>
+            </field>
+        </record>
+		
+		<!-- search view  start-->
+		<record id="pay_bill_tree_search" model="ir.ui.view">
+		<field name="name">sac.pay.bill.to.agent.search</field>
+            <field name="model">sac.pay.bill.to.agent</field>
+            <field name="arch" type="xml">
+			<search string="state">
+				<group expand="0" string="Group By">
+				    <filter name="payment_in_progress" string="Payment In Progress" domain="[('state','=','payment in progress')]" help="PIP"/>
+					<filter name="billed" string="Billed" domain="[('state','=','billed')]" help="BILLED"/>
+					<filter name="payment_cleared" string="Payment Cleared" domain="[('state','=','payment cleared')]" help="PC"/>
+				</group>
+				    <field name="manufacturer_name" string="Manufacturer"/>
+					<field name="bill_date" string="Manf. Bill Date"/>
+                    <field name="manufacturer_bill_no" string="Bill No"/>
+					<field name="haste_or_agent" string=" Agent" />
+					<!-- <field name="discount_before" string='Disc. Before' /> -->
+					<field name="bill_amount" string="Bill Amount" sum="Bill Amount" />
+					<field name="paid_amount" string="Paid Amount" sum="Paid Amount"/>
+					<field name="pay_on_today" string="Pay On"/>
+				
+			</search>
+		</field>
+		</record>
+		
+		<!-- search view  end-->
+		
+		<record id="view_manufacturer_bill_form" model="ir.ui.view">
+            <field name="name">PayBill</field>
+            <field name="model">sac.pay.bill.to.agent</field>
+            <field name="arch" type="xml">
+			
+                <form string='Pay Bill To Manufacturer' version='7.0' class="oe_form_sheet_width" delete="false" >
+					<header>
+                        <button name='verify' string='Verify' type="object" />
+						<button name='Revoke' string='Revoke' type="object" />
+						<button name='add_attachment' string='Attachments' type="object" />
+						<field name='state' widget='statusbar' statusbar_visible='new,billed,payment in progress,payment cleared,cancelled'/>
+						<!-- <field name='state' invisible="1" attrs="{'edit': [('state','=','new')]}" />   'invisible': [('alias_domain', '=', False)]} -->
+                    </header>
+                    <sheet>
+                        <group>
+						    <group> 
+								<field name="manufacturer_name" string='Manufacturer Name' style="padding:3px;width:80%%;" attrs="{'readonly': [('state','!=','new'),('state','!=','billed')]}" />
+	                            <field name="manufacturer_bill_no" string="Manufacturer Bill No" style="padding:3px;width:80%%;" attrs="{'readonly': [('state','!=','new'),('state','!=','billed')]}"/>	
+								<field name="bill_date" string="Manufacturer Bill Date" style="padding:3px;width:80%%;" attrs="{'readonly': [('state','!=','new'),('state','!=','billed')]}"/>
+								<field name="lr_number" string='LR Number' style="padding:3px;width:80%%;" attrs="{'readonly': [('state','!=','new'),('state','!=','billed')]}"/>
+								<field name="accountability_type" string='Accountability Type' style="padding:3px;width:80%%;" options="{'create': false, 'create_edit': false}" attrs="{'readonly': [('state','!=','new'),('state','!=','billed')]}"/> 
+								<field name="bill_amount_manufacture" string="Manf Bill Amount" attrs="{'readonly': [('state','!=','new')]}"/>
+                            </group>
+                            <group>
+							    <field name="sno" string="Serial Number" style="padding:3px;" attrs="{'readonly': [('state','!=','new'),('state','!=','billed')]}"/>
+                                <field name="my_own_bill_no" string="My Firm Bill Sequence" style="padding:3px;"/>
+								<field name="bill_entered_date" string="Bill Entered Date" style="padding:3px;" attrs="{'readonly': [('state','!=','new'),('state','!=','billed')]}"/>
+								<field name="haste_or_agent" string="Agent"  on_change="on_changeagent(haste_or_agent)" style="padding:3px;width:80%%;" options="{'create': false, 'create_edit': false}" attrs="{'readonly': [('state','!=','new'),('state','!=','billed')]}"/>
+								<field name="transport" string="Transport" style="padding:3px;width:80%%;" options="{'create': false, 'create_edit': false}" attrs="{'readonly': [('state','!=','new'),('state','!=','billed')]}"/>
+								<field name="discount_before" string='Discount Before(days)' attrs="{'readonly': [('state','!=','new'),('state','!=','billed')]}"/> 
+								<field name="pay_on_today" string="To Pay On" attrs="{'readonly': [('state','!=','new')]}"/>
+
+								
+                            </group>
+                            
+                        </group>
+						<notebook>
+							<page string="Purchased Items">
+								<field name="manufacturer_bill_details_line" string="Manufacturer Bill Details" attrs="{'readonly': [('state','!=','new'),('state','!=','billed')]}" >
+										<tree string='Items' editable='bottom' attrs="{'readonly': [('state','!=','new'),('state','!=','billed')]}">
+											<field name="sac_pay_bill_to_agent_id" invisible="1"  />
+											<field name="product_name" string="Product Name" />
+											<field name="description" string="Description" />
+											<field name="quantity" style="color: blue" on_change="on_change_price(price,quantity,discount_in_per,discount_per_piece,return_qty)" />
+											<field name="price" style="color: blue" on_change="on_change_price(price,quantity,discount_in_per,discount_per_piece,return_qty)" />
+											<field name="product_wise_tot_bill_static" string="Const Amount" style="color: blue" />	
+											<field name="product_wise_tot_bill" string="Without Disc" />	
+											<!-- <field name="price" on_change="on_change_price(quantity,price)" />-->
+										    <field name="discount_in_per" on_change="on_change_price(price,quantity,discount_in_per,discount_per_piece,return_qty)" />
+									        <field name="discount_per_piece" on_change="on_change_price(price,quantity,discount_in_per,discount_per_piece,return_qty)" />
+										    <field name="return_qty" on_change="on_change_price(price,quantity,discount_in_per,discount_per_piece,return_qty)" />
+											<field name="new_price"  />
+											<field name="final_prod_wise_tot" string="With Discount"/>	
+										</tree>
+								</field> 
+								<group>
+									<group>
+										<group></group>
+										<group></group>
+										<group></group>
+										<group>
+											<field name='bill_amount' string="Bill Amount(With out Discount)" attrs="{'readonly': [('state','!=','new')]}"/>
+										</group>
+									</group>
+									<group>
+									    <group></group>
+										<group>
+											<field name='new_bill_amount' string="Bill Amount(With Discount)" attrs="{'readonly': [('state','!=','new')]}"/>
+										</group>
+									</group>
+					            </group>
+							</page>
+							
+							<page string="Return Details">	
+                                 	<!--<button name='generateReturnBill' string='Return Amount' type="object" />-->
+									<field name="return_bill_details_line" string="Return Details" >
+									
+											<tree string='Return Details' editable='bottom'>
+												<field name="sac_pay_bill_to_agent_id" invisible="1"  />
+												<field name="product_name" string="Product Name" />
+												<field name="description" string="Description" />
+												<field name="qty" string="Quantity" on_change="on_change_prices(qty,amount,discount_in_per,discount_per_piece)"/>
+												<field name="amount" string="Price" on_change="on_change_prices(qty,amount,discount_in_per,discount_per_piece)"/>
+												<field name="prod_wise_tot_bill_return" string="Amount" />
+												
+												<field name="discount_in_per" string="Discount in percentage" on_change="on_change_prices(qty,amount,discount_in_per,discount_per_piece)"/>
+												<field name="discount_per_piece" string="Disc per piece" on_change="on_change_prices(qty,amount,discount_in_per,discount_per_piece)"/>
+												<field name="new_price" string="With Disc Amount" />
+												<field name="new_prod_wise_tot_bill_return" string="Final Amount" />
+												
+											</tree> 
+									</field>
+									<group>
+									    <group></group>
+										<group class='oe_subtotal_footer oe_right'>
+											<field name='return_amount' string="Return Amount" attrs="{'readonly': [('state','!=','new')]}" style="color:Blue"/>
+										</group>
+									</group>	
+							</page>
+							
+							<page string="Payment Details">	
+                                 							
+									<field name="payment_bill_details_line" string="Our Payment Details" >
+									
+											<tree string='Payment Details' editable='bottom'>
+												<field name="sac_pay_bill_to_agent_id" invisible="1"  />
+												<field name="date" string="Date" />
+												<field name="payment_type" string="Payment Type" />
+												<field name="amount" string="Amount" />
+												<field name="description" string="Description" />
+											</tree> 
+									</field>
+										<group>
+									    <group></group>
+										<group class='oe_subtotal_footer oe_right'>
+											<field name='paid_amount_dummy' string="Paid Amount" attrs="{'readonly': [('state','!=','new')]}" style="color:Green"/>
+										</group>
+									</group>
+							</page>
+							<page string="Payment Notes">	
+                                 							
+								        <group>
+										<field name="is_eligible_for_discount" string="Elgibility"/>
+										<!-- <field name='bill_amount' string="Bill Amount"  attrs="{'invisible': ['|', ('section_id','=',False), ('state', 'not in', ['draft','open','pending'])]}"/> -->
+										<field name='bill_amount_dummy' string="Bill Amount" attrs="{'invisible':['|',('is_eligible_for_discount','=',True)],'readonly':[('state','!=','new')]}"/>
+										<field name='new_bill_amount_dummy' string="New Bill Amount" attrs="{'invisible':[('is_eligible_for_discount','=',False)],'readonly':[('state','!=','new')]}"/>
+										<field name='return_amount_dummy' string="Return Amount" attrs="{'readonly': [('state','!=','new')]}" style="color:Blue"/>
+										<field name='paid_amount' string="Paid Amount" attrs="{'readonly': [('state','!=','new')]}" style="color:Green"/>
+										<field name='balance_amount' string="Balance to Pay" attrs="{'readonly': [('state','!=','new')]}" style="color:Red"/>
+									    </group>
+											
+					
+										
+							</page>
+                        </notebook>		
+                    </sheet>
+                </form>
+				
+			</field>
+		</record>
+		
+		<record id="action_sac_pay_bill_to_agent" model="ir.actions.act_window">
+            <field name="name">My Firm Pay Sequence</field>
+            <field name="res_model">sac.pay.bill.to.agent</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+			<field name="search_view_ids" ref="pay_bill_tree_search" />
+        </record>
+		
+		<record id="seq_pay_bill" model="ir.sequence.type">
+		    <field name="name">Manufacturer Bill</field>
+			<field name="code">sac.pay.bill.to.agent.sequence</field>
+	    </record>
+		
+		<record id="id_seq_pay_bill" model="ir.sequence">
+		    <field name="name">My Firm Bill Sequence</field>
+			<field name="code">sac.pay.bill.to.agent.sequence</field>
+			<field name="prefix">Pay/%(year)s/</field>
+			<field name="padding">6</field>
+			<field name="my_own_bill_no" eval="False" />
+	    </record>
+		
+		<menuitem  action="action_sac_pay_bill_to_agent" id="menu_action_sac_pay_bill"
+		        parent="menu_sac_customer_pay_bill" name="Pay Bills" sequence="3" />		
+				
+		
+        <!-- #########Agent setup start ############-->
+		
+        <record id="view_agent_tree" model="ir.ui.view">
+            <field name="name">Customer Details</field>
+            <field name="model">sac.agent.details.setup</field>
+            <field name="arch" type="xml">
+                <tree string="Agent Details">
+                    <field name="agent_name"/>
+                    <field name="agent_mob_no"/>
+                    <field name="address" />
+                </tree>
+            </field>
+        </record>
+		
+		<!-- customer reg setup form view-->
+		<record id="view_agent_form" model="ir.ui.view">
+            <field name="name">Agent Details</field>
+            <field name="model">sac.agent.details.setup</field>
+            <field name="arch" type="xml">
+                <form string="Agent Details" >
+				    <group> 
+                        <group>
+                            <field name="agent_name"/>
+                            <field name="agent_mob_no"/>
+							<field name="agent_registered_date"/> 
+                            <field name="address"/>
+                            <field name="status"/>
+						</group>
+						<group>
+						</group>
+                        </group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_agent_setup" model="ir.actions.act_window">
+            <field name="name">Agent Details</field>
+            <field name="res_model">sac.agent.details.setup</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_agent_setup" id="menu_action_agent_setup"
+		        parent="menu_customer_details" name="Agent Details" sequence="2" />	
+
+        <!-- #########Agent setup start ############-->
+		
+        <record id="view_transport_tree" model="ir.ui.view">
+            <field name="name">Transport Details</field>
+            <field name="model">sac.transport.details.setup</field>
+            <field name="arch" type="xml">
+                <tree string="Transport Details">
+                    <field name="transport_name"/>
+                    <field name="transport_mob_no"/>
+                    <field name="address" />
+                </tree>
+            </field>
+        </record>
+		
+		<!-- customer reg setup form view-->
+		<record id="view_transport_form" model="ir.ui.view">
+            <field name="name">Transport Details</field>
+            <field name="model">sac.transport.details.setup</field>
+            <field name="arch" type="xml">
+                <form string="Transport Details" >
+				    <group> 
+                        <group>
+                            <field name="transport_name"/>
+                            <field name="transport_mob_no"/>
+							<field name="transport_registered_date"/> 
+                            <field name="address"/>
+                            <field name="status"/>
+						</group>
+						<group>
+						</group>
+                        </group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_transport_setup" model="ir.actions.act_window">
+            <field name="name">Transport Details</field>
+            <field name="res_model">sac.transport.details.setup</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_transport_setup" id="menu_action_transport_setup"
+		        parent="menu_customer_details" name="Transport Details" sequence="3" />	
+
+		<!-- Payment Types-->
+		<record id="view_accountability_type_tree" model="ir.ui.view">
+            <field name="name">Accountability Types</field>
+            <field name="model">accountability.type.setup</field>
+            <field name="arch" type="xml">
+                <tree string="Accountability Types">
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name="status"/>
+                </tree>
+            </field>
+        </record>
+		
+		<record id="view_accountability_type_form" model="ir.ui.view">
+            <field name="name">Accountability Type</field>
+            <field name="model">accountability.type.setup</field>
+            <field name="arch" type="xml">
+                <form string="Bill Types" >
+                        <group>
+                            <field name="name" />
+                            <field name="description" />
+                            <field name="status" />
+                        </group>
+						<group>
+						</group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_accountability_type_setup" model="ir.actions.act_window">
+            <field name="name">Accountability Type </field>
+            <field name="res_model">accountability.type.setup</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_accountability_type_setup" id="menu_action_accountability_type_setup"
+		        parent="menu_customer_details" name="Accountability Types" sequence="1" />
+				
+		<!-- Attachments code-->
+		
+		<record model="ir.ui.view" id="grn_attachments">
+        <field name="name">paid.bill.attachments</field>
+        <field name="model">paid.bill.attachments</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+        <form string="Attach Document" version="7.0">
+            <sheet>
+				<div align ="right">            
+				</div>
+				<group col ="4" colspan ="2" >
+					<field name ="name"/>
+					<field name ="attachment" filename="attachment_text"/>
+					<field name ="attachment_text" invisible ="1"/> 
+                </group>
+               <group>
+					<div align ="center">            
+						<button  name="add_attachment" string="Add" type="object"  invisible="context.get('status')=='true'" />
+						<button name ="delete_attachment" string="Delete" type="object"   invisible="context.get('status')=='true'" /> 
+					</div>
+               </group>
+              
+				<field name ="document_attachment_id" >    
+					<tree string ="Document" editable="top"  create ="false" delete= "false"> 
+						<field name="attach_check_box" style="width:10%%" />
+						<field name ="name" readonly ="1" />
+						 <field name ="attachment_text" readonly ="1"/>
+						<field name ="attachment" filename="attachment_text" invisible="1" />
+						<button name ="download" icon ="gtk-go-down" type="object"/>
+					</tree>
+				</field> 
+				<group>
+					<div align ="top">
+					</div>
+				</group> 
+            </sheet>
+        </form>
+        </field>
+    </record>
+
+
+	 </data>
+</openerp>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

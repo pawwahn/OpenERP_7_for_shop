@@ -1,0 +1,9 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+company_owner,ssh Company setup owner,model_ssh_company,group_price_finder_owner,1,1,1,0
+company_rate_owner,ssh Company category rate owner,model_ssh_company_rate,group_price_finder_owner,1,1,1,0
+,,,,,,,
+company_staff,ssh Company setup staff,model_ssh_company,group_price_finder_staff,1,1,1,0
+company_rate_staff,ssh Company category rate staff,model_ssh_company_rate,group_price_finder_staff,1,1,1,0
+,,,,,,,
+company_admin,ssh Company setup admin,model_ssh_company,group_price_finder_admin,1,1,1,1
+company_rate_admin,ssh Company category rate admin,model_ssh_company_rate,group_price_finder_admin,1,1,1,1

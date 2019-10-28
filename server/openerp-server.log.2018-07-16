@@ -1,0 +1,826 @@
+2018-07-16 15:12:42,388 3152 INFO ? openerp: OpenERP version 7.0-20150328
+2018-07-16 15:12:42,390 3152 INFO ? openerp: addons paths: S:\OpenERP 7.0-20150328\server\openerp\addons
+2018-07-16 15:12:42,390 3152 INFO ? openerp: database hostname: localhost
+2018-07-16 15:12:42,391 3152 INFO ? openerp: database port: 5432
+2018-07-16 15:12:42,391 3152 INFO ? openerp: database user: openpg
+2018-07-16 15:12:44,371 3152 WARNING ? openerp.addons.google_docs.google_docs: Please install latest gdata-python-client from http://code.google.com/p/gdata-python-client/downloads/list
+2018-07-16 15:12:46,265 3152 INFO ? openerp: OpenERP server is running, waiting for connections...
+2018-07-16 15:12:46,272 3152 INFO ? openerp.service.wsgi_server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-07-16 15:12:48,796 3152 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 15:12:49,315 3152 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 15:12:49,427 3152 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-07-16 15:12:49,987 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:49] "GET /?db=openerp_7 HTTP/1.1" 200 -
+2018-07-16 15:12:50,390 3152 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:50] "GET /web/static/src/css/full.css HTTP/1.1" 200 -
+2018-07-16 15:12:51,414 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:51] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-07-16 15:12:52,936 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:52] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 200 -
+2018-07-16 15:12:53,831 3152 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-07-16 15:12:54,197 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:54] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-07-16 15:12:54,210 3152 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:54] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
+2018-07-16 15:12:54,663 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:54] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-07-16 15:12:55,614 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:55] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-07-16 15:12:55,792 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:55] "POST /web/session/modules HTTP/1.1" 200 -
+2018-07-16 15:12:56,476 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:56] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-07-16 15:12:56,539 3152 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:56] "GET /web/static/lib/datejs/globalization/en-US.js HTTP/1.1" 200 -
+2018-07-16 15:12:57,003 3152 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:57] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 -
+2018-07-16 15:12:57,398 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:12:57,562 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:12:57,752 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:57] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 15:12:57,934 3152 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:57] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-16 15:12:58,016 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:58] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 15:12:58,726 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:58] "POST /web/menu/load HTTP/1.1" 200 -
+2018-07-16 15:12:59,305 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:12:59,545 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:59] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 15:12:59,855 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:59] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 15:12:59,937 3152 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 15:12:59] "GET /web/static/src/img/search_reset.gif HTTP/1.1" 200 -
+2018-07-16 15:13:00,276 3152 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:00] "GET /web/static/src/font/entypo-webfont.ttf HTTP/1.1" 200 -
+2018-07-16 15:13:00,276 3152 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:00] "GET /web/static/src/font/mnmliconsv21-webfont.ttf HTTP/1.1" 200 -
+2018-07-16 15:13:00,469 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:13:00,730 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:13:00,973 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:13:01,128 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:13:01,637 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:13:01,937 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:01] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 15:13:04,006 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:04] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 15:13:04,128 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:04] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 15:13:04,359 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:13:04,627 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:13:04,881 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:13:05,013 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:13:05,523 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:13:05,911 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:05] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 15:13:07,605 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:13:07,707 3152 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:07] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 200 -
+2018-07-16 15:13:08,223 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:13:08,674 3152 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 15:13:08] "GET /web/static/src/img/down-arrow.png HTTP/1.1" 200 -
+2018-07-16 15:50:00,709 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:00] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 15:50:00,875 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:00] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 15:50:01,174 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:01,451 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:01,717 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:01,894 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:02,558 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:02,878 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:02] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 15:50:04,440 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:04] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 15:50:04,638 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:04] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 15:50:04,849 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:05,194 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:05,338 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:05,470 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:06,013 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:06,434 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:06] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 15:50:08,181 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:08,744 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:09,178 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:09,200 3152 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:09] "GET /web/static/src/img/ui/field_calendar.png HTTP/1.1" 200 -
+2018-07-16 15:50:09,283 3152 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:09] "GET /am_pk/static/src/css/images/ui-icons_cc0000_256x240.png HTTP/1.1" 404 -
+2018-07-16 15:50:11,157 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:11,282 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:11] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:11,591 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:11,801 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:11] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:11,815 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:11,818 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:11,822 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:11,828 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:11,828 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:11,977 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:11] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:12,088 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:12,200 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:12,322 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:12,444 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:12,463 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:12,471 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:12,476 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:12,589 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:12,799 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:13,029 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:13,042 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:13,048 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:13,055 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:13,061 3152 INFO openerp_7 root: ****************
+2018-07-16 15:50:13,203 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:13,332 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:13,440 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:13,575 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:17,888 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:17] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 15:50:18,035 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:18] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 15:50:18,157 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:18,367 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:18,802 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:19,029 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:19,529 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 15:50:19,772 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 15:50:19] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:09:02,411 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:09:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:09:02,598 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:09:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:09:13,904 3152 INFO openerp_7 root: ****************
+2018-07-16 16:09:14,068 3152 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:09:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:13:25,043 3004 INFO ? openerp: OpenERP version 7.0-20150328
+2018-07-16 16:13:25,043 3004 INFO ? openerp: addons paths: S:\OpenERP 7.0-20150328\server\openerp\addons
+2018-07-16 16:13:25,043 3004 INFO ? openerp: database hostname: localhost
+2018-07-16 16:13:25,043 3004 INFO ? openerp: database port: 5432
+2018-07-16 16:13:25,043 3004 INFO ? openerp: database user: openpg
+2018-07-16 16:13:26,535 3004 WARNING ? openerp.addons.google_docs.google_docs: Please install latest gdata-python-client from http://code.google.com/p/gdata-python-client/downloads/list
+2018-07-16 16:13:28,421 3004 INFO ? openerp: OpenERP server is running, waiting for connections...
+2018-07-16 16:13:28,430 3004 INFO ? openerp.service.wsgi_server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-07-16 16:14:00,727 3004 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 16:14:00,782 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:14:00,809 3004 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-07-16 16:14:00,994 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:00] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:14:01,203 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:14:01,756 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:14:01,890 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:14:02,002 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:14:02,510 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:02] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:14:02,631 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:02] "GET /base/static/src/img/icon.png HTTP/1.1" 200 -
+2018-07-16 16:14:02,936 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:02] "GET /cashback/static/src/img/icon.png HTTP/1.1" 200 -
+2018-07-16 16:14:05,644 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:14:06,230 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:14:06,607 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:06] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-07-16 16:14:06,782 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:14:06,884 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:06] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:14:07,015 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:07] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531757646255&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:14:12,244 3004 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 16:14:12,431 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:14:12,440 3004 INFO openerp_7 openerp.modules.module: module cashback: creating or updating database tables
+2018-07-16 16:14:13,257 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading cashback_view.xml
+2018-07-16 16:14:13,259 3004 ERROR openerp_7 openerp.osv.osv: Uncaught exception
+Traceback (most recent call last):
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\osv\osv.py", line 132, in wrapper
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\osv\osv.py", line 199, in execute
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\osv\osv.py", line 187, in execute_cr
+  File "S:\OpenERP 7.0-20150328\server\openerp\addons\base\module\module.py", line 512, in button_immediate_upgrade
+  File "S:\OpenERP 7.0-20150328\server\openerp\addons\base\module\module.py", line 473, in _button_immediate_function
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\pooler.py", line 39, in restart_pool
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\registry.py", line 233, in new
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 351, in load_modules
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 256, in load_marked_modules
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 188, in load_module_graph
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 76, in <lambda>
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 124, in _load_data
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\tools\convert.py", line 946, in convert_xml_import
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src\lxml\lxml.etree.c:69955)
+  File "parser.pxi", line 1769, in lxml.etree._parseDocument (src\lxml\lxml.etree.c:102257)
+  File "parser.pxi", line 1789, in lxml.etree._parseFilelikeDocument (src\lxml\lxml.etree.c:102516)
+  File "parser.pxi", line 1684, in lxml.etree._parseDocFromFilelike (src\lxml\lxml.etree.c:101442)
+  File "parser.pxi", line 1134, in lxml.etree._BaseParser._parseDocFromFilelike (src\lxml\lxml.etree.c:97069)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src\lxml\lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src\lxml\lxml.etree.c:92461)
+  File "parser.pxi", line 622, in lxml.etree._raiseParseError (src\lxml\lxml.etree.c:91757)
+XMLSyntaxError: Opening and ending tag mismatch: notebook line 210 and group, line 235, column 15
+2018-07-16 16:14:13,260 3004 ERROR openerp_7 openerp.netsvc: Opening and ending tag mismatch: notebook line 210 and group, line 235, column 15
+Traceback (most recent call last):
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\netsvc.py", line 296, in dispatch_rpc
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\service\web_services.py", line 632, in dispatch
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\osv\osv.py", line 190, in execute_kw
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\osv\osv.py", line 132, in wrapper
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\osv\osv.py", line 199, in execute
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\osv\osv.py", line 187, in execute_cr
+  File "S:\OpenERP 7.0-20150328\server\openerp\addons\base\module\module.py", line 512, in button_immediate_upgrade
+  File "S:\OpenERP 7.0-20150328\server\openerp\addons\base\module\module.py", line 473, in _button_immediate_function
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\pooler.py", line 39, in restart_pool
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\registry.py", line 233, in new
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 351, in load_modules
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 256, in load_marked_modules
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 188, in load_module_graph
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 76, in <lambda>
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 124, in _load_data
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\tools\convert.py", line 946, in convert_xml_import
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src\lxml\lxml.etree.c:69955)
+  File "parser.pxi", line 1769, in lxml.etree._parseDocument (src\lxml\lxml.etree.c:102257)
+  File "parser.pxi", line 1789, in lxml.etree._parseFilelikeDocument (src\lxml\lxml.etree.c:102516)
+  File "parser.pxi", line 1684, in lxml.etree._parseDocFromFilelike (src\lxml\lxml.etree.c:101442)
+  File "parser.pxi", line 1134, in lxml.etree._BaseParser._parseDocFromFilelike (src\lxml\lxml.etree.c:97069)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src\lxml\lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src\lxml\lxml.etree.c:92461)
+  File "parser.pxi", line 622, in lxml.etree._raiseParseError (src\lxml\lxml.etree.c:91757)
+XMLSyntaxError: Opening and ending tag mismatch: notebook line 210 and group, line 235, column 15
+2018-07-16 16:14:13,392 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:13] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-16 16:14:35,321 3004 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 16:14:35,431 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:14:35,437 3004 INFO openerp_7 openerp.modules.module: module cashback: creating or updating database tables
+2018-07-16 16:14:35,595 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading cashback_view.xml
+2018-07-16 16:14:35,598 3004 ERROR openerp_7 openerp.netsvc: Opening and ending tag mismatch: notebook line 210 and group, line 235, column 15
+Traceback (most recent call last):
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\netsvc.py", line 296, in dispatch_rpc
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\service\web_services.py", line 628, in dispatch
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\service\security.py", line 40, in check
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\pooler.py", line 49, in get_pool
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\pooler.py", line 33, in get_db_and_pool
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\registry.py", line 203, in get
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\registry.py", line 233, in new
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 351, in load_modules
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 256, in load_marked_modules
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 188, in load_module_graph
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 76, in <lambda>
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 124, in _load_data
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\tools\convert.py", line 946, in convert_xml_import
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src\lxml\lxml.etree.c:69955)
+  File "parser.pxi", line 1769, in lxml.etree._parseDocument (src\lxml\lxml.etree.c:102257)
+  File "parser.pxi", line 1789, in lxml.etree._parseFilelikeDocument (src\lxml\lxml.etree.c:102516)
+  File "parser.pxi", line 1684, in lxml.etree._parseDocFromFilelike (src\lxml\lxml.etree.c:101442)
+  File "parser.pxi", line 1134, in lxml.etree._BaseParser._parseDocFromFilelike (src\lxml\lxml.etree.c:97069)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src\lxml\lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src\lxml\lxml.etree.c:92461)
+  File "parser.pxi", line 622, in lxml.etree._raiseParseError (src\lxml\lxml.etree.c:91757)
+XMLSyntaxError: Opening and ending tag mismatch: notebook line 210 and group, line 235, column 15
+2018-07-16 16:14:35,730 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:14:35] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-16 16:15:18,351 3004 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 16:15:18,414 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:15:18,417 3004 INFO openerp_7 openerp.modules.module: module cashback: creating or updating database tables
+2018-07-16 16:15:18,562 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading cashback_view.xml
+2018-07-16 16:15:18,565 3004 ERROR openerp_7 openerp.netsvc: Opening and ending tag mismatch: notebook line 210 and group, line 235, column 15
+Traceback (most recent call last):
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\netsvc.py", line 296, in dispatch_rpc
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\service\web_services.py", line 628, in dispatch
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\service\security.py", line 40, in check
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\pooler.py", line 49, in get_pool
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\pooler.py", line 33, in get_db_and_pool
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\registry.py", line 203, in get
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\registry.py", line 233, in new
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 351, in load_modules
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 256, in load_marked_modules
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 188, in load_module_graph
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 76, in <lambda>
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\modules\loading.py", line 124, in _load_data
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\tools\convert.py", line 946, in convert_xml_import
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src\lxml\lxml.etree.c:69955)
+  File "parser.pxi", line 1769, in lxml.etree._parseDocument (src\lxml\lxml.etree.c:102257)
+  File "parser.pxi", line 1789, in lxml.etree._parseFilelikeDocument (src\lxml\lxml.etree.c:102516)
+  File "parser.pxi", line 1684, in lxml.etree._parseDocFromFilelike (src\lxml\lxml.etree.c:101442)
+  File "parser.pxi", line 1134, in lxml.etree._BaseParser._parseDocFromFilelike (src\lxml\lxml.etree.c:97069)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src\lxml\lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src\lxml\lxml.etree.c:92461)
+  File "parser.pxi", line 622, in lxml.etree._raiseParseError (src\lxml\lxml.etree.c:91757)
+XMLSyntaxError: Opening and ending tag mismatch: notebook line 210 and group, line 235, column 15
+2018-07-16 16:15:18,726 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:15:18] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-16 16:15:59,901 3004 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 16:15:59,960 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:15:59,964 3004 INFO openerp_7 openerp.modules.module: module cashback: creating or updating database tables
+2018-07-16 16:16:00,105 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading cashback_view.xml
+2018-07-16 16:16:00,664 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:16:00,828 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading report/cashback_reports_view.xml
+2018-07-16 16:16:00,900 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/cash_back_system_security.xml
+2018-07-16 16:16:01,243 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/ir.model.access.csv
+2018-07-16 16:16:01,506 3004 INFO openerp_7 openerp.modules.module: module am_pk: creating or updating database tables
+2018-07-16 16:16:01,742 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/credits_security.xml
+2018-07-16 16:16:01,875 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/ir.model.access.csv
+2018-07-16 16:16:02,023 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading credits.xml
+2018-07-16 16:16:02,137 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.actions.act_window: search_view_ids.
+2018-07-16 16:16:02,144 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:16:02,165 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:16:02,247 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:16:02,384 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:16:02,388 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:16:02,391 3004 WARNING openerp_7 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-07-16 16:16:02,391 3004 WARNING openerp_7 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-07-16 16:16:02,391 3004 WARNING openerp_7 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-07-16 16:16:02,391 3004 WARNING openerp_7 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-07-16 16:16:02,391 3004 WARNING openerp_7 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-07-16 16:16:02,391 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-07-16 16:16:02,391 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-07-16 16:16:02,391 3004 WARNING openerp_7 openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-07-16 16:16:02,391 3004 WARNING openerp_7 openerp.modules.loading: The model gst.turnover.report has no access rules, consider adding one. E.g. access_gst_turnover_report,access_gst_turnover_report,model_gst_turnover_report,,1,1,1,1
+2018-07-16 16:16:02,519 3004 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-07-16 16:16:03,640 3004 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 16:16:03,721 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:16:03,730 3004 INFO openerp_7 openerp.modules.module: module cashback: creating or updating database tables
+2018-07-16 16:16:03,871 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading cashback_view.xml
+2018-07-16 16:16:04,131 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:16:04,259 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading report/cashback_reports_view.xml
+2018-07-16 16:16:04,293 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/cash_back_system_security.xml
+2018-07-16 16:16:04,428 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/ir.model.access.csv
+2018-07-16 16:16:04,546 3004 INFO openerp_7 openerp.modules.module: module am_pk: creating or updating database tables
+2018-07-16 16:16:04,720 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/credits_security.xml
+2018-07-16 16:16:04,904 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/ir.model.access.csv
+2018-07-16 16:16:05,052 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading credits.xml
+2018-07-16 16:16:05,148 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.actions.act_window: search_view_ids.
+2018-07-16 16:16:05,158 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:16:05,167 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:16:05,233 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:16:05,369 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:16:05,374 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:16:05,377 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:16:05,380 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:16:05,381 3004 WARNING openerp_7 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-07-16 16:16:05,382 3004 WARNING openerp_7 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-07-16 16:16:05,382 3004 WARNING openerp_7 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-07-16 16:16:05,382 3004 WARNING openerp_7 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-07-16 16:16:05,382 3004 WARNING openerp_7 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-07-16 16:16:05,382 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-07-16 16:16:05,382 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-07-16 16:16:05,382 3004 WARNING openerp_7 openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-07-16 16:16:05,384 3004 WARNING openerp_7 openerp.modules.loading: The model gst.turnover.report has no access rules, consider adding one. E.g. access_gst_turnover_report,access_gst_turnover_report,model_gst_turnover_report,,1,1,1,1
+2018-07-16 16:16:05,502 3004 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-07-16 16:16:05,505 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next operation
+2018-07-16 16:16:05,505 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x05982270>
+2018-07-16 16:16:05,542 3004 INFO openerp_7 openerp.addons.base.res.res_config: next action is None
+2018-07-16 16:16:05,671 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:05] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-16 16:16:05,881 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:05] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:16:06,390 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:06] "GET /?db=openerp_7&ts=1531757765702 HTTP/1.1" 200 -
+2018-07-16 16:16:07,611 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:07] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-07-16 16:16:08,874 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:08] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 304 -
+2018-07-16 16:16:09,280 3004 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-07-16 16:16:09,381 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:09] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-07-16 16:16:09,858 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:09] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-07-16 16:16:10,677 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:10] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-07-16 16:16:10,819 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:10] "POST /web/session/modules HTTP/1.1" 200 -
+2018-07-16 16:16:11,275 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:11] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-07-16 16:16:11,651 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:11] "POST /web/menu/load HTTP/1.1" 200 -
+2018-07-16 16:16:11,871 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:11] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:11,983 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:11] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:12,026 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:12] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-16 16:16:12,082 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:12] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:16:12,171 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:12] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:16:12,290 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:12] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:16:12,403 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:12] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:16:12,513 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:12,668 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:12,759 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:12,924 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:13,378 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:13] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:16:13,510 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:13,687 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:13,898 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:13] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-07-16 16:16:14,213 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:14] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:16:14,289 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:14,378 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:14,543 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:14] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531757773700&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:16:14,831 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:14,950 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:14] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531757774390&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:16:15,263 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:15] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:16:24,122 3004 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 16:16:24,178 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:16:24,187 3004 INFO openerp_7 openerp.modules.module: module cashback: creating or updating database tables
+2018-07-16 16:16:24,334 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading cashback_view.xml
+2018-07-16 16:16:24,596 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:16:24,704 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading report/cashback_reports_view.xml
+2018-07-16 16:16:24,740 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/cash_back_system_security.xml
+2018-07-16 16:16:24,888 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/ir.model.access.csv
+2018-07-16 16:16:25,007 3004 INFO openerp_7 openerp.modules.module: module am_pk: creating or updating database tables
+2018-07-16 16:16:25,167 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/credits_security.xml
+2018-07-16 16:16:25,292 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/ir.model.access.csv
+2018-07-16 16:16:25,431 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading credits.xml
+2018-07-16 16:16:25,525 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.actions.act_window: search_view_ids.
+2018-07-16 16:16:25,532 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:16:25,539 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:16:25,608 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:16:25,743 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:16:25,746 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:16:25,750 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:16:25,753 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:16:25,755 3004 WARNING openerp_7 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-07-16 16:16:25,756 3004 WARNING openerp_7 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-07-16 16:16:25,756 3004 WARNING openerp_7 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-07-16 16:16:25,756 3004 WARNING openerp_7 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-07-16 16:16:25,756 3004 WARNING openerp_7 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-07-16 16:16:25,756 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-07-16 16:16:25,756 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-07-16 16:16:25,756 3004 WARNING openerp_7 openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-07-16 16:16:25,756 3004 WARNING openerp_7 openerp.modules.loading: The model gst.turnover.report has no access rules, consider adding one. E.g. access_gst_turnover_report,access_gst_turnover_report,model_gst_turnover_report,,1,1,1,1
+2018-07-16 16:16:25,914 3004 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-07-16 16:16:25,918 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next operation
+2018-07-16 16:16:25,920 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x048329B0>
+2018-07-16 16:16:25,927 3004 INFO openerp_7 openerp.addons.base.res.res_config: next action is None
+2018-07-16 16:16:26,009 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:26] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-16 16:16:26,155 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:26] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:16:26,540 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:26] "GET /?db=openerp_7&ts=1531757786032 HTTP/1.1" 200 -
+2018-07-16 16:16:27,029 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:27] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-07-16 16:16:27,176 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:27] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 304 -
+2018-07-16 16:16:27,517 3004 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-07-16 16:16:27,604 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:27] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-07-16 16:16:28,142 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:28] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-07-16 16:16:28,579 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:28] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-07-16 16:16:28,746 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:28] "POST /web/session/modules HTTP/1.1" 200 -
+2018-07-16 16:16:29,221 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:29] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-07-16 16:16:29,553 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:29] "POST /web/menu/load HTTP/1.1" 200 -
+2018-07-16 16:16:29,730 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:29,855 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:29,963 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:29] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:16:30,062 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:30] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-16 16:16:30,072 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:30] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:16:30,197 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:30] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:16:30,295 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:30,517 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:30,627 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:30,717 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:30,826 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:30] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:16:31,170 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:31] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:16:31,290 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:31,891 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:31,948 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:31] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-07-16 16:16:32,032 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:32,387 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:32] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:16:32,476 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:32,611 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:32] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:16:32,723 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:32] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:16:32,842 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:32] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:16:32,920 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:32] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531757791926&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:16:32,996 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:33,197 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:33,318 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:33,430 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:33,551 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:33] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531757792066&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:16:33,861 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:34,335 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:34] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:16:34,872 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:16:35,345 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:16:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:29,851 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:29] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:17:29,951 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:29] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:17:30,073 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:31,259 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:31] "GET /am_pk/static/src/css/images/ui-icons_cc0000_256x240.png HTTP/1.1" 404 -
+2018-07-16 16:17:31,766 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:31] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:17:31,964 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:31] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:17:32,233 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:32,322 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:32,454 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:32,565 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:32,584 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:32] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-16 16:17:32,703 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:33,017 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:33,170 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:33] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:17:37,834 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:38,033 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:38] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:38,384 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:38] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-07-16 16:17:38,543 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:38] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:17:38,654 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:38] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:38,752 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:38] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531757858053&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:17:41,029 3004 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 16:17:41,085 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:17:41,092 3004 INFO openerp_7 openerp.modules.module: module cashback: creating or updating database tables
+2018-07-16 16:17:41,230 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading cashback_view.xml
+2018-07-16 16:17:41,470 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:17:41,576 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading report/cashback_reports_view.xml
+2018-07-16 16:17:41,614 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/cash_back_system_security.xml
+2018-07-16 16:17:41,750 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/ir.model.access.csv
+2018-07-16 16:17:41,858 3004 INFO openerp_7 openerp.modules.module: module am_pk: creating or updating database tables
+2018-07-16 16:17:41,997 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/credits_security.xml
+2018-07-16 16:17:42,125 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/ir.model.access.csv
+2018-07-16 16:17:42,259 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading credits.xml
+2018-07-16 16:17:42,344 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.actions.act_window: search_view_ids.
+2018-07-16 16:17:42,352 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:17:42,361 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:17:42,421 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:17:42,551 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:17:42,555 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:17:42,558 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:17:42,561 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:17:42,563 3004 WARNING openerp_7 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-07-16 16:17:42,563 3004 WARNING openerp_7 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-07-16 16:17:42,563 3004 WARNING openerp_7 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-07-16 16:17:42,563 3004 WARNING openerp_7 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-07-16 16:17:42,565 3004 WARNING openerp_7 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-07-16 16:17:42,565 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-07-16 16:17:42,565 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-07-16 16:17:42,565 3004 WARNING openerp_7 openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-07-16 16:17:42,565 3004 WARNING openerp_7 openerp.modules.loading: The model gst.turnover.report has no access rules, consider adding one. E.g. access_gst_turnover_report,access_gst_turnover_report,model_gst_turnover_report,,1,1,1,1
+2018-07-16 16:17:42,677 3004 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-07-16 16:17:42,680 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next operation
+2018-07-16 16:17:42,680 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x05988870>
+2018-07-16 16:17:42,683 3004 INFO openerp_7 openerp.addons.base.res.res_config: next action is None
+2018-07-16 16:17:42,782 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:42] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-16 16:17:43,328 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:43] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:17:43,401 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:43] "GET /?db=openerp_7&ts=1531757862810 HTTP/1.1" 200 -
+2018-07-16 16:17:43,578 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:43] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-07-16 16:17:43,924 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:43] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 304 -
+2018-07-16 16:17:44,430 3004 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-07-16 16:17:44,532 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:44] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-07-16 16:17:44,753 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:44] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-07-16 16:17:45,196 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:45] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-07-16 16:17:45,351 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:45] "POST /web/session/modules HTTP/1.1" 200 -
+2018-07-16 16:17:45,894 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:45] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-07-16 16:17:46,236 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:46] "POST /web/menu/load HTTP/1.1" 200 -
+2018-07-16 16:17:46,381 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:46,502 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:46,614 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:46] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:17:46,703 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:46] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:17:46,721 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:46] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-16 16:17:46,911 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:46] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:17:46,990 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:47,223 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:47,355 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:47,486 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:47,565 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:47] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:17:47,918 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:47] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:17:54,783 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:55,012 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:55] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:55,193 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:55] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-07-16 16:17:55,483 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:55] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:17:55,581 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:55] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:17:55,690 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:55] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531757875042&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:17:57,957 3004 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 16:17:58,010 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:17:58,019 3004 INFO openerp_7 openerp.modules.module: module cashback: creating or updating database tables
+2018-07-16 16:17:58,157 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading cashback_view.xml
+2018-07-16 16:17:58,417 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:17:58,528 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading report/cashback_reports_view.xml
+2018-07-16 16:17:58,565 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/cash_back_system_security.xml
+2018-07-16 16:17:58,750 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/ir.model.access.csv
+2018-07-16 16:17:58,865 3004 INFO openerp_7 openerp.modules.module: module am_pk: creating or updating database tables
+2018-07-16 16:17:59,015 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/credits_security.xml
+2018-07-16 16:17:59,144 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/ir.model.access.csv
+2018-07-16 16:17:59,280 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading credits.xml
+2018-07-16 16:17:59,371 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.actions.act_window: search_view_ids.
+2018-07-16 16:17:59,380 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:17:59,388 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:17:59,454 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:17:59,588 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:17:59,591 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:17:59,594 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:17:59,596 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:17:59,599 3004 WARNING openerp_7 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-07-16 16:17:59,599 3004 WARNING openerp_7 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-07-16 16:17:59,599 3004 WARNING openerp_7 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-07-16 16:17:59,601 3004 WARNING openerp_7 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-07-16 16:17:59,601 3004 WARNING openerp_7 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-07-16 16:17:59,601 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-07-16 16:17:59,601 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-07-16 16:17:59,601 3004 WARNING openerp_7 openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-07-16 16:17:59,601 3004 WARNING openerp_7 openerp.modules.loading: The model gst.turnover.report has no access rules, consider adding one. E.g. access_gst_turnover_report,access_gst_turnover_report,model_gst_turnover_report,,1,1,1,1
+2018-07-16 16:17:59,713 3004 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-07-16 16:17:59,716 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next operation
+2018-07-16 16:17:59,716 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x04D2B790>
+2018-07-16 16:17:59,719 3004 INFO openerp_7 openerp.addons.base.res.res_config: next action is None
+2018-07-16 16:17:59,809 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:17:59] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-16 16:18:00,319 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:00] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:18:00,441 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:00] "GET /?db=openerp_7&ts=1531757879833 HTTP/1.1" 200 -
+2018-07-16 16:18:00,683 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:00] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-07-16 16:18:00,993 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:00] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 304 -
+2018-07-16 16:18:01,479 3004 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-07-16 16:18:01,569 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:01] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-07-16 16:18:01,802 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:01] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-07-16 16:18:02,233 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:02] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-07-16 16:18:02,365 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:02] "POST /web/session/modules HTTP/1.1" 200 -
+2018-07-16 16:18:02,788 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:02] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-07-16 16:18:03,463 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:03,641 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:03] "POST /web/menu/load HTTP/1.1" 200 -
+2018-07-16 16:18:03,759 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:03,838 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:03] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:18:03,971 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:03] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:18:04,062 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:04] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 304 -
+2018-07-16 16:18:04,101 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:04] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-16 16:18:04,204 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:04] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:18:04,315 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:04,493 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:04,747 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:04,858 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:05,368 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:05] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:18:05,555 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:05,743 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:05,947 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:05] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-07-16 16:18:06,364 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:06] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:18:06,474 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:06,596 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:06,707 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:06] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531757885771&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:18:06,950 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:06] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531757886485&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:18:07,084 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:07,609 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:07] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:18:11,477 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:11] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:18:11,721 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:11] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:18:12,256 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:12,398 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:12,529 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:12,674 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:12,818 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:13,293 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:13] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:18:14,069 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:18:14,546 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:18:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:19:48,854 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:19:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:19:49,605 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:19:49] "GET /am_pk/static/src/css/images/ui-icons_cc0000_256x240.png HTTP/1.1" 404 -
+2018-07-16 16:19:53,641 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:19:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:19:55,469 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:19:55] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:19:58,170 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:19:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:03,187 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:03] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:21:03,305 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:03] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:21:05,492 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:06,523 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:06] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:21:06,734 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:06,957 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:07,035 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:07,157 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:07,299 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:07] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:21:09,414 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:09,604 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:09,956 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:09] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-07-16 16:21:10,144 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:10] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:21:10,276 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:10,415 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:10] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531758069628&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:21:12,614 3004 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 16:21:12,671 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:21:12,680 3004 INFO openerp_7 openerp.modules.module: module cashback: creating or updating database tables
+2018-07-16 16:21:12,813 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading cashback_view.xml
+2018-07-16 16:21:13,075 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:21:13,187 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading report/cashback_reports_view.xml
+2018-07-16 16:21:13,221 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/cash_back_system_security.xml
+2018-07-16 16:21:13,361 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/ir.model.access.csv
+2018-07-16 16:21:13,477 3004 INFO openerp_7 openerp.modules.module: module am_pk: creating or updating database tables
+2018-07-16 16:21:13,625 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/credits_security.xml
+2018-07-16 16:21:13,753 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/ir.model.access.csv
+2018-07-16 16:21:13,888 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading credits.xml
+2018-07-16 16:21:13,976 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.actions.act_window: search_view_ids.
+2018-07-16 16:21:13,986 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:21:13,993 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:21:14,058 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:21:14,184 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:21:14,187 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:21:14,190 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:21:14,191 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:21:14,194 3004 WARNING openerp_7 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-07-16 16:21:14,194 3004 WARNING openerp_7 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-07-16 16:21:14,194 3004 WARNING openerp_7 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-07-16 16:21:14,194 3004 WARNING openerp_7 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-07-16 16:21:14,194 3004 WARNING openerp_7 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-07-16 16:21:14,194 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-07-16 16:21:14,194 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-07-16 16:21:14,194 3004 WARNING openerp_7 openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-07-16 16:21:14,194 3004 WARNING openerp_7 openerp.modules.loading: The model gst.turnover.report has no access rules, consider adding one. E.g. access_gst_turnover_report,access_gst_turnover_report,model_gst_turnover_report,,1,1,1,1
+2018-07-16 16:21:14,302 3004 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-07-16 16:21:14,305 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next operation
+2018-07-16 16:21:14,305 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x05831A30>
+2018-07-16 16:21:14,309 3004 INFO openerp_7 openerp.addons.base.res.res_config: next action is None
+2018-07-16 16:21:14,418 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:14] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-16 16:21:14,983 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:14] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:21:15,105 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:15] "GET /?db=openerp_7&ts=1531758074445 HTTP/1.1" 200 -
+2018-07-16 16:21:15,313 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:15] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-07-16 16:21:15,703 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:15] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 304 -
+2018-07-16 16:21:16,198 3004 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-07-16 16:21:16,289 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:16] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-07-16 16:21:16,523 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:16] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-07-16 16:21:16,921 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:16] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-07-16 16:21:17,141 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:17] "POST /web/session/modules HTTP/1.1" 200 -
+2018-07-16 16:21:17,630 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:17] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-07-16 16:21:17,983 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:17] "POST /web/menu/load HTTP/1.1" 200 -
+2018-07-16 16:21:18,118 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:18,270 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:18,384 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:18] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:21:18,444 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:18] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-16 16:21:18,515 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:18] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:21:18,651 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:18] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:21:18,798 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:18,959 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:19,046 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:19,256 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:19,358 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:19] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:21:19,710 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:19] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:21:19,808 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:20,344 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:20,463 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:20] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-07-16 16:21:20,493 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:20,805 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:20] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:21:20,930 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:20] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531758080376&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:21:21,029 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:21] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:21,184 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:21] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:21,348 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:21] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531758080500&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:21:21,448 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:21] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:21:23,964 3004 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 16:21:24,019 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:21:24,026 3004 INFO openerp_7 openerp.modules.module: module cashback: creating or updating database tables
+2018-07-16 16:21:24,174 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading cashback_view.xml
+2018-07-16 16:21:24,411 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:21:24,509 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading report/cashback_reports_view.xml
+2018-07-16 16:21:24,543 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/cash_back_system_security.xml
+2018-07-16 16:21:24,678 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/ir.model.access.csv
+2018-07-16 16:21:24,786 3004 INFO openerp_7 openerp.modules.module: module am_pk: creating or updating database tables
+2018-07-16 16:21:24,934 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/credits_security.xml
+2018-07-16 16:21:25,056 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/ir.model.access.csv
+2018-07-16 16:21:25,187 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading credits.xml
+2018-07-16 16:21:25,270 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.actions.act_window: search_view_ids.
+2018-07-16 16:21:25,279 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:21:25,285 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:21:25,342 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:21:25,457 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:21:25,460 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:21:25,461 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:21:25,464 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:21:25,467 3004 WARNING openerp_7 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-07-16 16:21:25,467 3004 WARNING openerp_7 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-07-16 16:21:25,467 3004 WARNING openerp_7 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-07-16 16:21:25,467 3004 WARNING openerp_7 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-07-16 16:21:25,467 3004 WARNING openerp_7 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-07-16 16:21:25,467 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-07-16 16:21:25,467 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-07-16 16:21:25,467 3004 WARNING openerp_7 openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-07-16 16:21:25,467 3004 WARNING openerp_7 openerp.modules.loading: The model gst.turnover.report has no access rules, consider adding one. E.g. access_gst_turnover_report,access_gst_turnover_report,model_gst_turnover_report,,1,1,1,1
+2018-07-16 16:21:25,562 3004 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-07-16 16:21:25,565 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next operation
+2018-07-16 16:21:25,565 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x04B3C1D0>
+2018-07-16 16:21:25,568 3004 INFO openerp_7 openerp.addons.base.res.res_config: next action is None
+2018-07-16 16:21:25,644 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:25] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-16 16:21:25,776 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:25] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:21:26,198 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:26] "GET /?db=openerp_7&ts=1531758085663 HTTP/1.1" 200 -
+2018-07-16 16:21:26,740 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:26] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-07-16 16:21:26,897 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:26] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 304 -
+2018-07-16 16:21:27,055 3004 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-07-16 16:21:27,161 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:27] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-07-16 16:21:27,561 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:27] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-07-16 16:21:28,224 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:28] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-07-16 16:21:28,450 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:28] "POST /web/session/modules HTTP/1.1" 200 -
+2018-07-16 16:21:28,888 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:28] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-07-16 16:21:29,326 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:29,464 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:29] "POST /web/menu/load HTTP/1.1" 200 -
+2018-07-16 16:21:29,585 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:29,664 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:29] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:21:29,773 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:29] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:21:29,894 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:29] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 304 -
+2018-07-16 16:21:29,924 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:29] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-16 16:21:30,052 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:30] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:21:30,232 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:30,338 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:30,805 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:30,938 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:31,414 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:31] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:21:31,513 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:31,696 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:31,895 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:31] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-07-16 16:21:32,390 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:32,466 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:32] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:21:32,542 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:32] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:21:32,665 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:32,788 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:32] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531758091721&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:21:32,887 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:32] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:21:32,986 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:32] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531758092397&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:21:33,062 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:33,390 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:33,542 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:33,664 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:33] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:21:33,808 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:33,904 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:34,394 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:34,569 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:34] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:21:35,025 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:21:35,269 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:21:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:06,167 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:06] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:37:06,433 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:06] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:37:06,608 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:08,434 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:08] "GET /am_pk/static/src/css/images/ui-icons_cc0000_256x240.png HTTP/1.1" 404 -
+2018-07-16 16:37:08,655 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:08] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:37:08,989 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:08] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:37:09,141 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:09,255 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:09,397 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:09,470 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:09] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-16 16:37:09,565 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:09,676 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:09,796 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:09,944 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:09] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:37:12,618 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:13,184 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:13,250 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:13] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-07-16 16:37:13,803 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:13] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-16 16:37:13,937 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:14,078 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:14] "GET /web/binary/image?model=ir.module.module&id=222&field=icon_image&t=1531759033206&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:37:16,161 3004 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-16 16:37:16,216 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:37:16,221 3004 INFO openerp_7 openerp.modules.module: module cashback: creating or updating database tables
+2018-07-16 16:37:16,354 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading cashback_view.xml
+2018-07-16 16:37:16,584 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:37:16,693 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading report/cashback_reports_view.xml
+2018-07-16 16:37:16,727 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/cash_back_system_security.xml
+2018-07-16 16:37:16,914 3004 INFO openerp_7 openerp.modules.loading: module cashback: loading security/ir.model.access.csv
+2018-07-16 16:37:17,026 3004 INFO openerp_7 openerp.modules.module: module am_pk: creating or updating database tables
+2018-07-16 16:37:17,164 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/credits_security.xml
+2018-07-16 16:37:17,282 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading security/ir.model.access.csv
+2018-07-16 16:37:17,410 3004 INFO openerp_7 openerp.modules.loading: module am_pk: loading credits.xml
+2018-07-16 16:37:17,493 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.actions.act_window: search_view_ids.
+2018-07-16 16:37:17,503 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:37:17,510 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:37:17,565 3004 WARNING openerp_7 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-07-16 16:37:17,684 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:37:17,687 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:37:17,690 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:37:17,694 3004 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-16 16:37:17,696 3004 WARNING openerp_7 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-07-16 16:37:17,696 3004 WARNING openerp_7 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-07-16 16:37:17,697 3004 WARNING openerp_7 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-07-16 16:37:17,697 3004 WARNING openerp_7 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-07-16 16:37:17,697 3004 WARNING openerp_7 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-07-16 16:37:17,697 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-07-16 16:37:17,697 3004 WARNING openerp_7 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-07-16 16:37:17,697 3004 WARNING openerp_7 openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-07-16 16:37:17,697 3004 WARNING openerp_7 openerp.modules.loading: The model gst.turnover.report has no access rules, consider adding one. E.g. access_gst_turnover_report,access_gst_turnover_report,model_gst_turnover_report,,1,1,1,1
+2018-07-16 16:37:17,805 3004 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-07-16 16:37:17,809 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next operation
+2018-07-16 16:37:17,809 3004 INFO openerp_7 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x04BCD770>
+2018-07-16 16:37:17,812 3004 INFO openerp_7 openerp.addons.base.res.res_config: next action is None
+2018-07-16 16:37:17,933 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:17] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-16 16:37:18,474 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:18] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:37:18,576 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:18] "GET /?db=openerp_7&ts=1531759037953 HTTP/1.1" 200 -
+2018-07-16 16:37:18,818 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:18] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-07-16 16:37:19,140 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:19] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 304 -
+2018-07-16 16:37:19,767 3004 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-07-16 16:37:19,861 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:19] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-07-16 16:37:20,112 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:20] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-07-16 16:37:20,622 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:20] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-07-16 16:37:20,766 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:20] "POST /web/session/modules HTTP/1.1" 200 -
+2018-07-16 16:37:21,187 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:21] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-07-16 16:37:21,619 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:21] "POST /web/menu/load HTTP/1.1" 200 -
+2018-07-16 16:37:21,743 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:21] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:21,917 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:21] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:22,019 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:22] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:37:22,061 3004 INFO ? werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:22] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-16 16:37:22,128 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:22] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-16 16:37:22,224 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:22] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-16 16:37:22,394 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:22,594 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:22,704 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:22,816 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-16 16:37:22,914 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:22] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-16 16:37:23,279 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [16/Jul/2018 16:37:23] "POST /web/dataset/search_read HTTP/1.1" 200 -

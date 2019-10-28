@@ -1,0 +1,17 @@
+2018-11-17 12:14:54,558 15296 ERROR NKT_SSH openerp.sql_db: Connection to the database failed
+Traceback (most recent call last):
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\sql_db.py", line 442, in borrow
+  File "psycopg2\__init__.pyc", line 164, in connect
+OperationalError: FATAL:  the database system is shutting down
+
+2018-11-17 12:15:14,641 15296 ERROR NKT_SSH openerp.sql_db: Connection to the database failed
+Traceback (most recent call last):
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\sql_db.py", line 442, in borrow
+  File "psycopg2\__init__.pyc", line 164, in connect
+OperationalError: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+

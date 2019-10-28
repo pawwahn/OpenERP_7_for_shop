@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+	<!-- Root menu --> 
+	    <menuitem name="Price Finder" id="menu_price_finder" sequence="1"/>
+        <menuitem name="Configuration" id="menu_price_finder_config" parent="menu_price_finder" sequence="02"/>
+		<menuitem name="Transcations" id="menu_price_finder_transaction" parent="menu_price_finder" sequence="01"/>
+			
+<!-- size setup start-->
+		<!-- tree view -->
+		<record model="ir.ui.view" id="price_details_tree_view">
+			<field name="name">Company Details</field>
+			<field name="model">ssh.company</field>
+			<field name="arch" type="xml">
+				<tree string="Company Details">
+					<field name="company" string="Company" />
+                    			<field name="pur_rate" string="Purchase Rate" />
+					<field name="price_inc_tax" string="Purchase Rate(Incl. GST)" />
+                    			<field name="sale_rate" string="Sale Rate" />
+                    			<field name="status" string="Status" />		
+				</tree>
+			</field>
+		</record>
+
+		<!-- form view -->
+		<record model="ir.ui.view" id="price_details_form_view">
+			<field name="name">Company Details</field>
+			<field name="model">ssh.company</field>
+				<field name="arch" type="xml">
+				<form string="Company Details" version="7.0">
+				<sheet>
+				<group>
+						<group>
+							<field name="company" string="Company Name" />
+							<field name="status" string="Status" />
+						</group>
+						<group>
+							<field name="pur_rate" string="Purchase Rate" on_change="on_change_price(pur_rate,gst_per)" />
+                        	<field name="gst_per" string="GST Percentage" on_change="on_change_price(pur_rate,gst_per)" />
+							<field name="price_inc_tax" string="Taxed Price" />
+							<field name="sale_rate" string="Sale Rate" on_change="on_change_gst(sale_rate,sale_gst_per)" />
+							<field name="sale_gst_per" string="Our GST" on_change="on_change_gst(sale_rate,sale_gst_per)"/>
+							<field name="final_gst_price" string="Taxed Price"/>
+						</group>
+					</group>
+					<b>NOTE: *** Our GST Tax Not Added *** </b>
+				</sheet>
+				</form>
+				</field>
+		</record>
+		<record id="action_company" model="ir.actions.act_window">
+			<field name="name">Company Registration</field>
+			<field name="res_model">ssh.company</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<menuitem action="action_company" id="price_company_action"
+			parent="menu_price_finder_config"
+			string="Company" sequence="01" />
+
+
+		<!-- search view  start-->
+		<record id="price_search" model="ir.ui.view">
+		<field name="name">ssh.company.search</field>
+            <field name="model">ssh.company</field>
+            <field name="arch" type="xml">
+			<search string="state">
+				    <field name="company" string="Company"/>
+			</search>
+		</field>
+		</record>
+
+		<!-- search view  end-->
+		
+		<!-- form view -->
+		<record model="ir.ui.view" id="company_rate_form_view">
+			<field name="name">Company Rate</field>
+			<field name="model">ssh.company.rate</field>
+				<field name="arch" type="xml">
+				<form string="Size/Sub Category" version="7.0">
+				<sheet>
+				<group>
+					<group>
+						<field name="company_name_id" string="Company Name" on_change="on_change_company(company_name_id)" no_open="true" style="width:100%%;height:30px;" options="{'limit': 5, 'create': False, 'create_edit': False}" />
+						<field name="pur_rate" string="Purchase Rate"/>
+						<field name="price_inc_tax" string="Taxed Rate"/>
+						<field name="sale_price" string="Sale Rate" />
+						<field name="our_gst_per" string="GST Per" />
+						<field name="new_sale_price" string="New Sale Rate"/>
+
+					</group>
+					<group>
+					</group>
+				</group>
+                <b>NOTE: *** Our GST Tax Not Added *** </b>
+				</sheet>
+				</form>
+				</field>
+		</record>		
+		<record id="action_company_rate" model="ir.actions.act_window">
+			<field name="name">Company</field>
+			<field name="res_model">ssh.company.rate</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">form</field>
+		</record>
+		<menuitem action="action_company_rate" id="price_setup_action"
+			parent="menu_price_finder_transaction"
+			string="Check Price" sequence="01" />
+			
+			
+</data>
+</openerp>			
+			
+			
+	

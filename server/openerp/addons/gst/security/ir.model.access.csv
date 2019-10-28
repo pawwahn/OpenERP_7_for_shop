@@ -1,0 +1,30 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+gst_header_sales_owner,Gst Header Sales owner,model_gst_header_sales,group_gst_owner,1,1,1,0
+gst_detail_sales_owner,Gst Detail Sales owner,model_gst_detail_sales,group_gst_owner,1,1,1,1
+gst_state_code_setup_owner,Gst State Code Setup owner,model_gst_state_code_setup,group_gst_owner,1,1,1,1
+gst_financial_years_owner,Gst Financial Years owner,model_gst_financial_years,group_gst_owner,1,1,1,1
+gst_header_purchase_owner,Gst Header Purchase owner,model_gst_header_purchase,group_gst_owner,1,1,1,0
+gst_detail_purchase_owner,Gst Detail Purchase owner,model_gst_detail_purchase,group_gst_owner,1,1,1,1
+gst_purchased_from_setup_owner,Gst Purchased From owner,model_gst_purchased_from_setup,group_gst_owner,1,1,1,0
+gst_agent_setup_owner,Gst Agent Setup owner,model_gst_agent_setup,group_gst_owner,1,1,1,0
+gst_turnover_report_owner,Gst Turnover Report owner,model_gst_turnover_report,group_gst_owner,1,1,1,0
+,,,,,,,
+gst_header_sales_staff,Gst Header Sales staff,model_gst_header_sales,group_gst_staff,1,1,1,0
+gst_detail_sales_staff,Gst Detail Sales staff,model_gst_detail_sales,group_gst_staff,1,1,1,0
+gst_state_code_setup_staff,Gst State Code Setup staff,model_gst_state_code_setup,group_gst_staff,1,1,1,0
+gst_financial_years_staff,Gst Financial Years staff,model_gst_financial_years,group_gst_staff,1,1,1,0
+gst_header_purchase_staff,Gst Header Purchase staff,model_gst_header_purchase,group_gst_staff,1,1,1,0
+gst_detail_purchase_staff,Gst Detail Purchase staff,model_gst_detail_purchase,group_gst_staff,1,1,1,0
+gst_purchased_from_setup_staff,Gst Purchased From staff,model_gst_purchased_from_setup,group_gst_staff,1,1,1,0
+gst_agent_setup_staff,Gst Agent Setup staff,model_gst_agent_setup,group_gst_staff,1,1,1,0
+gst_turnover_report_staff,Gst Turnover Report staff,model_gst_turnover_report,group_gst_staff,1,1,1,0
+,,,,,,,
+gst_header_sales_admin,Gst Header Sales admin,model_gst_header_sales,group_gst_admin,1,1,1,1
+gst_detail_sales_admin,Gst Detail Sales admin,model_gst_detail_sales,group_gst_admin,1,1,1,1
+gst_state_code_setup_admin,Gst State Code Setup admin,model_gst_state_code_setup,group_gst_admin,1,1,1,1
+gst_financial_years_admin,Gst Financial Years admin,model_gst_financial_years,group_gst_admin,1,1,1,1
+gst_header_purchase_admin,Gst Header Purchase admin,model_gst_header_purchase,group_gst_admin,1,1,1,1
+gst_detail_purchase_admin,Gst Detail Purchase admin,model_gst_detail_purchase,group_gst_admin,1,1,1,1
+gst_purchased_from_setup_admin,Gst Purchased From admin,model_gst_purchased_from_setup,group_gst_admin,1,1,1,1
+gst_agent_setup_admin,Gst Agent Setup admin,model_gst_agent_setup,group_gst_admin,1,1,1,1
+gst_turnover_report_admin,Gst Turnover Report admin,model_gst_turnover_report,group_gst_admin,1,1,1,1

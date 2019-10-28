@@ -1,0 +1,472 @@
+2018-11-09 05:06:27,030 15296 INFO ? openerp: OpenERP version 7.0-20150328
+2018-11-09 05:06:27,035 15296 INFO ? openerp: addons paths: S:\OpenERP 7.0-20150328\server\openerp\addons
+2018-11-09 05:06:27,035 15296 INFO ? openerp: database hostname: localhost
+2018-11-09 05:06:27,035 15296 INFO ? openerp: database port: 5432
+2018-11-09 05:06:27,035 15296 INFO ? openerp: database user: openpg
+2018-11-09 05:06:53,691 15296 WARNING ? openerp.addons.google_docs.google_docs: Please install latest gdata-python-client from http://code.google.com/p/gdata-python-client/downloads/list
+2018-11-09 05:07:26,499 15296 INFO ? openerp: OpenERP server is running, waiting for connections...
+2018-11-09 05:07:26,599 15296 INFO ? openerp.service.wsgi_server: HTTP service (werkzeug) running on 0.0.0.0:8090
+2018-11-09 05:07:29,953 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:29] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:30,855 15296 INFO NKT_SSH openerp.modules.loading: loading 1 modules...
+2018-11-09 05:07:31,622 15296 INFO NKT_SSH openerp.modules.loading: loading 13 modules...
+2018-11-09 05:07:31,739 15296 INFO NKT_SSH openerp.modules.loading: Modules loaded.
+2018-11-09 05:07:32,967 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:32] "GET /?db=NKT_SSH HTTP/1.1" 200 -
+2018-11-09 05:07:33,275 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:33] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:33,434 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:33] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:34,361 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:34] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:34,526 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:34] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:34,650 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:34] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:34,845 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:34] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:34,993 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:34] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:35,250 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:35] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:35,369 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:35] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:35,522 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:35] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:35,621 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:35] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:35,822 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:35] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:36,017 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:36] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:36,253 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:36] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:36,361 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:36] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:36,865 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:36] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:37,006 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:37] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:37,197 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:37] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:37,394 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:37] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:37,558 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:37] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:37,657 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:37] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:37,792 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:37] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:37,944 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:37] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:38,125 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:38] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:38,265 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:38] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:38,561 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:38] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:38,773 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:38] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:38,989 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:38] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:39,157 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:39] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:39,321 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:39] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:39,480 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:39] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:39,760 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:39] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:39,913 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:39] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:40,076 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:40] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:40,437 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:40] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:40,625 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:40] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:40,765 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:40] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:40,901 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:40] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:41,013 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:41] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:41,204 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:41] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:41,321 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:41] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:41,493 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:41] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:41,625 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:41] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:41,743 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:41] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:41,855 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:41] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:42,016 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:42] "GET / HTTP/1.1" 200 -
+2018-11-09 05:07:42,407 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:42] "GET /?db=NKT_SSH HTTP/1.1" 200 -
+2018-11-09 05:07:42,796 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:42] "GET /web/static/src/css/full.css HTTP/1.1" 200 -
+2018-11-09 05:07:43,815 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:43] "GET /web/webclient/css?db=NKT_SSH HTTP/1.1" 200 -
+2018-11-09 05:07:50,094 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:50] "GET /web/webclient/js?db=NKT_SSH HTTP/1.1" 200 -
+2018-11-09 05:07:51,486 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:51] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
+2018-11-09 05:07:51,506 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:51] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-11-09 05:07:51,805 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:51] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-11-09 05:07:52,029 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:52] "POST /web/webclient/bootstrap_translations HTTP/1.1" 200 -
+2018-11-09 05:07:53,369 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:53] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-11-09 05:07:54,085 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:54] "GET /web/static/src/img/logo2.png HTTP/1.1" 200 -
+2018-11-09 05:07:54,576 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:54] "POST /web/database/get_list HTTP/1.1" 200 -
+2018-11-09 05:07:55,437 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:07:55] "GET /web/binary/company_logo?session_id=577ee12b283a4f3683a9a27c4ee2aeb5 HTTP/1.1" 200 -
+2018-11-09 05:08:04,015 15296 INFO NKT_SSH openerp.service.web_services: successful login from 'admin' using database 'nkt_ssh'
+2018-11-09 05:08:04,207 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:04] "POST /web/session/authenticate HTTP/1.1" 200 -
+2018-11-09 05:08:04,515 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:04] "POST /web/session/modules HTTP/1.1" 200 -
+2018-11-09 05:08:05,346 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:05] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-11-09 05:08:05,438 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:05] "GET /web/static/lib/datejs/globalization/en-US.js HTTP/1.1" 200 -
+2018-11-09 05:08:06,006 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:06] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 -
+2018-11-09 05:08:06,298 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:06,522 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:06,822 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:06] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=577ee12b283a4f3683a9a27c4ee2aeb5 HTTP/1.1" 200 -
+2018-11-09 05:08:06,894 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:06] "GET /web/static/lib/jquery.ui.bootstrap/css/custom-theme/images/ui-icons_222222_256x240.png HTTP/1.1" 200 -
+2018-11-09 05:08:07,890 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:07] "POST /web/menu/load HTTP/1.1" 200 -
+2018-11-09 05:08:08,582 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:08,793 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:08] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:08:09,509 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:09] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:08:09,969 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:09] "GET /web/static/src/font/mnmliconsv21-webfont.ttf HTTP/1.1" 200 -
+2018-11-09 05:08:09,993 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:09] "GET /web/static/lib/jquery.ui.bootstrap/css/custom-theme/images/ui-bg_glass_75_ffffff_1x400.png HTTP/1.1" 200 -
+2018-11-09 05:08:10,000 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:10] "GET /web/static/src/img/search_reset.gif HTTP/1.1" 200 -
+2018-11-09 05:08:10,265 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:10,673 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:10,816 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:11,621 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:11] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:11,801 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:11] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:08:11,980 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:11] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:08:12,260 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:12] "GET /web/static/src/font/entypo-webfont.ttf HTTP/1.1" 200 -
+2018-11-09 05:08:12,377 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:12] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 200 -
+2018-11-09 05:08:12,532 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:12,848 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:13,005 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:13,352 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:13,543 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:14,059 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:14,732 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:14] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:08:49,746 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:49] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:08:49,846 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:49] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:08:50,023 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:52,858 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:52] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:08:53,138 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:53,665 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:53,894 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:54,121 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:08:55,242 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:55] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:08:55,585 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:55] "GET /base/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:08:55,957 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:55] "GET /rate_finder/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:08:59,424 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:59] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:08:59,661 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:08:59] "GET /crm/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,036 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /project/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,125 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /sale/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,132 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /point_of_sale/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,137 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /mrp/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,197 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /note/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,249 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /hr_timesheet_sheet/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,368 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /account_accountant/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,628 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /project_issue/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,641 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /hr/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,697 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /purchase/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,709 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /stock/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,789 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /account_voucher/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,872 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /mail/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:00,992 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:00] "GET /hr_recruitment/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:01,063 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:01] "GET /hr_holidays/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:01,196 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:01] "GET /hr_evaluation/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:01,211 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:01] "GET /hr_expense/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:01,223 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:01] "GET /account_asset/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:01,296 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:01] "GET /hr_payroll/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:02,951 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:03,128 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:03,895 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:05,003 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:05] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:09:05,066 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:05] "GET /l10n_pa/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:05,371 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:05] "GET /l10n_vn/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:09,269 15296 INFO NKT_SSH openerp.modules.loading: loading 1 modules...
+2018-11-09 05:09:09,401 15296 INFO NKT_SSH openerp.modules.loading: loading 13 modules...
+2018-11-09 05:09:09,441 15296 INFO NKT_SSH openerp.modules.loading: loading 15 modules...
+2018-11-09 05:09:09,450 15296 INFO NKT_SSH openerp.modules.module: module cashback: creating or updating database tables
+2018-11-09 05:09:13,789 15296 INFO NKT_SSH openerp.modules.loading: module cashback: loading cashback_view.xml
+2018-11-09 05:09:15,480 15296 WARNING NKT_SSH openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-11-09 05:09:15,736 15296 INFO NKT_SSH openerp.modules.loading: module cashback: loading report/cashback_reports_view.xml
+2018-11-09 05:09:15,836 15296 INFO NKT_SSH openerp.modules.loading: module cashback: loading security/cash_back_system_security.xml
+2018-11-09 05:09:16,493 15296 INFO NKT_SSH openerp.modules.loading: module cashback: loading security/ir.model.access.csv
+2018-11-09 05:09:16,967 15296 INFO NKT_SSH openerp.modules.module: module am_pk: creating or updating database tables
+2018-11-09 05:09:19,128 15296 INFO NKT_SSH openerp.modules.loading: module am_pk: loading security/credits_security.xml
+2018-11-09 05:09:19,335 15296 INFO NKT_SSH openerp.modules.loading: module am_pk: loading security/ir.model.access.csv
+2018-11-09 05:09:19,604 15296 INFO NKT_SSH openerp.modules.loading: module am_pk: loading credits.xml
+2018-11-09 05:09:19,911 15296 WARNING NKT_SSH openerp.osv.orm: No such field(s) in model ir.actions.act_window: search_view_ids.
+2018-11-09 05:09:19,947 15296 WARNING NKT_SSH openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-11-09 05:09:20,003 15296 WARNING NKT_SSH openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-11-09 05:09:20,220 15296 WARNING NKT_SSH openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2018-11-09 05:09:20,512 15296 INFO NKT_SSH openerp.modules.loading: loading 15 modules...
+2018-11-09 05:09:20,516 15296 INFO NKT_SSH openerp.modules.loading: loading 15 modules...
+2018-11-09 05:09:20,519 15296 INFO NKT_SSH openerp.modules.loading: loading 15 modules...
+2018-11-09 05:09:20,523 15296 WARNING NKT_SSH openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-11-09 05:09:20,523 15296 WARNING NKT_SSH openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-11-09 05:09:20,523 15296 WARNING NKT_SSH openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-11-09 05:09:20,523 15296 WARNING NKT_SSH openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-11-09 05:09:20,523 15296 WARNING NKT_SSH openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-11-09 05:09:20,523 15296 WARNING NKT_SSH openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-11-09 05:09:20,523 15296 WARNING NKT_SSH openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-11-09 05:09:20,523 15296 WARNING NKT_SSH openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-11-09 05:09:20,528 15296 WARNING NKT_SSH openerp.modules.loading: The transient model rf.rates.upload (This is for uploading rates using excel format) should not have explicit access rules!
+2018-11-09 05:09:21,010 15296 INFO NKT_SSH openerp.modules.loading: Modules loaded.
+2018-11-09 05:09:21,015 15296 INFO NKT_SSH openerp.osv.orm: Computing parent left and right for table ir_ui_menu...
+2018-11-09 05:09:21,174 15296 INFO NKT_SSH openerp.addons.base.res.res_config: getting next operation
+2018-11-09 05:09:21,174 15296 INFO NKT_SSH openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x04CF0CD0>
+2018-11-09 05:09:21,214 15296 INFO NKT_SSH openerp.addons.base.res.res_config: next action is None
+2018-11-09 05:09:21,430 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:21] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-11-09 05:09:22,039 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:22] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:09:22,358 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:22] "GET /?db=NKT_SSH&ts=1541740161458 HTTP/1.1" 200 -
+2018-11-09 05:09:22,647 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:22] "GET /web/webclient/css?db=NKT_SSH HTTP/1.1" 200 -
+2018-11-09 05:09:23,918 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:23] "GET /web/webclient/js?db=NKT_SSH HTTP/1.1" 200 -
+2018-11-09 05:09:24,790 15296 INFO NKT_SSH openerp.service.web_services: successful login from 'admin' using database 'nkt_ssh'
+2018-11-09 05:09:24,941 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:24] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-11-09 05:09:25,174 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:25] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-11-09 05:09:25,957 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:25] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-11-09 05:09:26,293 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:26] "POST /web/session/modules HTTP/1.1" 200 -
+2018-11-09 05:09:26,778 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:26] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-11-09 05:09:27,013 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:27] "GET /web/binary/company_logo?session_id=577ee12b283a4f3683a9a27c4ee2aeb5 HTTP/1.1" 200 -
+2018-11-09 05:09:27,621 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:27,798 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:27,961 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:27] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:09:28,118 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:28] "POST /web/menu/load HTTP/1.1" 200 -
+2018-11-09 05:09:28,125 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:28] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-11-09 05:09:28,273 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:28] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=577ee12b283a4f3683a9a27c4ee2aeb5 HTTP/1.1" 200 -
+2018-11-09 05:09:28,661 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:28,924 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:28] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:09:29,032 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:29,168 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:29,292 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:29,933 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:09:30,137 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:30] "GET /cashback/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:33,099 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:33] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:09:33,299 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:33] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:09:33,496 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:33,815 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:34,019 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:34,220 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:34,796 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:35,048 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:35] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:09:38,723 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:38] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:38,911 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:38] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:09:43,953 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:43] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:09:44,206 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:44] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:09:44,664 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:48,664 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:48] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:09:49,164 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:49,272 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:49,415 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:49,651 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:49,881 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:49] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:09:51,891 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:51] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:52,092 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:52] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:09:53,936 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:54,119 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:54,256 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:54,444 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:09:55,658 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:55] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:09:56,167 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_ar/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:56,463 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_be/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:56,467 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_at/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:56,467 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_be_hr_payroll_account/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:56,499 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_bo/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:56,506 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_br/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:56,519 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_ca/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:56,871 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_ch/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:56,875 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_cl/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:56,903 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_cn/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:56,903 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_co/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:56,907 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_cr/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:56,918 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:56] "GET /l10n_de/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:57,223 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:57] "GET /l10n_ec/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:57,239 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:57] "GET /l10n_es/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:57,259 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:57] "GET /l10n_fr/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:57,290 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:57] "GET /l10n_et/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:09:57,299 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:09:57] "GET /l10n_gr/static/src/img/icon.png HTTP/1.1" 200 -
+2018-11-09 05:10:11,122 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:11] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:10:11,763 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:11] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:10:13,430 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:10:13,647 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:10:14,026 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:10:14,766 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:10:15,466 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:15] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:10:17,026 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:17] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:10:17,733 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:10:18,298 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:10:19,029 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:19] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:10:21,253 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:21] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:10:59,723 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:10:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:00,552 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:01,382 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:01,642 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:02,454 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:02,723 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:03,799 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:03] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:11:07,638 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:07] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:11:20,035 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:20] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:11:20,243 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:20,430 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:20] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-11-09 05:11:20,519 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:23,259 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:23,834 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:28,964 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:28] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-11-09 05:11:29,513 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:29,688 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:29] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:11:33,207 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:34,655 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:34,920 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:36,322 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:37,234 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:37,407 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:38,026 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:38] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:11:41,538 15296 INFO NKT_SSH openerp.modules.loading: loading 1 modules...
+2018-11-09 05:11:41,601 15296 INFO NKT_SSH openerp.modules.loading: loading 15 modules...
+2018-11-09 05:11:41,690 15296 INFO NKT_SSH openerp.modules.loading: loading 16 modules...
+2018-11-09 05:11:41,694 15296 INFO NKT_SSH openerp.modules.module: module accounts_skt: creating or updating database tables
+2018-11-09 05:11:42,266 15296 INFO NKT_SSH openerp.modules.loading: module accounts_skt: loading accounts_view.xml
+2018-11-09 05:11:42,466 15296 WARNING NKT_SSH openerp.osv.orm: No such field(s) in model ir.sequence: acc_spend_sequence.
+2018-11-09 05:11:42,517 15296 INFO NKT_SSH openerp.modules.loading: loading 16 modules...
+2018-11-09 05:11:42,517 15296 INFO NKT_SSH openerp.modules.loading: loading 16 modules...
+2018-11-09 05:11:42,522 15296 INFO NKT_SSH openerp.modules.loading: loading 16 modules...
+2018-11-09 05:11:42,533 15296 WARNING NKT_SSH openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-11-09 05:11:42,533 15296 WARNING NKT_SSH openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-11-09 05:11:42,533 15296 WARNING NKT_SSH openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-11-09 05:11:42,533 15296 WARNING NKT_SSH openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-11-09 05:11:42,533 15296 WARNING NKT_SSH openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-11-09 05:11:42,533 15296 WARNING NKT_SSH openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-11-09 05:11:42,533 15296 WARNING NKT_SSH openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-11-09 05:11:42,533 15296 WARNING NKT_SSH openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-11-09 05:11:42,533 15296 WARNING NKT_SSH openerp.modules.loading: The model account.spending.types.setup has no access rules, consider adding one. E.g. access_account_spending_types_setup,access_account_spending_types_setup,model_account_spending_types_setup,,1,1,1,1
+2018-11-09 05:11:42,533 15296 WARNING NKT_SSH openerp.modules.loading: The model account.spendings has no access rules, consider adding one. E.g. access_account_spendings,access_account_spendings,model_account_spendings,,1,1,1,1
+2018-11-09 05:11:42,533 15296 WARNING NKT_SSH openerp.modules.loading: The model account.spendings.details has no access rules, consider adding one. E.g. access_account_spendings_details,access_account_spendings_details,model_account_spendings_details,,1,1,1,1
+2018-11-09 05:11:42,533 15296 WARNING NKT_SSH openerp.modules.loading: The transient model rf.rates.upload (This is for uploading rates using excel format) should not have explicit access rules!
+2018-11-09 05:11:42,697 15296 INFO NKT_SSH openerp.modules.loading: Modules loaded.
+2018-11-09 05:11:42,701 15296 INFO NKT_SSH openerp.osv.orm: Computing parent left and right for table ir_ui_menu...
+2018-11-09 05:11:42,966 15296 INFO NKT_SSH openerp.addons.base.res.res_config: getting next operation
+2018-11-09 05:11:42,966 15296 INFO NKT_SSH openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x0483FEF0>
+2018-11-09 05:11:42,973 15296 INFO NKT_SSH openerp.addons.base.res.res_config: next action is None
+2018-11-09 05:11:43,105 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:43] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-11-09 05:11:43,365 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:43] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:11:43,756 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:43] "GET /?db=NKT_SSH&ts=1541740303125 HTTP/1.1" 200 -
+2018-11-09 05:11:44,444 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:44] "GET /web/webclient/css?db=NKT_SSH HTTP/1.1" 200 -
+2018-11-09 05:11:45,473 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:45] "GET /web/webclient/js?db=NKT_SSH HTTP/1.1" 200 -
+2018-11-09 05:11:45,801 15296 INFO NKT_SSH openerp.service.web_services: successful login from 'admin' using database 'nkt_ssh'
+2018-11-09 05:11:45,960 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:45] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-11-09 05:11:46,448 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:46] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-11-09 05:11:46,825 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:46] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-11-09 05:11:46,980 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:46] "POST /web/session/modules HTTP/1.1" 200 -
+2018-11-09 05:11:47,509 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:47] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-11-09 05:11:48,075 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:48] "POST /web/menu/load HTTP/1.1" 200 -
+2018-11-09 05:11:48,259 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:48,420 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:48,572 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:48] "GET /web/binary/company_logo?session_id=577ee12b283a4f3683a9a27c4ee2aeb5 HTTP/1.1" 200 -
+2018-11-09 05:11:48,579 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:48] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-11-09 05:11:48,839 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:48] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:11:49,084 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:49] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=577ee12b283a4f3683a9a27c4ee2aeb5 HTTP/1.1" 200 -
+2018-11-09 05:11:49,176 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:49] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:11:49,543 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:49,648 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:50,036 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:50,128 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:50,736 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:50] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:11:50,944 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:50] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:11:51,308 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:51] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:11:51,887 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:51] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:52,006 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:52,138 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:52,351 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:52,743 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:52] "GET /web/static/src/img/ui/field_calendar.png HTTP/1.1" 200 -
+2018-11-09 05:11:52,882 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:11:53,059 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:53] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:11:59,892 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:11:59] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:12:00,209 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:00] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:12:00,828 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:00,953 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:01,096 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:01,341 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:01,801 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:02,036 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:02] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:12:05,844 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:05] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:12:06,068 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:06] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:12:06,568 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:09,911 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:09] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:12:10,530 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:10,647 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:10,759 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:10,970 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:11,538 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:11] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:12:14,726 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:15,996 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:16,076 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:16] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-11-09 05:12:16,561 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:16] "GET /web/static/src/img/placeholder.png HTTP/1.1" 200 -
+2018-11-09 05:12:16,673 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:16] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:16,828 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:16] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:12:22,420 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:22] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:12:23,079 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:23,167 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:23,270 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:23,571 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:23,802 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:24,387 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:24] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:12:26,234 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:26] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:26,934 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:26] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:27,165 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:27,657 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:27] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:12:27,798 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:27] "GET /web/binary/image?model=res.users&id=1&field=image_medium&t=1541740346956&session_id=577ee12b283a4f3683a9a27c4ee2aeb5 HTTP/1.1" 200 -
+2018-11-09 05:12:28,894 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:28] "GET /web/static/src/img/down-arrow.png HTTP/1.1" 200 -
+2018-11-09 05:12:28,921 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:28] "GET /web/static/src/img/throbber.gif HTTP/1.1" 200 -
+2018-11-09 05:12:29,073 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:29,293 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:29] "GET /web/binary/image?model=res.users&id=1&field=image_medium&t=1541740348444&session_id=577ee12b283a4f3683a9a27c4ee2aeb5 HTTP/1.1" 200 -
+2018-11-09 05:12:49,561 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:49,693 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:50,016 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:50,137 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:50,273 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:50] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:12:50,437 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:50] "GET /web/binary/image?model=res.users&id=1&field=image_medium&t=1541740369730&session_id=577ee12b283a4f3683a9a27c4ee2aeb5 HTTP/1.1" 200 -
+2018-11-09 05:12:50,569 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:50] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:12:50,668 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:50] "GET /web/binary/image?model=res.users&id=1&field=image_medium&t=1541740369698&session_id=577ee12b283a4f3683a9a27c4ee2aeb5 HTTP/1.1" 200 -
+2018-11-09 05:12:54,167 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:54] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:12:54,279 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:54] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:12:54,496 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:54,796 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:54,907 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:55,023 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:55] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:55,582 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:55] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:55,770 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:55] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:12:59,125 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:59] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:12:59,226 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:59] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:12:59,410 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:59,750 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:12:59,966 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:12:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:13:00,078 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:13:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:13:00,589 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:13:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:13:00,910 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:13:00] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:13:03,397 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:13:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:13:03,585 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:13:03] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:13:37,605 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:13:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:13:37,861 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:13:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:13:38,377 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:13:38] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:13:38,543 15296 INFO ? werkzeug: 127.0.0.1 - - [09/Nov/2018 05:13:38] "GET /am_pk/static/src/css/images/ui-icons_cc0000_256x240.png HTTP/1.1" 404 -
+2018-11-09 05:14:03,654 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:14:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:14:19,230 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:14:19] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:14:19,325 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:14:19] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:14:19,558 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:14:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:14:19,937 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:14:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:14:20,094 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:14:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:14:20,197 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:14:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:14:20,645 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:14:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:14:20,901 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:14:20] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:17:59,207 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:17:59] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:17:59,407 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:17:59] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:17:59,615 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:17:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:17:59,950 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:17:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:00,091 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:00,234 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:00,690 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:00,911 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:00] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:18:04,993 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:05,529 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:05] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:18:08,269 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:08] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:18:08,805 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:08,924 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:09,081 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:09,269 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:09,460 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:10,000 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:10] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:18:13,839 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:13] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:18:14,375 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:14,658 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:14,815 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:14,947 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:15,091 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:15,571 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:15] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:18:17,627 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:17] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:18:18,170 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:18,289 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:18,453 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:18,654 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:18,798 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:19,354 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:19] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:18:20,282 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:20,838 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:20] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:18:24,069 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:24] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:24,637 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:24] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:18:24,877 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:18:24] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:28,296 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:28] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-11-09 05:42:28,427 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:28] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:42:28,664 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:29,012 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:29,144 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:29,256 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:29,755 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:29,990 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:42:30,707 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:30] "POST /web/action/load HTTP/1.1" 200 -
+2018-11-09 05:42:30,903 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:31,207 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:31,338 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:31,470 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:31,770 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:32,486 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:32] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:42:35,941 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:36,665 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-11-09 05:42:36,874 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:36] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-11-09 05:42:37,713 15296 INFO NKT_SSH werkzeug: 127.0.0.1 - - [09/Nov/2018 05:42:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -

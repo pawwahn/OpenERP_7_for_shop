@@ -1,0 +1,56 @@
+2018-06-02 20:25:08,094 13268 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-06-02 20:25:08,118 13268 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-02 20:25:08,135 13268 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-06-02 20:25:08,369 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:08] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-02 20:25:08,461 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:08] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-02 20:25:10,161 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:15,094 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:15] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-02 20:25:15,280 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:15,556 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:15,634 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:15,723 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:15,845 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:15] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-02 20:25:17,305 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:17] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-02 20:25:17,384 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:17] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-02 20:25:17,483 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:17,826 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:17,915 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:17,993 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:18,447 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:18,648 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:18] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-02 20:25:19,678 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:19] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-02 20:25:20,186 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:20,342 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:20,450 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:20,608 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:20,727 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:21,138 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:21] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-02 20:25:21,914 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:21] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:22,467 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:26,059 13268 ERROR openerp_7 openerp.netsvc: Invalid GST Number
+-- Please Check The GST Num--
+Traceback (most recent call last):
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\netsvc.py", line 296, in dispatch_rpc
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\service\web_services.py", line 632, in dispatch
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\osv\osv.py", line 190, in execute_kw
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\osv\osv.py", line 132, in wrapper
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\osv\osv.py", line 199, in execute
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\osv\osv.py", line 187, in execute_cr
+  File "S:\OpenERP 7.0-20150328\server\openerp\addons\gst\gst.py", line 583, in on_change_gst_num
+except_osv: (u'Invalid GST Number', u'-- Please Check The GST Num--')
+2018-06-02 20:25:26,198 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:26] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:39,969 13268 WARNING openerp_7 openerp.osv.osv: The method on_change_gst_num of the object gst.purchased.from.setup can not return `None` !
+2018-06-02 20:25:40,091 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:40] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:41,470 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:41] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:41,914 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:41] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-02 20:25:45,936 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:45] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-02 20:25:46,377 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:46,454 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:46,598 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:46,832 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:46,953 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:47,453 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:47] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-02 20:25:49,986 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:50,440 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-02 20:25:50,706 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:50] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-02 20:25:50,861 13268 INFO openerp_7 werkzeug: 127.0.0.1 - - [02/Jun/2018 20:25:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -

@@ -1,0 +1,63 @@
+<templates>
+    <t t-name="pgmt.cb.pop">
+		<div id="mainDiv" class="workspace-container">
+                <div class="custom-title" style="padding:5px;">
+				    
+                    <span>From Date</span>
+					<!-- <input class="dashboard_date_picker oe_datepicker_master" type="text" id="db_from_date" /> -->
+                    <input class="date_class oe_datepicker_master" type="text" id="db_from_date" />					
+                    <span>To Date</span>
+					<input class="date_class oe_datepicker_master" type="text" id="db_to_date" />
+					<button id="searchBtn" class="btn btn-primary" type="button" style="margin-left:15px;">Search</button>
+                </div>
+          	  	<div id="home">
+                </div>
+                <div id="graph_data">
+                </div>
+          </div> 
+    </t>
+<!-- </templates>
+
+<templates> -->
+	<t t-name="project.graph">
+        <script type="text/javascript" language="javascript" src="/am_pk/static/src/lib/jquery.jqplot.js"></script>
+		<script type="text/javascript" language="javascript" src="/am_pk/static/src/lib/jqplot.categoryAxisRenderer.min.js"></script>
+		<script type="text/javascript" language="javascript" src="/am_pk/static/src/lib/jqplot.barRenderer.min.js"></script>
+		<script type="text/javascript" language="javascript" src="/am_pk/static/src/js/dashboard.js"></script>
+		<script type="text/javascript" language="javascript" src="/am_pk/static/src/js/dashboard_2.js"></script>
+		<script>
+		
+		</script>
+		
+					
+		<div id="charts-holder" style="background-color:#fff;">
+			   <table width="98%">
+				   <tr>
+					   <td width="50%">
+						   <div id="custProjectStatus" />
+					   </td>
+				   </tr>
+				   <tr>
+						<td colspan="3" style="padding:2px;">
+							<hr />
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h4 id="customer-header" class="panel-title">Monthly Sale Details</h4>
+								 </div>
+							  <div id="teamWiseProjectBar" />
+							</div>
+						</td>
+						<td colspan="3" style="padding:2px;">
+							<hr />
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h4 id="customer-header" class="panel-title">State-Wise Sale Details</h4>
+								</div>
+							<div id="chart2" />
+							</div>
+						</td>
+				   </tr>
+			   </table>
+		</div> 
+	</t>
+</templates> 

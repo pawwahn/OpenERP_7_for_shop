@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+		
+		<record model="ir.ui.view" id="sales_purchase_report_form_view">
+			<field name="name">GST SALES-PURCHASE REPORT</field>
+			<field name="model">gst.sales.purchase.report</field>
+			<field name="arch" type="xml">
+				<form string="Income Report" version="7.0">
+					<style>
+						.oe_header_row{
+                              display:none;
+             			 	}
+       				</style>
+					<header>
+						<button  name="get_report" string="Download SALES-PURCHASE Report"
+							type="object" colspan="2" default_focus="2" />
+						<button string="Cancel"  special="cancel" />				
+					</header>
+					<group>
+						<group>
+							<field name="firm"  required="1" />
+							<field name="financial_year"  required="1" />
+							<field name="type"  required="1" />
+						</group>
+						<group>
+							
+						</group>
+						<group>
+							
+						</group>
+					</group>
+				</form>
+			</field>
+		</record>
+		<record id="sales_purchase_report_action" model="ir.actions.act_window">
+			<field name="name">GST SALES-PURCHASE REPORT</field>
+			<field name="res_model">gst.sales.purchase.report</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">form</field>
+			<field name="target">new</field>
+		</record>
+		<menuitem action="sales_purchase_report_action" id="sales_purchase_action_report"
+			parent="menu_gst_report" name="SALES-PURCHASE REPORT" sequence="02" /> 
+			
+			
+			
+	    <record model="ir.ui.view" id="turnover_report_form_view">
+			<field name="name">GST TURNOVER REPORT</field>
+			<field name="model">gst.turnover.report</field>
+			<field name="arch" type="xml">
+				<form string="Turnover Report" version="7.0">
+					<style>
+						.oe_header_row{
+                              display:none;
+             			 	}
+       				</style>
+					<header>
+						<button  name="get_report" string="Download TURNOVER Report"
+							type="object" colspan="2" default_focus="2" />
+						<button string="Cancel"  special="cancel" />				
+					</header>
+					<group>
+						<group>
+							<field name="firm"  required="1" />
+							<field name="financial_year"  required="1" />
+						</group>
+						<group>
+							
+						</group>
+						<group>
+							
+						</group>
+					</group>
+				</form>
+			</field>
+		</record>
+		<record id="turnover_report_action" model="ir.actions.act_window">
+			<field name="name">GST TURNOVER REPORT</field>
+			<field name="res_model">gst.turnover.report</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">form</field>
+			<field name="target">new</field>
+		</record>
+		<menuitem action="turnover_report_action" id="turnover_action_report"
+			parent="menu_gst_report" name="TURNOVER REPORT" sequence="03" />
+
+		<!-- Upload GST Purchase-->
+		<record model="ir.ui.view" id="upload_vehicle_request_form_view">
+            <field name="name">GST Purchase Upload</field>
+            <field name="model">gst.purchase.data.upload</field>
+            <field name="arch" type="xml">
+                <form string="Upload Purchase GST Excel Data" version="7.0">
+                	<style>
+						.oe_header_row{
+                                display:none;
+               			 }
+       				 </style>
+                    <header>
+                        <!--<button name="export_vehicle_request_template" string="Download Template"
+                            type="object" colspan="2" default_focus="2" /> -->
+                        <button  name="read_excel" string="Upload"
+                            type="object" colspan="2" default_focus="2"  />
+                        <!--<button  name="download_errors" string="Download Error File"
+                            type="object" colspan="2" default_focus="2" /> -->
+                    </header>
+                    <group>
+                        <group>
+                            <field name="file_name" invisible="1" />
+                            <field name="file" filename="file_name" />
+							<field name="firm" string="Firm" />
+                            <field name="name" invisible="1" />
+                            <field name="data" nolabel="1" readonly="1" fieldname="name" />
+                        </group>
+						<group>
+
+                            <field name="month" string="Month" />
+                            <field name="financial_year" string="Financial Year" />
+                        </group>
+
+                         <group>
+                          </group>
+                    </group>
+                </form>
+             </field>
+        </record>
+
+		<record id="upload_purchase_gst_action" model="ir.actions.act_window">
+            <field name="name">Upload Purchase GST</field>
+            <field name="res_model">gst.purchase.data.upload</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+		<menuitem action="upload_purchase_gst_action"
+				  name="UPLOAD PURCHASE DATA"
+				  id="menu_gst_purchase_request_upload"
+				  parent="menu_upload_report" sequence="2" />
+
+        <!-- Upload GST Sales-->
+        <record model="ir.ui.view" id="upload_sales_view">
+            <field name="name">GST Sales Upload</field>
+            <field name="model">gst.sales.data.upload</field>
+            <field name="arch" type="xml">
+                <form string="Upload Sales GST Excel Data" version="7.0">
+                	<style>
+						.oe_header_row{
+                                display:none;
+               			 }
+       				 </style>
+                    <header>
+                        <!--<button name="export_vehicle_request_template" string="Download Template"
+                            type="object" colspan="2" default_focus="2" /> -->
+                        <button  name="read_excel" string="Upload"
+                            type="object" colspan="2" default_focus="2"  />
+                        <!--<button  name="download_errors" string="Download Error File"
+                            type="object" colspan="2" default_focus="2" /> -->
+                    </header>
+                    <group>
+                        <group>
+                            <field name="file_name" invisible="1" />
+                            <field name="file" filename="file_name" />
+							<field name="firm" string="Firm" />
+                            <field name="name" invisible="1" />
+                            <field name="data" nolabel="1" readonly="1" fieldname="name" />
+                        </group>
+						<group>
+
+                            <field name="month" string="Month" />
+                            <field name="financial_year" string="Financial Year" />
+                        </group>
+
+                         <group>
+                          </group>
+                    </group>
+                </form>
+             </field>
+        </record>
+
+		<record id="upload_sales_gst_action" model="ir.actions.act_window">
+            <field name="name">Upload Sales GST</field>
+            <field name="res_model">gst.sales.data.upload</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+		<menuitem action="upload_sales_gst_action"
+				  name="UPLOAD SALES DATA"
+				  id="menu_gst_sales_request_upload"
+				  parent="menu_upload_report" sequence="1" />
+
+
+
+
+    </data>
+</openerp>

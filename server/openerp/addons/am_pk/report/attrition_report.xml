@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+	<record model="ir.ui.view" id="attrition_report_form_view">
+			<field name="name">Attrition Report</field>
+			<field name="model">attrition.report</field>
+			<field name="arch" type="xml">
+				<form string="Attrition Report" version="7.0">
+					<style>
+						.oe_header_row{
+                              display:none;
+             			 	}
+       				</style>
+					<header>
+						<button  name="get_attrition_report" string="Download Attrition Report"
+							type="object" colspan="2" default_focus="2" />
+						<button string="Cancel"  special="cancel" />				
+					</header>
+					<group>
+						<group>
+							<field name="initiated_date"  required="1" style="width:30%%"/>
+						</group>
+						<group>
+							<field name="to_date"  required="1" style="width:30%%"/>
+						</group>
+						<group>
+						 	<field name="project_id" widget="many2many_tags" string="Project" style="width:70%%" options="{'create': false, 'create_edit': false, 'no_open': True}" />  
+						</group>
+					</group>
+				</form>
+			</field>
+		</record>
+		<record id="voluntary_attrition_report_action" model="ir.actions.act_window">
+			<field name="name">Attrition Report</field>
+			<field name="res_model">attrition.report</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">form</field>
+			<field name="target">new</field>
+		</record>
+		<menuitem action="voluntary_attrition_report_action" id="menu_voluntary_attrition_report" groups="group_exit_admin,group_exit_hp,group_exit_hod"
+			parent="menu_reports_parent_root" name="Attrition Report" sequence="08" />
+		</data>
+		</openerp>	
+			

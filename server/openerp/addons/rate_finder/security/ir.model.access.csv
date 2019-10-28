@@ -1,0 +1,18 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+company_setup_owner,Company setup owner,model_company_setup,group_rate_finder_owner,1,1,1,0
+company_category_owner,Company category owner,model_company_category,group_rate_finder_owner,1,1,1,0
+company_category_size_owner,Company category size owner,model_company_category_size,group_rate_finder_owner,1,1,1,0
+company_category_rate_owner,Company category rate owner,model_company_category_rate,group_rate_finder_owner,1,1,1,0
+company_rf_rates_upload_owner,Company category rates upload owner,model_rf_rates_upload,group_rate_finder_owner,1,1,1,0
+,,,,,,,
+company_setup_staff,Company setup staff,model_company_setup,group_rate_finder_staff,1,1,1,0
+company_category_staff,Company category staff,model_company_category,group_rate_finder_staff,1,1,1,0
+company_category_size_staff,Company category size staff,model_company_category_size,group_rate_finder_staff,1,1,1,0
+company_category_rate_staff,Company category rate staff,model_company_category_rate,group_rate_finder_staff,1,1,1,0
+compnay_rf_rates_upload_staff,Company category rates upload staff,model_rf_rates_upload,group_rate_finder_staff,1,1,1,1
+,,,,,,,
+company_setup_admin,Company setup admin,model_company_setup,group_rate_finder_admin,1,1,1,1
+company_category_admin,Company category admin,model_company_category,group_rate_finder_admin,1,1,1,1
+company_category_size_admin,Company category size admin,model_company_category_size,group_rate_finder_admin,1,1,1,1
+company_category_rate_admin,Company category rate admin,model_company_category_rate,group_rate_finder_admin,1,1,1,1
+company_rf_rates_upload_admin,Company category rates upload admin,model_rf_rates_upload,group_rate_finder_admin,1,1,1,1

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+		<record model="ir.ui.view" id="casback_summary_view">
+			<field name="name">CashBack Summary</field>
+			<field name="model">cashback.summary</field>
+			<field name="arch" type="xml">
+				<form string="Cashback Summary" version="7.0">
+					<style>
+						.oe_header_row{
+                              display:none;
+             			 	}
+       				</style>
+					<header>
+						<button  name="get_input_values" string="Download Summary Report"
+							type="object" colspan="2" default_focus="2" />
+						<button string="Cancel"  special="cancel" />				
+					</header>
+					<group>
+						<group>
+							<field name="from_date" style="width:40%%" class="oe_date_width" required="1" />
+						</group>
+						<group>
+							<field name="to_date" style="width:40%%" class="oe_date_width" required="1" />
+						</group>
+					</group>
+				</form>
+			</field>
+		</record>
+		<record id="cb_summary_action" model="ir.actions.act_window">
+			<field name="name">Cashback Summary Report</field>
+			<field name="res_model">cashback.summary</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">form</field>
+			<field name="target">new</field>
+		</record>
+		<menuitem action="cb_summary_action" id="sumary_action_report" parent="menu_cashback_report" name="Cashback Summary Report" sequence="01" /> 
+
+
+    </data>
+</openerp>

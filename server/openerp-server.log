@@ -1,0 +1,710 @@
+2019-10-28 03:14:20,459 14972 INFO ? openerp: OpenERP version 7.0-20150328
+2019-10-28 03:14:20,463 14972 INFO ? openerp: addons paths: S:\OpenERP 7.0-20150328\server\openerp\addons
+2019-10-28 03:14:20,463 14972 INFO ? openerp: database hostname: localhost
+2019-10-28 03:14:20,463 14972 INFO ? openerp: database port: 5432
+2019-10-28 03:14:20,463 14972 INFO ? openerp: database user: openpg
+2019-10-28 03:14:47,065 14972 WARNING ? openerp.addons.google_docs.google_docs: Please install latest gdata-python-client from http://code.google.com/p/gdata-python-client/downloads/list
+2019-10-28 03:15:05,844 14972 INFO ? openerp: OpenERP server is running, waiting for connections...
+2019-10-28 03:15:05,882 14972 INFO ? openerp.service.wsgi_server: HTTP service (werkzeug) running on 0.0.0.0:8090
+2019-10-28 03:16:37,967 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:16:37] "GET / HTTP/1.1" 200 -
+2019-10-28 03:16:46,891 14972 INFO NKT_SSH openerp.modules.loading: loading 1 modules...
+2019-10-28 03:16:52,503 14972 INFO NKT_SSH openerp.modules.loading: loading 16 modules...
+2019-10-28 03:16:52,994 14972 INFO NKT_SSH openerp.modules.loading: Modules loaded.
+2019-10-28 03:16:55,657 14972 INFO NKT_SSH werkzeug: 127.0.0.1 - - [28/Oct/2019 03:16:55] "GET /?db=NKT_SSH HTTP/1.1" 200 -
+2019-10-28 03:16:56,121 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:16:56] "GET /web/static/src/css/full.css HTTP/1.1" 200 -
+2019-10-28 03:16:59,697 14972 INFO NKT_SSH werkzeug: 127.0.0.1 - - [28/Oct/2019 03:16:59] "GET /web/webclient/css?db=NKT_SSH HTTP/1.1" 200 -
+2019-10-28 03:17:08,779 14972 INFO NKT_SSH werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:08] "GET /web/webclient/js?db=NKT_SSH HTTP/1.1" 200 -
+2019-10-28 03:17:10,947 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:10] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
+2019-10-28 03:17:11,023 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:11] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2019-10-28 03:17:11,486 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:11] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2019-10-28 03:17:12,085 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:12] "POST /web/webclient/bootstrap_translations HTTP/1.1" 200 -
+2019-10-28 03:17:14,558 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:14] "POST /web/proxy/load HTTP/1.1" 200 -
+2019-10-28 03:17:16,680 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:16] "GET /web/static/src/img/logo2.png HTTP/1.1" 200 -
+2019-10-28 03:17:17,239 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:17] "POST /web/database/get_list HTTP/1.1" 200 -
+2019-10-28 03:17:18,375 14972 INFO NKT_SSH werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:18] "GET /?db=NKT_SSH HTTP/1.1" 200 -
+2019-10-28 03:17:19,239 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:19] "GET /web/binary/company_logo?session_id=13ebf334c3674a41b7d8375122c48f5c HTTP/1.1" 200 -
+2019-10-28 03:17:19,770 14972 INFO NKT_SSH werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:19] "GET /web/webclient/css?db=NKT_SSH HTTP/1.1" 200 -
+2019-10-28 03:17:20,115 14972 INFO NKT_SSH werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:20] "GET /web/webclient/js?db=NKT_SSH HTTP/1.1" 304 -
+2019-10-28 03:17:20,697 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:20] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
+2019-10-28 03:17:21,415 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:21] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2019-10-28 03:17:22,440 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:22] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2019-10-28 03:17:22,737 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:22] "POST /web/webclient/bootstrap_translations HTTP/1.1" 200 -
+2019-10-28 03:17:23,410 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:23] "POST /web/proxy/load HTTP/1.1" 200 -
+2019-10-28 03:17:24,237 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:24] "POST /web/database/get_list HTTP/1.1" 200 -
+2019-10-28 03:17:24,693 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:24] "GET /web/binary/company_logo?session_id=13ebf334c3674a41b7d8375122c48f5c HTTP/1.1" 200 -
+2019-10-28 03:17:32,509 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:32] "POST /web/database/get_list HTTP/1.1" 200 -
+2019-10-28 03:17:32,930 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:17:32] "POST /web/session/get_lang_list HTTP/1.1" 200 -
+2019-10-28 03:18:36,500 14972 WARNING ? openerp.sql_db: __nonzero__() is deprecated. (It is too expensive to test a connection.)
+2019-10-28 03:18:36,543 14972 ERROR ? openerp.sql_db: Connection to the database failed
+Traceback (most recent call last):
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\sql_db.py", line 442, in borrow
+  File "psycopg2\__init__.pyc", line 164, in connect
+OperationalError: FATAL:  database "NKT_SSH_oct_2019" does not exist
+
+2019-10-28 03:19:06,848 14972 INFO ? openerp.service.web_services.db.restore: RESTORE DB: NKT_SSH_oct_2019
+2019-10-28 03:19:07,150 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:19:07] "POST /web/database/restore HTTP/1.1" 200 -
+2019-10-28 03:19:16,315 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:19:16] "POST /web/database/get_list HTTP/1.1" 200 -
+2019-10-28 03:19:19,420 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 1 modules...
+2019-10-28 03:19:19,463 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 13 modules...
+2019-10-28 03:19:19,480 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: Modules loaded.
+2019-10-28 03:19:19,888 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:19:19] "GET /?db=NKT_SSH_oct_2019 HTTP/1.1" 200 -
+2019-10-28 03:19:20,631 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:19:20] "GET /web/webclient/css?db=NKT_SSH_oct_2019 HTTP/1.1" 200 -
+2019-10-28 03:19:22,642 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:19:22] "GET /web/webclient/js?db=NKT_SSH_oct_2019 HTTP/1.1" 200 -
+2019-10-28 03:19:23,719 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:19:23] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2019-10-28 03:19:24,459 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:19:24] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2019-10-28 03:19:24,927 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:19:24] "POST /web/webclient/bootstrap_translations HTTP/1.1" 200 -
+2019-10-28 03:19:25,841 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:19:25] "POST /web/proxy/load HTTP/1.1" 200 -
+2019-10-28 03:19:41,046 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:19:41] "POST /web/database/get_list HTTP/1.1" 200 -
+2019-10-28 03:19:41,391 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:19:41] "GET /web/binary/company_logo?session_id=13ebf334c3674a41b7d8375122c48f5c HTTP/1.1" 200 -
+2019-10-28 03:19:59,247 14972 INFO NKT_SSH_oct_2019 openerp.service.web_services: successful login from 'admin' using database 'nkt_ssh_oct_2019'
+2019-10-28 03:19:59,615 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:19:59] "POST /web/session/authenticate HTTP/1.1" 200 -
+2019-10-28 03:20:00,164 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:00] "POST /web/session/modules HTTP/1.1" 200 -
+2019-10-28 03:20:00,921 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:00] "POST /web/webclient/translations HTTP/1.1" 200 -
+2019-10-28 03:20:00,934 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:00] "GET /web/static/lib/datejs/globalization/en-US.js HTTP/1.1" 200 -
+2019-10-28 03:20:01,457 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:01] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 -
+2019-10-28 03:20:01,701 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:02,012 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:02,250 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:02] "POST /web/menu/load HTTP/1.1" 200 -
+2019-10-28 03:20:02,561 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:02] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=13ebf334c3674a41b7d8375122c48f5c HTTP/1.1" 200 -
+2019-10-28 03:20:02,924 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:02] "GET /web/static/lib/jquery.ui.bootstrap/css/custom-theme/images/ui-icons_222222_256x240.png HTTP/1.1" 200 -
+2019-10-28 03:20:02,982 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:03,270 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:03] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:20:04,355 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:04] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:20:04,733 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:04] "GET /web/static/lib/jquery.ui.bootstrap/css/custom-theme/images/ui-bg_glass_75_ffffff_1x400.png HTTP/1.1" 200 -
+2019-10-28 03:20:04,757 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:04] "GET /web/static/src/img/search_reset.gif HTTP/1.1" 200 -
+2019-10-28 03:20:04,778 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:04] "GET /web/static/src/font/mnmliconsv21-webfont.ttf HTTP/1.1" 200 -
+2019-10-28 03:20:05,046 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:05,390 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:05,687 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:05,950 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:06,052 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:06] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 200 -
+2019-10-28 03:20:06,305 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:06,861 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:06] "GET /web/static/src/font/entypo-webfont.ttf HTTP/1.1" 200 -
+2019-10-28 03:20:06,918 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:06] "GET /web/static/src/img/down-arrow.png HTTP/1.1" 200 -
+2019-10-28 03:20:07,513 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:07] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:20:07,773 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:07] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:20:08,381 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:09,471 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:09] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:20:10,473 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:10,697 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:10,980 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:11,216 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:11] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:11,746 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:11] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:20:11,982 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:11] "GET /base/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:20:12,621 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:12] "GET /rate_finder/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:20:14,825 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:17,390 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:17] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:20:19,520 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:19] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:20:22,611 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:28,540 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:20:28,948 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:28] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2019-10-28 03:20:29,437 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:29] "GET /web/static/src/img/placeholder.png HTTP/1.1" 200 -
+2019-10-28 03:20:29,716 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:20:30,000 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:20:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:13,601 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 1 modules...
+2019-10-28 03:21:17,088 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 13 modules...
+2019-10-28 03:21:17,101 14972 INFO NKT_SSH_oct_2019 openerp.modules.module: module gst: creating or updating database tables
+2019-10-28 03:21:18,496 14972 ERROR NKT_SSH_oct_2019 openerp.sql_db: Programming error: column "name" named in key does not exist
+, in query ALTER TABLE "gst_state_code_setup" ADD CONSTRAINT "gst_state_code_setup_unique_name" unique(name)
+2019-10-28 03:21:18,496 14972 WARNING NKT_SSH_oct_2019 openerp.osv.orm.schema: Table 'gst_state_code_setup': unable to add 'unique(name)' constraint !
+ If you want to have it, you should update the records and execute manually:
+ALTER TABLE "gst_state_code_setup" ADD CONSTRAINT "gst_state_code_setup_unique_name" unique(name)
+2019-10-28 03:21:19,084 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: module gst: loading gst_view.xml
+2019-10-28 03:21:21,687 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: module gst: loading gst_purchase_view.xml
+2019-10-28 03:21:21,790 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: module gst: loading report/gst_sales_purchase_report_view.xml
+2019-10-28 03:21:22,019 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: module gst: loading security/gst_security.xml
+2019-10-28 03:21:22,226 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: module gst: loading security/ir.model.access.csv
+2019-10-28 03:21:22,515 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 13 modules...
+2019-10-28 03:21:22,515 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 13 modules...
+2019-10-28 03:21:22,519 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 13 modules...
+2019-10-28 03:21:22,523 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 13 modules...
+2019-10-28 03:21:22,526 14972 WARNING NKT_SSH_oct_2019 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2019-10-28 03:21:22,526 14972 WARNING NKT_SSH_oct_2019 openerp.modules.loading: The transient model rf.rates.upload (This is for uploading rates using excel format) should not have explicit access rules!
+2019-10-28 03:21:22,647 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: Modules loaded.
+2019-10-28 03:21:22,651 14972 INFO NKT_SSH_oct_2019 openerp.addons.base.res.res_config: getting next operation
+2019-10-28 03:21:22,651 14972 INFO NKT_SSH_oct_2019 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x066B4B30>
+2019-10-28 03:21:22,654 14972 INFO NKT_SSH_oct_2019 openerp.addons.base.res.res_config: next action is None
+2019-10-28 03:21:22,894 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:22] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2019-10-28 03:21:23,602 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:23] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:21:23,878 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:23] "GET /?db=NKT_SSH_oct_2019&ts=1572232882927 HTTP/1.1" 200 -
+2019-10-28 03:21:24,306 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:24] "GET /web/webclient/css?db=NKT_SSH_oct_2019 HTTP/1.1" 200 -
+2019-10-28 03:21:24,634 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:24] "GET /web/webclient/js?db=NKT_SSH_oct_2019 HTTP/1.1" 304 -
+2019-10-28 03:21:25,404 14972 INFO NKT_SSH_oct_2019 openerp.service.web_services: successful login from 'admin' using database 'nkt_ssh_oct_2019'
+2019-10-28 03:21:25,608 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:25] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2019-10-28 03:21:25,803 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:25] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2019-10-28 03:21:26,644 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:26] "POST /web/proxy/load HTTP/1.1" 200 -
+2019-10-28 03:21:26,799 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:26] "POST /web/session/modules HTTP/1.1" 200 -
+2019-10-28 03:21:27,299 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:27] "POST /web/webclient/translations HTTP/1.1" 200 -
+2019-10-28 03:21:27,776 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:27] "POST /web/menu/load HTTP/1.1" 200 -
+2019-10-28 03:21:27,996 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:28,164 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:28,308 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:28] "GET /web/binary/company_logo?session_id=13ebf334c3674a41b7d8375122c48f5c HTTP/1.1" 200 -
+2019-10-28 03:21:28,516 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:28] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:21:28,684 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:28] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:21:28,848 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:28] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=13ebf334c3674a41b7d8375122c48f5c HTTP/1.1" 304 -
+2019-10-28 03:21:29,088 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:29,456 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:30,519 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:30,788 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:31,507 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:31] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:21:31,750 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:32,161 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:32,332 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:32,496 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:32] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2019-10-28 03:21:32,736 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:32] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:21:32,993 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:33,168 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:33,357 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:33] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:21:33,532 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:33] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:21:33,698 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:33] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:21:34,490 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:34,740 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:35,005 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:35] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:21:35,424 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:35] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:21:35,792 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:35,969 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:36,168 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:36,336 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:36,861 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:37,032 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:37,601 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:38,043 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:38] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:42,328 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:42] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:44,957 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:44] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:21:52,575 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:52,752 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:21:53,272 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:53] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:21:53,503 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:21:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:22:02,559 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:22:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:22:03,157 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:22:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:22:03,411 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:22:03] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:22:09,976 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:22:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:22:18,951 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:22:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:22:19,321 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:22:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:22:19,983 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:22:19] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:22:30,059 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:22:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:22:30,700 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:22:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:22:31,078 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:22:31] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:23:20,250 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:23:20] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:23:20,519 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:23:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:23:20,775 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:23:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:23:37,130 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:23:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:23:41,630 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:23:41] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:23:50,885 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:23:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:23:51,145 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:23:51] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:23:52,142 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:23:52] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2019-10-28 03:23:52,408 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:23:52] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:23:52,549 14972 WARNING NKT_SSH_oct_2019 openerp.sql_db: Cursor not closed explicitly
+Please enable sql debugging to trace the caller.
+2019-10-28 03:23:52,709 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:23:52] "GET /gst/export_gst_purchase_sales_report?id=6&db=NKT_SSH_oct_2019&uid=1&type=sales HTTP/1.1" 200 -
+2019-10-28 03:24:01,411 14972 WARNING NKT_SSH_oct_2019 openerp.sql_db: ConnectionPool(used=0/count=7/max=64): Free leaked connection to 'host=localhost port=5432 user=openpg password=xxxxxxxxx dbname=NKT_SSH_oct_2019'
+2019-10-28 03:24:03,092 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:24:03] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2019-10-28 03:24:03,309 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:24:03] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:24:03,441 14972 WARNING NKT_SSH_oct_2019 openerp.sql_db: Cursor not closed explicitly
+Please enable sql debugging to trace the caller.
+2019-10-28 03:24:03,621 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:24:03] "GET /gst/export_gst_purchase_sales_report?id=6&db=NKT_SSH_oct_2019&uid=1&type=sales HTTP/1.1" 200 -
+2019-10-28 03:24:17,733 14972 WARNING NKT_SSH openerp.sql_db: ConnectionPool(used=0/count=7/max=64): Free leaked connection to 'host=localhost port=5432 user=openpg password=xxxxxxxxx dbname=NKT_SSH_oct_2019'
+2019-10-28 03:31:31,680 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:31] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:31:31,980 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:31:32,280 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:31:32,444 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:31:32,588 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:31:33,088 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:31:33,420 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:31:35,325 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:31:35,832 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:31:44,167 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:31:44,654 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:31:46,533 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:46] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:31:47,089 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:31:47,312 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:31:47,742 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:47] "GET /web/static/src/img/icons/STOCK_MISSING_IMAGE.png HTTP/1.1" 200 -
+2019-10-28 03:31:47,742 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:47] "GET /web/static/src/img/icons/gtk-save.png HTTP/1.1" 200 -
+2019-10-28 03:31:47,746 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:47] "GET /web/static/src/img/icons/STOCK_DIRECTORY.png HTTP/1.1" 200 -
+2019-10-28 03:31:47,750 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:47] "GET /web/static/src/img/throbber.gif HTTP/1.1" 200 -
+2019-10-28 03:31:55,401 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:31:55] "GET /web/static/lib/jquery.ui.bootstrap/css/custom-theme/images/ui-icons_454545_256x240.png HTTP/1.1" 200 -
+2019-10-28 03:32:03,220 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:32:03] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:32:03,420 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:32:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:32:03,796 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:32:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:34:05,562 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:34:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:34:13,963 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:34:13] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:34:16,492 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:34:16] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:34:18,618 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:34:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:34:21,194 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:34:21] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:39:55,513 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:39:55] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:39:56,013 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:39:56] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:39:56,233 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:39:56] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:40:27,694 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:27] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:40:27,907 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:40:28,214 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:40:28,391 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:40:28,526 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:40:29,119 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:40:29,822 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:40:30,349 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:30] "GET /purchase/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:30,361 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:30] "GET /stock/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:30,365 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:30] "GET /sale/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:30,374 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:30] "GET /project_issue/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:30,378 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:30] "GET /hr_payroll/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:30,378 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:30] "GET /hr_expense/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:30,683 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:30] "GET /hr/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:30,694 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:30] "GET /hr_evaluation/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:30,763 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:30] "GET /hr_timesheet_sheet/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:30,766 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:30] "GET /account_accountant/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:30,779 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:30] "GET /mrp/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:30,795 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:30] "GET /account_asset/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:31,010 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:31] "GET /hr_recruitment/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:31,026 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:31] "GET /hr_holidays/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:31,098 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:31] "GET /crm/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:31,290 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:31] "GET /mail/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:31,295 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:31] "GET /account_voucher/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:31,398 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:31] "GET /project/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:31,403 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:31] "GET /point_of_sale/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:31,470 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:40:31,526 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:31] "GET /note/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:35,210 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:35] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:40:35,293 14972 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:35] "GET /cashback/static/src/img/icon.png HTTP/1.1" 200 -
+2019-10-28 03:40:38,282 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 1 modules...
+2019-10-28 03:40:38,842 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 13 modules...
+2019-10-28 03:40:38,874 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 14 modules...
+2019-10-28 03:40:38,874 14972 INFO NKT_SSH_oct_2019 openerp.modules.module: module cashback: creating or updating database tables
+2019-10-28 03:40:42,098 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: module cashback: loading cashback_view.xml
+2019-10-28 03:40:42,734 14972 WARNING NKT_SSH_oct_2019 openerp.osv.orm: No such field(s) in model ir.sequence: bill_no.
+2019-10-28 03:40:42,914 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: module cashback: loading report/cashback_reports_view.xml
+2019-10-28 03:40:43,015 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: module cashback: loading security/cash_back_system_security.xml
+2019-10-28 03:40:43,450 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: module cashback: loading security/ir.model.access.csv
+2019-10-28 03:40:43,707 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 14 modules...
+2019-10-28 03:40:43,710 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 14 modules...
+2019-10-28 03:40:43,714 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: loading 14 modules...
+2019-10-28 03:40:43,719 14972 WARNING NKT_SSH_oct_2019 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2019-10-28 03:40:43,719 14972 WARNING NKT_SSH_oct_2019 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2019-10-28 03:40:43,719 14972 WARNING NKT_SSH_oct_2019 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2019-10-28 03:40:43,719 14972 WARNING NKT_SSH_oct_2019 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2019-10-28 03:40:43,719 14972 WARNING NKT_SSH_oct_2019 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2019-10-28 03:40:43,719 14972 WARNING NKT_SSH_oct_2019 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2019-10-28 03:40:43,719 14972 WARNING NKT_SSH_oct_2019 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2019-10-28 03:40:43,719 14972 WARNING NKT_SSH_oct_2019 openerp.modules.loading: The transient model rf.rates.upload (This is for uploading rates using excel format) should not have explicit access rules!
+2019-10-28 03:40:43,842 14972 INFO NKT_SSH_oct_2019 openerp.modules.loading: Modules loaded.
+2019-10-28 03:40:43,842 14972 INFO NKT_SSH_oct_2019 openerp.osv.orm: Computing parent left and right for table ir_ui_menu...
+2019-10-28 03:40:43,943 14972 INFO NKT_SSH_oct_2019 openerp.addons.base.res.res_config: getting next operation
+2019-10-28 03:40:43,947 14972 INFO NKT_SSH_oct_2019 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x065E92B0>
+2019-10-28 03:40:43,950 14972 INFO NKT_SSH_oct_2019 openerp.addons.base.res.res_config: next action is None
+2019-10-28 03:40:44,178 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:44] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2019-10-28 03:40:44,467 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:44] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:40:44,950 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:44] "GET /?db=NKT_SSH_oct_2019&ts=1572234044194 HTTP/1.1" 200 -
+2019-10-28 03:40:46,121 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:46] "GET /web/webclient/css?db=NKT_SSH_oct_2019 HTTP/1.1" 200 -
+2019-10-28 03:40:49,713 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:49] "GET /web/webclient/js?db=NKT_SSH_oct_2019 HTTP/1.1" 200 -
+2019-10-28 03:40:50,161 14972 INFO NKT_SSH_oct_2019 openerp.service.web_services: successful login from 'admin' using database 'nkt_ssh_oct_2019'
+2019-10-28 03:40:50,348 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:50] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2019-10-28 03:40:50,808 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:50] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2019-10-28 03:40:51,680 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:51] "POST /web/proxy/load HTTP/1.1" 200 -
+2019-10-28 03:40:51,836 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:51] "POST /web/session/modules HTTP/1.1" 200 -
+2019-10-28 03:40:52,509 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:52] "POST /web/webclient/translations HTTP/1.1" 200 -
+2019-10-28 03:40:53,010 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:53] "POST /web/menu/load HTTP/1.1" 200 -
+2019-10-28 03:40:53,210 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:40:53,299 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:53] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:40:53,414 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:40:53,615 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:53] "GET /web/binary/company_logo?session_id=13ebf334c3674a41b7d8375122c48f5c HTTP/1.1" 200 -
+2019-10-28 03:40:53,755 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:53] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:40:53,862 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:40:54,052 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:40:54,312 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:40:54,421 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:54] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=13ebf334c3674a41b7d8375122c48f5c HTTP/1.1" 200 -
+2019-10-28 03:40:54,736 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:40:55,302 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:40:55] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:41:01,836 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:01] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:41:02,275 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:02] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:41:02,778 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:41:02,999 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:41:03,997 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:41:04,323 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:41:04,788 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:41:05,275 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:05] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:41:08,634 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:41:09,216 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:41:18,496 14972 INFO NKT_SSH_oct_2019 root: ****************
+2019-10-28 03:41:18,865 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:41:21,404 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:21] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:41:21,585 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:41:21] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:35,030 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:37,003 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:39,671 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:39] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:40,253 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:40] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:41,171 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:41] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:44,026 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:44,308 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:52,187 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:52,358 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:52,841 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:57,641 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:57,973 14972 INFO NKT_SSH_oct_2019 root: ****************
+2019-10-28 03:42:58,088 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:58,378 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:42:58,411 14972 INFO NKT_SSH_oct_2019 root: ****************
+2019-10-28 03:42:58,513 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:42:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:43:04,092 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:43:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:43:04,622 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:43:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:43:22,904 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:43:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:43:32,885 14972 INFO NKT_SSH_oct_2019 root: {'limit': 8, 'customer_name': u'%958%'}
+2019-10-28 03:43:32,885 14972 INFO NKT_SSH_oct_2019 root: ***********************>>>>>>>>>>
+2019-10-28 03:43:32,890 14972 INFO NKT_SSH_oct_2019 root: ****************
+2019-10-28 03:43:33,132 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:43:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:09,884 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:19,815 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:35,622 14972 INFO NKT_SSH_oct_2019 root: 0
+2019-10-28 03:44:35,905 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:40,927 14972 INFO NKT_SSH_oct_2019 root: 1250
+2019-10-28 03:44:41,144 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:41] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:45,759 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:45] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:46,045 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:46] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:44:46,105 14972 INFO NKT_SSH_oct_2019 root: ****************
+2019-10-28 03:44:46,331 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:46,687 14972 INFO NKT_SSH_oct_2019 root: ****************
+2019-10-28 03:44:46,842 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:47,006 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:47,193 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:47] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:44:47,361 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:47] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:44:47,528 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:47,783 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:47] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:44:48,469 14972 WARNING NKT_SSH_oct_2019 openerp.osv.expression: The domain term '('id', '=', [1])' should use the 'in' or 'not in' operator.
+2019-10-28 03:44:48,469 14972 INFO NKT_SSH_oct_2019 root: ***************************7777
+2019-10-28 03:44:48,469 14972 INFO NKT_SSH_oct_2019 root: *********#########################
+2019-10-28 03:44:48,469 14972 INFO NKT_SSH_oct_2019 root: []
+2019-10-28 03:44:48,469 14972 INFO NKT_SSH_oct_2019 root: kkkkkkkkkkkkkkkkkkkkkkkk
+2019-10-28 03:44:48,469 14972 INFO NKT_SSH_oct_2019 root: 1250.0
+2019-10-28 03:44:48,469 14972 WARNING NKT_SSH_oct_2019 openerp.osv.osv: The method generate_bill of the object customer.bill can not return `None` !
+2019-10-28 03:44:48,578 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:48] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2019-10-28 03:44:48,736 14972 INFO NKT_SSH_oct_2019 root: ****************
+2019-10-28 03:44:48,823 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:49,000 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:49,131 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:49] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:44:49,302 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:49] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:44:57,313 14972 WARNING NKT_SSH_oct_2019 openerp.osv.expression: The domain term '('id', '=', [1])' should use the 'in' or 'not in' operator.
+2019-10-28 03:44:57,318 14972 INFO NKT_SSH_oct_2019 root: ***************************7777
+2019-10-28 03:44:57,318 14972 INFO NKT_SSH_oct_2019 root: *********#########################
+2019-10-28 03:44:57,322 14972 INFO NKT_SSH_oct_2019 root: []
+2019-10-28 03:44:57,322 14972 INFO NKT_SSH_oct_2019 root: kkkkkkkkkkkkkkkkkkkkkkkk
+2019-10-28 03:44:57,322 14972 INFO NKT_SSH_oct_2019 root: 1250.0
+2019-10-28 03:44:57,322 14972 WARNING NKT_SSH_oct_2019 openerp.osv.osv: The method generate_bill of the object customer.bill can not return `None` !
+2019-10-28 03:44:57,457 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:57] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2019-10-28 03:44:57,796 14972 INFO NKT_SSH_oct_2019 root: ****************
+2019-10-28 03:44:58,012 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:58,131 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:58] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:44:58,279 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:44:58,832 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:44:58] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:45:13,059 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:17,551 14972 INFO NKT_SSH_oct_2019 root: 0
+2019-10-28 03:45:17,938 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:19,494 14972 INFO NKT_SSH_oct_2019 root: 2500
+2019-10-28 03:45:19,683 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:22,326 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:22,648 14972 WARNING NKT_SSH_oct_2019 openerp.osv.expression: The domain term '('id', '=', [1])' should use the 'in' or 'not in' operator.
+2019-10-28 03:45:22,651 14972 INFO NKT_SSH_oct_2019 root: ***************************7777
+2019-10-28 03:45:22,651 14972 INFO NKT_SSH_oct_2019 root: *********#########################
+2019-10-28 03:45:22,660 14972 INFO NKT_SSH_oct_2019 root: []
+2019-10-28 03:45:22,660 14972 INFO NKT_SSH_oct_2019 root: kkkkkkkkkkkkkkkkkkkkkkkk
+2019-10-28 03:45:22,660 14972 INFO NKT_SSH_oct_2019 root: 3750.0
+2019-10-28 03:45:22,660 14972 WARNING NKT_SSH_oct_2019 openerp.osv.osv: The method generate_bill of the object customer.bill can not return `None` !
+2019-10-28 03:45:22,983 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:22] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2019-10-28 03:45:23,006 14972 INFO NKT_SSH_oct_2019 root: ****************
+2019-10-28 03:45:23,203 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:23,467 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:23] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:45:23,654 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:24,138 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:24] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:45:26,625 14972 INFO NKT_SSH_oct_2019 root: ****************
+2019-10-28 03:45:26,786 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:26] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:27,415 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:27] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:45:27,523 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:27,747 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:27] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:45:45,361 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:45] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:45:45,598 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:45] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:45:45,881 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:45] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:46,217 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:46,385 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:46,513 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:47,023 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:45:47,338 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:45:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:46:36,658 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:46:36] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:46:36,835 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:46:36] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 03:46:37,019 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:46:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:46:37,266 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:46:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:46:37,523 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:46:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:46:37,703 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:46:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:46:38,776 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:46:38] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:46:39,140 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:46:39] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:49:00,384 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:49:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:49:02,374 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:49:02] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:49:46,625 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:49:46] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:49:46,970 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:49:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:49:47,381 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:49:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:49:47,674 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:49:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:49:47,858 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:49:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:49:48,584 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:49:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:49:49,226 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:49:49] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:49:54,497 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:49:54] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 03:50:16,934 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:50:16] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 03:50:17,323 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:50:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 03:50:17,911 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 03:50:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:18:26,947 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:26] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 05:18:27,369 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:18:27,709 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:18:27,961 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:18:28,243 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:18:28,755 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:18:29,108 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:18:32,062 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:18:34,793 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:18:38,437 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:38] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:18:44,875 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:18:48,016 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:18:52,286 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:18:52] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:19:25,637 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:19:25] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:19:26,147 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:19:26] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:19:26,727 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:19:26] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:19:26,937 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:19:26] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:19:32,687 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:19:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:25:21,236 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:21] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 05:25:21,618 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:21] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:25:21,994 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:21] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:25:22,198 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:25:22,351 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:25:22,944 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:25:23,203 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:25:25,894 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:25] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:25:27,289 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:27] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:25:34,076 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:25:34,451 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:25:34,960 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:34] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:25:35,223 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:25:56,578 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:25:56] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:26:36,733 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:26:36] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 05:26:37,039 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:26:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:26:37,270 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:26:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:26:48,085 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:26:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:26:52,039 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:26:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:26:52,536 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:26:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:26:52,611 14972 INFO NKT_SSH_oct_2019 root: *******************************
+2019-10-28 05:26:52,611 14972 INFO NKT_SSH_oct_2019 root: New KrishnaArjuna Textiles
+2019-10-28 05:26:52,611 14972 INFO NKT_SSH_oct_2019 root: 2
+2019-10-28 05:26:53,266 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:26:53] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2019-10-28 05:26:53,559 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:26:53] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 05:26:53,651 14972 WARNING NKT_SSH_oct_2019 openerp.sql_db: Cursor not closed explicitly
+Please enable sql debugging to trace the caller.
+2019-10-28 05:26:53,842 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:26:53] "GET /gst/export_gst_turnover_report?id=17&db=NKT_SSH_oct_2019&uid=1 HTTP/1.1" 200 -
+2019-10-28 05:27:03,115 14972 WARNING NKT_SSH openerp.sql_db: ConnectionPool(used=0/count=8/max=64): Free leaked connection to 'host=localhost port=5432 user=openpg password=xxxxxxxxx dbname=NKT_SSH_oct_2019'
+2019-10-28 05:41:08,165 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:41:08] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 05:41:08,658 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:41:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:41:08,846 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:41:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:41:09,290 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:41:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:41:09,447 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:41:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:41:10,155 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:41:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:41:10,460 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:41:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:41:12,664 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:41:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:41:15,302 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:41:15] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:41:23,183 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:41:23] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:41:28,431 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:41:28] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:43:52,736 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:43:52] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 05:43:52,984 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:43:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:43:53,233 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:43:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:43:53,388 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:43:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:43:53,510 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:43:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:43:53,667 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:43:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:43:54,249 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:43:54] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:44:17,664 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:44:17] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 05:44:17,832 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:44:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:44:18,207 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:44:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:44:18,364 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:44:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:44:18,483 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:44:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:44:19,072 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:44:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:44:19,292 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:44:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:44:21,674 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:44:21] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:44:23,354 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:44:23] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:45:12,118 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:45:12] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 05:45:12,349 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:45:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:45:12,648 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:45:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:45:12,795 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:45:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:45:12,959 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:45:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:45:13,127 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:45:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:45:13,665 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:45:13] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:45:25,237 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:45:25] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:47:52,816 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:47:52] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 05:47:53,075 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:47:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:47:53,290 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:47:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:47:53,427 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:47:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:47:53,586 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:47:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:47:53,815 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:47:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:47:54,289 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:47:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:47:55,861 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:47:55] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:47:57,433 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:47:57] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:48:03,253 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:48:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:48:03,799 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:48:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:48:04,105 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:48:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:48:04,417 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:48:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:48:09,335 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:48:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:54:45,053 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:54:45] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:54:45,543 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:54:45] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:54:46,351 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:54:46] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:54:46,947 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:54:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:54:47,773 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:54:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:54:48,078 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:54:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:59:08,005 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:08] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 05:59:08,263 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:59:08,556 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:59:08,734 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:59:08,871 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:59:09,500 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:59:09,684 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:59:12,267 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:59:14,318 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:59:16,388 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:16] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:59:18,052 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:18] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 05:59:20,565 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 05:59:21,766 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 05:59:21] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 06:07:31,710 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 06:07:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 06:07:31,903 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 06:07:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 06:07:32,414 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 06:07:32] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 06:07:32,727 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 06:07:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 06:08:20,888 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 06:08:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 06:56:38,072 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 06:56:38] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 06:56:38,374 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 06:56:38] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 06:56:38,967 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 06:56:38] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 06:59:56,237 14972 INFO NKT_SSH_oct_2019 root: ************>>>>>>>>>>>>>>>>>>>
+2019-10-28 06:59:56,240 14972 INFO NKT_SSH_oct_2019 root: ************>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+2019-10-28 06:59:56,242 14972 INFO NKT_SSH_oct_2019 root: (u'01/12/2018', 1191, u'K.PRASANNA', None, 5540.0, 138.5, 138.5, 0.0, 277.0, 5817.0, None, u'TENALI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,242 14972 INFO NKT_SSH_oct_2019 root: (u'01/12/2018', 1192, u'PANCHARAM', None, 2100.0, 52.5, 52.5, 0.0, 105.0, 2205.0, None, u'MARRICHETLAPALEM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,242 14972 INFO NKT_SSH_oct_2019 root: (u'01/12/2018', 1193, u'OMKAR', None, 3419.0, 86.0, 86.0, 0.0, 172.0, 3591.0, None, u'PENDILLAPALI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,243 14972 INFO NKT_SSH_oct_2019 root: (u'01/12/2018', 1194, u'LAKSHAYGNA', None, 8438.0, 211.0, 211.0, 0.0, 422.0, 8860.0, None, u'VIJAYAWADA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,243 14972 INFO NKT_SSH_oct_2019 root: (u'03/12/2018', 1195, u'G.VIRAJITHA', None, 15110.0, 378.0, 378.0, 0.0, 756.0, 15866.0, None, u'REPALI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,243 14972 INFO NKT_SSH_oct_2019 root: (u'03/12/2018', 1196, u'G.VIRAJITHA', None, 6707.0, 168.0, 168.0, 0.0, 336.0, 7043.0, None, u'REPALI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,243 14972 INFO NKT_SSH_oct_2019 root: (u'03/12/2018', 1197, u'KIRAN', None, 7670.0, 192.0, 192.0, 0.0, 384.0, 8054.0, None, u'MARTUR', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,243 14972 INFO NKT_SSH_oct_2019 root: (u'03/12/2018', 1198, u'BUDATTI BROTHERS LADIES&GENTS WEAR', u'36BVQPB5003C1Z2', 39980.0, 0.0, 0.0, 1999.0, 1999.0, 41979.0, None, u'HYDERABAD', u'Telangana (TS)')
+2019-10-28 06:59:56,243 14972 INFO NKT_SSH_oct_2019 root: (u'03/12/2018', 1199, u'SREE RAMAYA SAI TEXTIES', None, 29754.0, 744.0, 744.0, 0.0, 1488.0, 31242.0, None, u'MUNAGEE', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,244 14972 INFO NKT_SSH_oct_2019 root: (u'03/12/2018', 1200, u'K.SUNITHA', None, 14858.0, 372.0, 372.0, 0.0, 744.0, 15602.0, None, u'TALLUR', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,244 14972 INFO NKT_SSH_oct_2019 root: (u'03/12/2018', 1201, u'SRI LAKSHMI CLOTH CUTPIECES', None, 18076.0, 452.0, 452.0, 0.0, 904.0, 18980.0, None, u'MUNNAGEE', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,244 14972 INFO NKT_SSH_oct_2019 root: (u'04/12/2018', 1202, u'SRI VENKATESWARA CLOTH MERCHANT', None, 2400.0, 60.0, 60.0, 0.0, 120.0, 2520.0, None, u'EDAPALLAPADU', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,244 14972 INFO NKT_SSH_oct_2019 root: (u'04/12/2018', 1203, u'B.NAGA MALESWARRAO', None, 18802.0, 0.0, 0.0, 940.1, 940.1, 19742.1, None, u'HYDERABAD', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,246 14972 INFO NKT_SSH_oct_2019 root: (u'05/12/2018', 1204, u'B.VIJAYA AMMA', None, 26357.0, 659.0, 659.0, 0.0, 1318.0, 27675.0, None, u'TIRUPATI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,246 14972 INFO NKT_SSH_oct_2019 root: (u'05/12/2018', 1205, u'T.KOTESWARA RAO', None, 4048.0, 101.0, 101.0, 0.0, 202.0, 4250.0, None, u'PONNUR', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,246 14972 INFO NKT_SSH_oct_2019 root: (u'05/12/2018', 1206, u'ANILA KUMARI', None, 12002.0, 300.0, 300.0, 0.0, 600.0, 12602.0, None, u'VETAPALEM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,246 14972 INFO NKT_SSH_oct_2019 root: (u'05/12/2018', 1207, u'G.SUDHA', None, 7514.0, 188.0, 188.0, 0.0, 376.0, 7890.0, None, u'MUTHAYAPALLEM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,246 14972 INFO NKT_SSH_oct_2019 root: (u'05/12/2018', 1208, u'A.ADI LAXMI', None, 30733.0, 768.0, 768.0, 0.0, 1536.0, 32269.0, None, u'KANDLAGUNTA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,246 14972 INFO NKT_SSH_oct_2019 root: (u'05/12/2018', 1209, u'K.VASATHA LAXMI', None, 14751.0, 368.77, 368.77, 0.0, 737.54, 15489.0, None, u'KANCHIKACHARLA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,246 14972 INFO NKT_SSH_oct_2019 root: (u'05/12/2018', 1210, u'SH.FATHIMA', None, 21490.0, 538.0, 538.0, 0.0, 1076.0, 22566.0, None, u'NARSARAOPETA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,247 14972 INFO NKT_SSH_oct_2019 root: (u'05/12/2018', 1211, u'K.SANTHI PRIYA', None, 12190.0, 305.0, 305.0, 0.0, 610.0, 12800.0, None, u'PEYTARU', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,247 14972 INFO NKT_SSH_oct_2019 root: (u'06/12/2018', 1212, u' VIJAYA LAXMI CUT PIECES CENTER', None, 13915.0, 348.0, 348.0, 0.0, 696.0, 14611.0, None, u'CHIRALA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,247 14972 INFO NKT_SSH_oct_2019 root: (u'06/12/2018', 1213, u'VIJAYA LAXMI CUT PIECES CENTER', None, 3400.0, 85.0, 85.0, 0.0, 170.0, 3570.0, None, u'CHIRALA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,247 14972 INFO NKT_SSH_oct_2019 root: (u'06/12/2018', 1214, u'G.V.S PAVAN KUMAR', None, 8884.0, 222.0, 222.0, 0.0, 444.0, 9328.0, None, u'PUNDALA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,249 14972 INFO NKT_SSH_oct_2019 root: (u'06/12/2018', 1215, u'PRAMILA', None, 4000.0, 100.0, 100.0, 0.0, 200.0, 4200.0, None, u'BAPATLA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,249 14972 INFO NKT_SSH_oct_2019 root: (u'06/12/2018', 1216, u'ABHAY KUMAR', None, 3940.0, 99.0, 99.0, 0.0, 198.0, 4138.0, None, u'BAPATLA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,250 14972 INFO NKT_SSH_oct_2019 root: (u'06/12/2018', 1217, u'SANJAY YADAV', None, 3420.0, 86.0, 86.0, 0.0, 172.0, 3592.0, None, u'BAPATLA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,250 14972 INFO NKT_SSH_oct_2019 root: (u'07/12/2018', 1218, u'J.SANTHI', None, 4695.0, 117.5, 117.5, 0.0, 235.0, 4930.0, None, u'FIRANGIPURAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,250 14972 INFO NKT_SSH_oct_2019 root: (u'07/12/2018', 1219, u'N.VENKATESH', None, 4900.0, 122.5, 122.5, 0.0, 245.0, 5145.0, None, u'VIZAG', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,250 14972 INFO NKT_SSH_oct_2019 root: (u'07/12/2018', 1220, u'RENUKHA SAREE HOUSE', None, 21419.0, 535.0, 535.0, 0.0, 1070.0, 22489.0, None, u'LAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,250 14972 INFO NKT_SSH_oct_2019 root: (u'07/12/2018', 1221, u'A.PRASAD RAO', None, 23662.0, 592.0, 592.0, 0.0, 1184.0, 24846.0, None, u'LAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,250 14972 INFO NKT_SSH_oct_2019 root: (u'07/12/2018', 1222, u'SRI MANI', None, 1060.0, 26.5, 26.5, 0.0, 53.0, 1113.0, None, u'REPALI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,252 14972 INFO NKT_SSH_oct_2019 root: (u'07/12/2018', 1223, u'ROZY', None, 18750.0, 468.0, 468.75, 0.0, 936.75, 19686.75, None, u'CH.PETA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,252 14972 INFO NKT_SSH_oct_2019 root: (u'07/12/2018', 1224, u'NAGESWARAMMA', None, 8596.0, 215.0, 215.0, 0.0, 430.0, 9026.0, None, u'TENALI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,252 14972 INFO NKT_SSH_oct_2019 root: (u'07/12/2018', 1225, u'E.HEMA', None, 18229.0, 0.0, 0.0, 911.0, 911.0, 19140.0, None, u'KHAMMAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,253 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1226, u'SANDHYA RANI', None, 3910.0, 98.0, 98.0, 0.0, 196.0, 4106.0, None, u'N.PETA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,253 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1227, u'SIVA', None, 1500.0, 38.0, 38.0, 0.0, 76.0, 1576.0, None, u'MACHARLA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,253 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1228, u'M.VIJAYA LAKSHMI', None, 12143.0, 304.0, 304.0, 0.0, 608.0, 12751.0, None, u'VIJAYAWADA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,253 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1229, u'T.SUDHAKAR', None, 14824.0, 371.0, 371.0, 0.0, 742.0, 15566.0, None, u'KEYSAMUDRAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,253 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1230, u'P.SUDHAKAR', None, 3205.0, 80.0, 80.0, 0.0, 160.0, 3365.0, None, u'KEYSAMUDRAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,253 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1231, u'VENKATESWARAO', None, 2952.0, 74.0, 74.0, 0.0, 148.0, 3100.0, None, u'VIJAYAWADA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,255 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1232, u'D.V.KRISHNA RAO', None, 41105.0, 1028.0, 1028.0, 0.0, 2056.0, 43161.0, None, u'VIJAYAWADA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,255 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1233, u'P.VIJAYA LAXMI', None, 16380.0, 410.0, 410.0, 0.0, 820.0, 17200.0, None, u'GUNTUR', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,255 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1234, u'P.VIJAYA LAXMI', None, 21348.0, 534.0, 534.0, 0.0, 1068.0, 22416.0, None, u'GUNTUR', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,255 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1235, u'P.VIJAYA LAXMI', None, 8346.0, 209.0, 209.0, 0.0, 418.0, 8764.0, None, u'GUNTUR', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,256 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1236, u'M.A.S.PRASAD', None, 18210.0, 455.0, 455.0, 0.0, 910.0, 19120.0, None, u'NUTHALAPADDU', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,256 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1237, u'MAS PRASAD', None, 17200.0, 430.0, 430.0, 0.0, 860.0, 18060.0, None, u'NUTHALAPADDU', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,256 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1238, u'VENKATA VASAVI CLOTH STORE', None, 32575.0, 815.0, 815.0, 0.0, 1630.0, 34205.0, None, u'KAKUMANU', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,256 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1239, u'SRI BALAJI CLOTH STORES', None, 10528.0, 263.0, 263.0, 0.0, 526.0, 11054.0, None, u'CHARUKURU', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,256 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1240, u'SURESH', None, 5810.0, 145.0, 145.0, 0.0, 290.0, 6100.0, None, u'NELLORE', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,256 14972 INFO NKT_SSH_oct_2019 root: (u'08/12/2018', 1241, u'AMARNATH ', None, 7189.0, 180.0, 180.0, 0.0, 360.0, 7549.0, None, u'NELLORE', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,256 14972 INFO NKT_SSH_oct_2019 root: (u'10/12/2018', 1242, u'JAVAJI VENKATA SAMBHA SIVA RAO', None, 8615.0, 216.0, 216.0, 0.0, 432.0, 9047.0, None, u'KUCHINAPUDDI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,256 14972 INFO NKT_SSH_oct_2019 root: (u'10/12/2018', 1243, u'SRI VENKATESWARA CLOTH MERCHANT', None, 3277.0, 82.0, 82.0, 0.0, 164.0, 3441.0, None, u'EDDUPULAPADDU', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,256 14972 INFO NKT_SSH_oct_2019 root: (u'12/12/2018', 1244, u'NAGESWARAMMA', None, 4500.0, 112.5, 112.5, 0.0, 225.0, 4725.0, None, u'EPPURAPALEM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,256 14972 INFO NKT_SSH_oct_2019 root: (u'12/12/2018', 1245, u'K.V.DANIEL', None, 7660.0, 192.0, 192.0, 0.0, 384.0, 8044.0, None, u'ANANTAPUR', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,257 14972 INFO NKT_SSH_oct_2019 root: (u'13/12/2018', 1246, u'B.VIDHYA', None, 31505.0, 0.0, 0.0, 1575.0, 1575.0, 33080.0, None, u'HYDERABAD', u'Telangana (TS)')
+2019-10-28 06:59:56,257 14972 INFO NKT_SSH_oct_2019 root: (u'13/12/2018', 1247, u'B.VIDHYA', None, 785.0, 0.0, 0.0, 40.0, 40.0, 825.0, None, u'HYDERABAD', u'Telangana (TS)')
+2019-10-28 06:59:56,257 14972 INFO NKT_SSH_oct_2019 root: (u'13/12/2018', 1248, u'UMA DEVI', None, 1667.0, 42.0, 42.0, 0.0, 84.0, 1751.0, None, u'CHIRALA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,257 14972 INFO NKT_SSH_oct_2019 root: (u'13/12/2018', 1249, u'HARI BABU', None, 7900.0, 198.0, 198.0, 0.0, 396.0, 8296.0, None, u'KAVALI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,257 14972 INFO NKT_SSH_oct_2019 root: (u'13/12/2018', 1250, u'ARUNA ', None, 1300.0, 33.0, 33.0, 0.0, 66.0, 1366.0, None, u'INKOLLU', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,257 14972 INFO NKT_SSH_oct_2019 root: (u'13/12/2018', 1251, u'M.NAVYA', None, 30039.0, 751.0, 751.0, 0.0, 1502.0, 31541.0, None, u'JANGAREDDY GUDAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,257 14972 INFO NKT_SSH_oct_2019 root: (u'13/12/2018', 1252, u'M.NAVYA', None, 15452.0, 387.0, 387.0, 0.0, 774.0, 16226.0, None, u'JANGAREDDY GUDAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'14/12/2018', 1253, u'P.ANJANEYALU', None, 24755.0, 619.0, 619.0, 0.0, 1238.0, 25993.0, None, u'MARKAPUR', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'14/12/2018', 1254, u'AMULYA', None, 3200.0, 80.0, 80.0, 0.0, 160.0, 3360.0, None, u'CHILAKALURPETA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'14/12/2018', 1255, u'MAHA LAXMI', None, 6895.0, 172.5, 172.5, 0.0, 345.0, 7240.0, None, u'TENALI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'14/12/2018', 1256, u'DHANA LAXMI', None, 9715.0, 243.0, 243.0, 0.0, 486.0, 10201.0, None, u'PITTALAVARI PALLEM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'14/12/2018', 1257, u'KOTESWARA RAO', None, 2000.0, 50.0, 50.0, 0.0, 100.0, 2100.0, None, u'AMADIGIRIPATNAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'15/12/2018', 1258, u'K.SHYAMALAMMA', None, 26790.0, 670.0, 670.0, 0.0, 1340.0, 28130.0, None, u'GUDUR', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'15/12/2018', 1259, u'CH.VIJAY LAXMI', None, 6080.0, 152.0, 152.0, 0.0, 304.0, 6384.0, None, u'PUNNUR', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'15/12/2018', 1260, u'ANIL KUMAR TEXTILES', None, 6981.0, 175.0, 175.0, 0.0, 350.0, 7331.0, None, u'AMANABROLU', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'15/12/2018', 1261, u'SRI LAKSHMI PRASANNA', None, 20643.0, 516.0, 516.0, 0.0, 1032.0, 21675.0, None, u'MUNNAGE', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'15/12/2018', 1262, u'SAHARINATHA FERTILIZERS', None, 5881.0, 147.0, 147.0, 0.0, 294.0, 6175.0, None, u'CHINNAGANJAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'17/12/2018', 1263, u'G.LAKSHMI', None, 1610.0, 40.0, 40.0, 0.0, 80.0, 1690.0, None, u'AMALAPURAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'17/12/2018', 1264, u'K.UMA MAHESWAR RAO', None, 12467.0, 312.0, 312.0, 0.0, 624.0, 13091.0, None, u'TIRUPATI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'17/12/2018', 1265, u'S.F.S HIGH SCHOOL', None, 9300.0, 233.0, 233.0, 0.0, 466.0, 9766.0, None, u'AGIRIPALLI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'17/12/2018', 1266, u'P.LAXMI KUMARI', None, 20163.0, 504.0, 504.0, 0.0, 1008.0, 21171.0, None, u'ROMPICHERLA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,259 14972 INFO NKT_SSH_oct_2019 root: (u'17/12/2018', 1267, u'P.LAXMI KUMARI', None, 2747.0, 69.0, 69.0, 0.0, 138.0, 2885.0, None, u'ROMPICHERLA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,260 14972 INFO NKT_SSH_oct_2019 root: (u'18/12/2018', 1268, u'D.ADHI RANGAYA ', None, 13100.0, 328.0, 328.0, 0.0, 656.0, 13756.0, None, u'BESTAVARIPETA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,260 14972 INFO NKT_SSH_oct_2019 root: (u'18/12/2018', 1269, u'D.KOTESWARI ', None, 20700.0, 517.0, 517.0, 0.0, 1034.0, 21734.0, None, u'TENALI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,260 14972 INFO NKT_SSH_oct_2019 root: (u'18/12/2018', 1270, u'CH.LAKSHMI', None, 24977.0, 625.0, 625.0, 0.0, 1250.0, 26227.0, None, u'LANKAVANIDIBBA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,260 14972 INFO NKT_SSH_oct_2019 root: (u'18/12/2018', 1271, u'SAILAJA', None, 7115.0, 178.0, 178.0, 0.0, 356.0, 7471.0, None, u'THADAPALLIGUDDAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,260 14972 INFO NKT_SSH_oct_2019 root: (u'18/12/2018', 1272, u'D.KAMALAMMA', None, 12560.0, 314.0, 314.0, 0.0, 628.0, 13188.0, None, u'SRIKAKULAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,260 14972 INFO NKT_SSH_oct_2019 root: (u'19/12/2018', 1273, u'MUVALA RAMARAO', None, 1571.0, 39.5, 39.5, 0.0, 79.0, 1650.0, None, u'PAVULURU', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,260 14972 INFO NKT_SSH_oct_2019 root: (u'19/12/2018', 1274, u'RAVI CLOTH MERCHANT', None, 10990.0, 275.0, 275.0, 0.0, 550.0, 11540.0, None, u'PANDILLAPALI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,262 14972 INFO NKT_SSH_oct_2019 root: (u'20/12/2018', 1275, u'MADHAVI', None, 5400.0, 135.0, 135.0, 0.0, 270.0, 5670.0, None, u'BAPATLA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,262 14972 INFO NKT_SSH_oct_2019 root: (u'20/12/2018', 1276, u'B.KRISHNAVENI', None, 7800.0, 195.0, 195.0, 0.0, 390.0, 8190.0, None, u'ADAVALLADEEVI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,262 14972 INFO NKT_SSH_oct_2019 root: (u'20/12/2018', 1277, u'ATMAKURU VENKATESWAR RAO', None, 2739.0, 68.0, 68.0, 0.0, 136.0, 2875.0, None, u'PAVULURU', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,262 14972 INFO NKT_SSH_oct_2019 root: (u'20/12/2018', 1278, u'MARABATHUNI RAMAYA', None, 12180.0, 305.0, 305.0, 0.0, 610.0, 12790.0, None, u'CHINNARIKATLA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,262 14972 INFO NKT_SSH_oct_2019 root: (u'20/12/2018', 1279, u'MARABATHUNI RAMAYA', None, 3486.0, 87.0, 87.0, 0.0, 174.0, 3660.0, None, u'CHINNARIKATLA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,262 14972 INFO NKT_SSH_oct_2019 root: (u'21/12/2018', 1280, u'ANJANELLU', None, 4800.0, 120.0, 120.0, 0.0, 240.0, 5040.0, None, u'VIJAYAWADA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,262 14972 INFO NKT_SSH_oct_2019 root: (u'21/12/2018', 1281, u'D.VENKATA RAMULU', None, 23666.0, 592.0, 592.0, 0.0, 1184.0, 24850.0, None, u'NELLORE', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'21/12/2018', 1282, u'D.VENKATA RAMULU', None, 21400.0, 535.0, 535.0, 0.0, 1070.0, 22470.0, None, u'NELLORE', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'22/12/2018', 1283, u'PREACHES', None, 8210.0, 205.0, 205.0, 0.0, 410.0, 8620.0, None, u'VIJAYAWADA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'24/12/2018', 1284, u'SHAILU', None, 14651.0, 366.0, 366.0, 0.0, 732.0, 15383.0, None, u'THADAPALLIGUDDAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'25/12/2018', 1285, u'YENDURI RANGA RAO', None, 1672.0, 42.0, 42.0, 0.0, 84.0, 1756.0, None, u'BAPATLA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'26/12/2018', 1286, u'JAVADI VENKATA SAMBA SIVA RAO', None, 2822.0, 70.5, 70.5, 0.0, 141.0, 2963.0, None, u'KUCHANAPUDI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'26/12/2018', 1287, u'SAI BABA TEXTILES', None, 12619.0, 315.5, 315.5, 0.0, 631.0, 13250.0, None, u'SULURPETA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'26/12/2018', 1288, u'CHANDRA SAI TEXTILES', None, 25805.0, 645.0, 645.0, 0.0, 1290.0, 27095.0, None, u'SULURPETA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'26/12/2018', 1289, u'SRI RAM NAGENDRAMA ', None, 18138.0, 453.5, 453.5, 0.0, 907.0, 19045.0, None, u'HYDERABAD', u'Telangana (TS)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'27/12/2018', 1290, u'PILLI KAVITHA', None, 22433.0, 0.0, 0.0, 1121.0, 1121.0, 23554.0, None, u'KHAMMAM', u'Telangana (TS)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'27/12/2018', 1291, u'ANIL KUMAR', None, 7621.0, 191.0, 191.0, 0.0, 382.0, 8003.0, None, u'PANDILLAPALLI', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'28/12/2018', 1292, u'RANGAMMA', None, 3145.0, 80.0, 80.0, 0.0, 160.0, 3305.0, None, u'VIJAYAWADA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'28/12/2018', 1293, u'S.MANJULA DEVI', None, 4255.0, 107.0, 107.0, 0.0, 214.0, 4469.0, None, u'VIJAYAWADA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'28/12/2018', 1294, u'D.BASKAR RAJU', None, 7610.0, 190.0, 190.0, 0.0, 380.0, 7990.0, None, u'SRIKAKULAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,263 14972 INFO NKT_SSH_oct_2019 root: (u'31/12/2018', 1295, u'VIJAYA GANAPATHI FANCY &TEXTILES', None, 14695.0, 367.0, 367.0, 0.0, 734.0, 15429.0, None, u'THATIKONDA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,265 14972 INFO NKT_SSH_oct_2019 root: (u'31/12/2018', 1296, u'VIJAYA GANAPATHI FANCY & TEXTILES', None, 8000.0, 200.0, 200.0, 0.0, 400.0, 8400.0, None, u'THATIKONDA', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,265 14972 INFO NKT_SSH_oct_2019 root: (u'31/12/2018', 1297, u'SRI LAKSHMI VASAVI TEXTILES', None, 3600.0, 90.0, 90.0, 0.0, 180.0, 3780.0, None, u'CHINNAGANJAM', u'Andhra Pradesh (AD)')
+2019-10-28 06:59:56,457 14972 INFO NKT_SSH_oct_2019 root: output dataaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa************************
+2019-10-28 06:59:56,677 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 06:59:56] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2019-10-28 06:59:56,851 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 06:59:56] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2019-10-28 06:59:57,046 14972 WARNING NKT_SSH_oct_2019 openerp.sql_db: Cursor not closed explicitly
+Please enable sql debugging to trace the caller.
+2019-10-28 06:59:57,164 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 06:59:57] "GET /gst/export_gst_report?id=23&db=NKT_SSH_oct_2019&uid=1 HTTP/1.1" 200 -
+2019-10-28 07:00:04,483 14972 WARNING NKT_SSH openerp.sql_db: ConnectionPool(used=0/count=8/max=64): Free leaked connection to 'host=localhost port=5432 user=openpg password=xxxxxxxxx dbname=NKT_SSH_oct_2019'
+2019-10-28 07:05:57,378 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:05:57] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 07:05:57,614 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:05:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:05:57,957 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:05:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:05:58,071 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:05:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:05:58,246 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:05:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:05:58,769 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:05:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:05:59,003 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:05:59] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 07:09:40,119 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:09:40] "POST /web/action/load HTTP/1.1" 200 -
+2019-10-28 07:09:40,359 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:09:40] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:09:40,642 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:09:40] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:09:40,759 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:09:40] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:09:40,884 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:09:40] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:09:41,046 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:09:41] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:09:41,614 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:09:41] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:09:43,295 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:09:43] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:09:45,322 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:09:45] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 07:09:54,430 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:09:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:09:56,404 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:09:56] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 07:10:01,414 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:10:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:10:03,444 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:10:03] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 07:10:35,989 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:10:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:10:36,186 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:10:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2019-10-28 07:10:36,704 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:10:36] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-10-28 07:10:36,838 14972 INFO NKT_SSH_oct_2019 werkzeug: 127.0.0.1 - - [28/Oct/2019 07:10:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -

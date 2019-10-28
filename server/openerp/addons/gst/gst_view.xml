@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- Top menu item -->
+        <menuitem id='menu_gst' name='GST' sequence="11"/>
+		<menuitem name="GST Head" parent="menu_gst" id="menu_gst_header" sequence="1" />
+		<menuitem name="GST REPORTS" parent="menu_gst" id="menu_gst_report" sequence="2" />
+        <menuitem name="DATA UPLOAD" parent="menu_gst" id="menu_upload_report" sequence="3" />
+		<menuitem name="Setup" parent="menu_gst" id="menu_gst_setup" sequence="4" />
+		
+	
+		
+		<!-- customer reg setup tree view-->
+		
+        <record id="view_gst_header_tree_view" model="ir.ui.view">
+            <field name="name">GST SALES</field>
+            <field name="model">gst.header.sales</field>
+            <field name="arch" type="xml">
+                <tree string="GST SALES">
+                    <!-- <field name="sequence" readonly="1"/> -->
+					<field name="firm" />
+					<field name="month"/>
+					<field name="month_number"/>
+					<field name="financial_year" />
+					<field name="bill_amount" sum="BILL AMOUNT" />
+					<field name="total_cgst" sum="TOTAL CGST" />
+					<field name="total_sgst" sum="TOTAL SGST"/>
+					<field name="total_igst" sum="TOTAL IGST"/>
+					<field name="total_tax" sum="TOTAL TAX"/>
+					<field name="total_bill_amount" sum="TOTAL BILL(Incl. Tax)" />
+					<field name="state" />
+                </tree>
+            </field>
+        </record>
+		
+		
+		<record id="view_gst_header_sales_tree_view_search" model="ir.ui.view">
+            <field name="name">GST SALES SEARCH</field>
+            <field name="model">gst.header.sales</field>
+            <field name="arch" type="xml">
+                <search string="SALES SEARCH">
+                    <field name="firm"/>
+                    <field name="financial_year"/>
+                    <field name="month_number"/>
+                    <group expand="1" string="Group By...">
+                        <filter name='financial_year' string="FINANCIAL YEAR" icon="terp-personal" domain="[]" context="{'group_by':'financial_year'}"/>
+						<filter name='firm' string="FIRM" icon="terp-personal" domain="[]" context="{'group_by':'firm'}"/> 
+                    </group>
+                </search>
+            </field>
+        </record>
+		
+		<!-- GST form view-->
+		<record id="view_customer_bill_form" model="ir.ui.view">
+            <field name="name">GST SALES</field>
+            <field name="model">gst.header.sales</field>
+            <field name="arch" type="xml">
+			
+                <form string='GST Form' version='7.0' class="oe_lunch" delete="false">
+                    <header>
+						<button name='print_sales' string='PRINT SALES' type="object" />
+						<button name='revoke' string='Revoke' type="object" />
+						<button name='cancel' string='Cancel' type="object" />
+						<button name='gst_submit' string='Submit For GST' type="object" />
+						<field name='state' widget='statusbar' statusbar_visible='draft,created,submit for gst,cancelled'/>
+                    </header>
+                    <sheet>
+                        <group>
+                            <group>
+                                <!-- <field name="sequence"/> -->
+								<field name="month" string="Month" attrs="{'readonly': [('state','!=','draft')]}" />
+								<field name="month_number" string="Month" attrs="{'readonly': [('state','!=','draft')]}" />
+								<field name="type" string="Type" attrs="{'readonly': True}"/>
+								<field name="book_nums" string="Bill Book Numbers" />
+                            </group>
+                            <group> 
+                                <field name="firm" attrs="{'readonly': [('state','!=','draft')]}" />
+								<field name="financial_year" attrs="{'readonly': [('state','!=','draft')]}" domain="[('status','=','active')]"/>
+					            <field name="status" attrs="{'readonly': [('state','!=','draft')]}" />
+								
+                            </group>
+                        </group>
+                        
+                        <!--<separator string='Select your order'/> -->
+						<notebook>
+						<page string="GST Details">
+                        <field name="gst_header_details_line" string="GST Details" attrs="{'readonly': [('state','!=','draft'),('state','!=','created')]}" >
+								<tree string='List' editable='bottom' >
+									<field name="gst_header_id" invisible="1" />
+									<field name="bill_date" string="Bill Date(dd/mm/yyyy)" />
+									<field name="bill_num" string="BILL NO."/>
+									<field name="sold_to" string="CUSTOMER NAME"/>
+									<field name="gst_num" string="CUSTOMER'S GST" on_change="on_change_gst_num(gst_num)"/>
+									<field name="bill_amount" string="SALE VALUE" sum="Total Bill"  on_change="on_change_price_type(bill_amount,gst_type)"/>
+									<field name="gst_type" on_change="on_change_price_type(bill_amount,gst_type)"/>
+									<field name="cgst" string="CGST" sum="Total CGST" on_change="on_change_gst_tax_values(cgst,sgst,igst,total_tax,bill_amount)"/>
+									<field name="sgst" string="SGST" sum="Total SGST" on_change="on_change_gst_tax_values(cgst,sgst,igst,total_tax,bill_amount)"/>
+									<field name="igst" string="IGST" sum="Total IGST" on_change="on_change_gst_tax_values(cgst,sgst,igst,total_tax,bill_amount)"/>
+									<field name="total_tax" string="TOT TAX" sum="Total Bill" on_change="on_change_gst_tax_values(cgst,sgst,igst,total_tax,bill_amount)"/>
+									<field name="total_with_gst" string="TOT BILL" sum="Total Bill"/>
+									<!-- <field name="transport" string="Transport" /> -->
+									<field name="rcm" string="RCM" />
+									<field name="place" string="Place" />
+									<field name="country_state" string="STATE" no_open="false"/>
+						
+								</tree>
+							</field>
+						</page>
+						
+						</notebook>
+                        <!--<group class='oe_subtotal_footer oe_right'>
+                            <field name='bill_amount'/>							
+                        </group> -->
+                        <br/><br/>
+                    </sheet>
+                </form>
+				
+			</field>
+		</record>
+		
+		
+      
+        <record id="action_gst_header" model="ir.actions.act_window">
+			<!-- <field name="context">{'search_default_group_financial_year': 1}</field> -->
+			<field name="context">{'group_by':['financial_year','firm']}</field>
+            <field name="name">GST SALES</field>
+            <field name="res_model">gst.header.sales</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_gst_header" id="menu_action_gst_header"
+		        parent="menu_gst_header" name="GST SALES" sequence="1" />	
+				
+		<!-- ######### Country State setup start ############-->
+		
+        <record id="view_state_tree" model="ir.ui.view">
+            <field name="name">State Details</field>
+            <field name="model">gst.state.code.setup</field>
+            <field name="arch" type="xml">
+                <tree string="State Details">
+                    <field name="state_name"/>
+                    <field name="state_code"/>
+                    <field name="description" />
+					<field name="status" />
+                </tree>
+            </field>
+        </record>
+		
+		<!-- Country State setup form view-->
+		<record id="view_state_form" model="ir.ui.view">
+            <field name="name">State Details</field>
+            <field name="model">gst.state.code.setup</field>
+            <field name="arch" type="xml">
+                <form string="State Details" >
+				    <group> 
+                        <group>
+                            <field name="state_name"/>
+                            <field name="state_code"/>
+                            <field name="description" />
+					        <field name="status" />
+						</group>
+						<group>
+						</group>
+                        </group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_state_setup" model="ir.actions.act_window">
+            <field name="name">State Details</field>
+            <field name="res_model">gst.state.code.setup</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		<menuitem  action="action_state_setup" id="menu_action_state_setup"
+		        parent="menu_gst_setup" name="State Details" sequence="1" />	
+
+		<record id="view_fin_year_tree" model="ir.ui.view">
+            <field name="name">Financial Year</field>
+            <field name="model">gst.financial.years</field>
+            <field name="arch" type="xml">
+                <tree string="Financial Year">
+                    <field name="fin_year" string="Financial Year"/>
+                    <field name="description" />
+					<field name="current_year" string="Current Year"/>
+					<field name="status" />
+                </tree>
+            </field>
+        </record>
+		
+		<!-- Country State setup form view-->
+		<record id="view_fin_year_form" model="ir.ui.view">
+            <field name="name">Financial Year</field>
+            <field name="model">gst.financial.years</field>
+            <field name="arch" type="xml">
+                <form string="Financial Year" >
+				    <group> 
+                        <group>
+                            <field name="fin_year" string="Financial Year"/>
+                            <field name="description" />
+					        <field name="current_year" string="Current Year"/>
+					        <field name="status" />
+						</group>
+						<group>
+						</group>
+                        </group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_fin_year_setup" model="ir.actions.act_window">
+            <field name="name">Financial Year</field>
+            <field name="res_model">gst.financial.years</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_fin_year_setup" id="menu_action_fin_year_setup"
+		        parent="menu_gst_setup" name="Financial Years" sequence="2" />	
+		
+		<!-- Purchased from setup tree view-->
+		<record id="view_purchased_from_tree" model="ir.ui.view">
+            <field name="name">Purchased From</field>
+            <field name="model">gst.purchased.from.setup</field>
+            <field name="arch" type="xml">
+                <tree string="Purchased From">
+                    <field name="shop_name" string="Shop Name"/>
+					<field name="gst_num" string="GSTin"/>
+                    <field name="description" />
+					<field name="status" />
+                </tree>
+            </field>
+        </record>
+		
+		<!-- Purchased from setup form view-->
+		<record id="view_purchased_from_form" model="ir.ui.view">
+            <field name="name">Purchased From</field>
+            <field name="model">gst.purchased.from.setup</field>
+            <field name="arch" type="xml">
+                <form string="Purchased From" >
+				    <group> 
+                        <group>
+                            <field name="shop_name" string="Shop Name"/>
+					        <field name="gst_num" string="GSTin" on_change="on_change_gst_num(gst_num)"/>
+					        <field name="description"/>
+					        <field name="status" />
+						</group>
+						<group>
+						</group>
+                        </group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_purchased_from_setup" model="ir.actions.act_window">
+            <field name="name">Purchased From</field>
+            <field name="res_model">gst.purchased.from.setup</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		<menuitem  action="action_purchased_from_setup" id="menu_purchased_from_setup"
+		        parent="menu_gst_setup" name="Purchased From" sequence="3" />
+				
+		<!-- Agent Details setup tree view-->
+		<record id="view_agent_tree" model="ir.ui.view">
+            <field name="name">Agent Details</field>
+            <field name="model">gst.agent.setup</field>
+            <field name="arch" type="xml">
+                <tree string="Agent Details">
+                    <field name="agent_name" string="Agent Name"/>
+                    <field name="description" />
+					<field name="status" />
+                </tree>
+            </field>
+        </record>
+		
+		<!-- Purchased from setup form view-->
+		<record id="view_agent_details_form" model="ir.ui.view">
+            <field name="name">Agent Details</field>
+            <field name="model">gst.agent.setup</field>
+            <field name="arch" type="xml">
+                <form string="Financial Year" >
+				    <group> 
+                        <group>
+                            <field name="agent_name" string="Agent Name"/>
+					        <field name="description"/>
+					        <field name="status" />
+						</group>
+						<group>
+						</group>
+                        </group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_gst_agent_setup" model="ir.actions.act_window">
+            <field name="name">Agent Details</field>
+            <field name="res_model">gst.agent.setup</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_gst_agent_setup" id="menu_agent_setup"
+		        parent="menu_gst_setup" name="Agent Data" sequence="4" />
+				
+
+	 </data>
+</openerp>
+
+ 
+
+
+
+
+
+
+
+
+
+
+

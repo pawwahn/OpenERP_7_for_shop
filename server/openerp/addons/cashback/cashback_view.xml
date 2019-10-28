@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- Top menu item -->
+        <menuitem id='menu_cashback' name='Cash Back System' sequence="10"/>
+		<menuitem name="Report" parent="menu_cashback" id="menu_cashback_report" sequence="2" />
+        <menuitem name="Configuration" parent="menu_cashback" id="menu_customer_creation_title" sequence="4" />
+		<menuitem name="Product Owner" parent="menu_cashback" id="menu_cb_product_owner" sequence="5" />
+		<menuitem name="Owner Actions" parent="menu_cashback" id="menu_owner_actions" sequence="3" />
+		<menuitem name="Bill Transcation" parent="menu_cashback" id="menu_customer_create_bill" sequence="1" />
+		
+		<!-- customer reg setup tree view-->
+		
+        <record id="view_customer_reg_tree" model="ir.ui.view">
+            <field name="name">customer details setup</field>
+            <field name="model">customer.details.setup</field>
+            <field name="arch" type="xml">
+                <tree string="Customer Details">
+                    <field name="customer_name"/>
+                    <field name="mob_no"/>
+                    <!-- <field name="customer_entry_date" />
+                     <field name="status"/> -->
+					<field name="address" />
+					<field name="amount_in_wallet" />
+                </tree>
+            </field>
+        </record>
+		
+		<!-- customer reg setup form view-->
+		<record id="view_customer_reg_form" model="ir.ui.view">
+            <field name="name">customer details setup</field>
+            <field name="model">customer.details.setup</field>
+            <field name="arch" type="xml">
+                <form string="Customer Details" >
+				<group>
+                        <group>
+                            <field name="customer_name"/>
+                            <field name="mob_no"/>
+							<field name="address" />
+							<field name="full_address" />
+						</group>	
+						<group>
+                            <field name="customer_entry_date" />
+                            <field name="status"/>
+							<field name="amount_in_wallet" />
+                        </group>
+				</group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_customer_reg_setup" model="ir.actions.act_window">
+            <field name="name">Customer Registration Setup</field>
+            <field name="res_model">customer.details.setup</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_customer_reg_setup" id="menu_action_cust_reg_setup"
+		        parent="menu_customer_creation_title" name="Customer Registration" sequence="1" />	
+				
+				
+		<!-- customer reg setup tree view-->
+		
+        <record id="view_discount_tree" model="ir.ui.view">
+            <field name="name">Discount Details</field>
+            <field name="model">range.of.discount.setup</field>
+            <field name="arch" type="xml">
+                <tree string="Discount Details">
+                    <field name="from_range"/>
+                    <field name="to_range"/>
+                    <field name="discount_in_per" />
+                    <field name="status"/>
+                </tree>
+            </field>
+        </record>
+		
+		<!-- customer reg setup form view-->
+		<record id="view_discount_form" model="ir.ui.view">
+            <field name="name">Discount setup</field>
+            <field name="model">range.of.discount.setup</field>
+            <field name="arch" type="xml">
+                <form string="Discount Details" >
+				    <!--<group> -->
+                        <group>
+                            <field name="from_range"/>
+                            <field name="to_range"/>
+							<field name="discount_in_per"/> 
+							<field name="status"/>
+						</group>	
+						<group>
+						</group>
+                        <!--</group>-->
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_discount_setup" model="ir.actions.act_window">
+            <field name="name">Discount Details</field>
+            <field name="res_model">range.of.discount.setup</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_discount_setup" id="menu_action_discount_setup"
+		        parent="menu_owner_actions" name="Discount Details" sequence="2" />
+				
+		<!-- cities or towns setup -->
+		
+		<record id="view_cities_tree" model="ir.ui.view">
+            <field name="name">Place</field>
+            <field name="model">customer.place</field>
+            <field name="arch" type="xml">
+                <tree string="Customer Place">
+                    <field name="name"/>
+                    <field name="description"/>      
+                    <field name="status"/>
+                </tree>
+            </field>
+        </record>
+		
+		<record id="view_cities_form" model="ir.ui.view">
+            <field name="name">Place</field>
+            <field name="model">customer.place</field>
+            <field name="arch" type="xml">
+                <form string="Customer_place" >
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+							<field name="status"/>
+						</group>	
+						<group>
+                            
+                        </group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_place_setup" model="ir.actions.act_window">
+            <field name="name">Place</field>
+            <field name="res_model">customer.place</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_place_setup" id="menu_action_place"
+		        parent="menu_customer_creation_title" name="Customer Places" sequence="3" />
+        
+
+		<record id="view_customer_bill_tree" model="ir.ui.view">
+            <field name="name">Bill</field>
+            <field name="model">customer.bill</field>
+            <field name="arch" type="xml">
+                <tree string="Customer's Bill" >
+				    <field name="bill_date" />
+                    <field name="bill_no"/>
+                    <field name="mob_no"  />
+					<field name="bill_amount" sum="Total Bill"/>
+					<field name="amount_in_wallet" sum="Wallet Amount"/>
+					<field name="pay_final_bill"/>
+					<field name="discount_for_next_purchase" />
+					<field name="state" />
+					
+					
+                </tree>
+            </field>
+        </record>
+		
+		<!-- customer reg setup form view-->
+		<record id="view_customer_bill_form" model="ir.ui.view">
+            <field name="name">Bill</field>
+            <field name="model">customer.bill</field>
+            <field name="arch" type="xml">
+			
+                <form string='Orders Form' version='7.0' class="oe_lunch" delete="false">
+                    <header>
+                        <button name='generate_bill' string='Generate Bill' type="object" />
+						<button name='revokeBill' string='Revoke' type="object" groups="cashback.group_cashback_owner,cashback.group_cashback_admin" /> <!--states= "billed" -->
+						<button name='print_bill' string='Print' type="object" />
+						<button name='cancel' string='Cancel' type="object" groups="cashback.group_cashback_owner,cashback.group_cashback_admin"/>
+						<button name='send_sms' string='Notify Customer' type="object" groups="cashback.group_cashback_owner,cashback.group_cashback_admin"/> 
+						<field name='state' widget='statusbar' statusbar_visible='new,edit,billed,cancelled'/>
+                    </header>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="bill_no"/>
+								<field name="mob_no" string="Mobile Number" attrs="{'readonly': [('state','!=','new')]}" on_change="on_changenumber(mob_no)"/>
+								<field name="customer_name" string='Customer Name' attrs="{'readonly': [('state','!=','new')]}" options="{'create': False, 'create_edit': False}"  />
+								<field name="discount_for_next_purchase" attrs="{'readonly': [('state','!=','new')]}" string='Credit balance for next purchase' />
+                            </group>
+                            <group> 
+                                <field name="bill_date" />
+								<field name="bill_amount" attrs="{'readonly': [('state','!=','new')]}"/>
+								<field name="amount_in_wallet" attrs="{'readonly': [('state','!=','new')]}"/>
+								<field name="pay_final_bill" attrs="{'readonly': [('state','!=','new')]}" />
+								
+                            </group>
+                        </group>
+                        
+                        <!--<separator string='Select your order'/> -->
+						<notebook>
+						<page string="Bill Details">
+                        <field name="customer_bill_details_line" string="Cutomer Bill Details" attrs="{'readonly': [('state','!=','new'),('state','!=','edit')]}" >
+								<tree string='List' editable='bottom'>
+									<field name="customer_bill_id" invisible="1" />
+									<field name="product_name"/>
+									<field name="description" />
+									<field name="quantity" on_change="on_change_price(quantity,price)"/>
+									<field name="price" on_change="on_change_price(quantity,price)" />
+									<field name="product_wise_tot_bill" />
+								</tree>
+							</field>
+						</page>
+						<page string="History Details">
+							<field name="history_line" readonly="1" nolabel="1" >
+							<tree string='List' editable="bottom" create="false" delete="false">
+								<field name='customer_history_id' invisible="1" />
+								<field name='remarks'/>
+								<field name='value_from' />
+								<field name='value_to'/>
+								<field name='date'/>
+								<field name='modified_by'/>
+							</tree>
+							</field>
+						</page>
+						
+						</notebook>
+                        <!--<group class='oe_subtotal_footer oe_right'>
+                            <field name='bill_amount'/>							
+                        </group> -->
+                        <br/><br/>
+                    </sheet>
+                </form>
+				
+			</field>
+		</record>
+						<!-- <record model="ir.ui.view"  id="restrict_button_to_others">
+						<field name="name">view.customer.bill</field>
+						<field name="model">customer.bill</field>
+						<field name="inherit_id" ref="view_customer_bill_form"/>
+						<field name="groups_id" eval="[(3, 0, [ref('group_cashback_owner') ])]"/>
+						<field name="arch" type="xml">
+							<field name="bill_no" position="after">   -->
+								<!-- whatever you will place here will be shown only to members of 'name_of_your_group' -->
+							<!--	<button name='revokeBill' string='Revoke' type="object" />
+							</field>
+						</field>
+					</record> -->
+		
+		
+        <record id="action_customer_bill" model="ir.actions.act_window">
+            <field name="name">Bill</field>
+            <field name="res_model">customer.bill</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		<record id="seq_bill" model="ir.sequence.type">
+		    <field name="name">Customer Bill</field>
+			<field name="code">customer.bill.sequence</field>
+	    </record>
+		
+		<record id="id_seq_bill" model="ir.sequence">
+		    <field name="name">Customer Bill</field>
+			<field name="code">customer.bill.sequence</field>
+			<field name="prefix">Bill/%(year)s/</field>
+			<field name="padding">5</field>
+			<field name="bill_no" eval="False" />
+	    </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_customer_bill" id="menu_action_cust_bill"
+		        parent="menu_customer_create_bill" name="Generate Bill" sequence="1" />	
+				
+	
+		<!-- sms settings tree view-->
+		
+        <record id="view_sms_tree_view" model="ir.ui.view">
+            <field name="name">sms details setup</field>
+            <field name="model">sms.details.setup</field>
+            <field name="arch" type="xml">
+                <tree string="SMS Details">
+                    <field name="authkey"/>
+					<field name="sender" />
+					<field name="route" />
+					<field name="status" />
+                </tree>
+            </field>
+        </record>
+		
+		<!-- sms settings setup form view-->
+		<record id="view_sms_form_view" model="ir.ui.view">
+            <field name="name">sms details setup</field>
+            <field name="model">sms.details.setup</field>
+            <field name="arch" type="xml">
+                <form string="SMS Details" >
+                        <group>
+							<field name="authkey" string="Auth Key"/>
+							<field name="sender" string="Sender" />
+							<field name="route" string="Route" />
+							<field name="status" string="Status" />
+						</group>	
+						<group>
+
+                        </group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_sms_setup" model="ir.actions.act_window">
+            <field name="name">SMS details Setup</field>
+            <field name="res_model">sms.details.setup</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_sms_setup" id="menu_action_sms_setup"
+		        parent="menu_customer_creation_title" name="SMS " sequence="4" />
+				
+				
+		<!-- Product Owner vs Product User tree view-->
+		
+        <record id="view_app_tree_view" model="ir.ui.view">
+            <field name="name">sms details setup</field>
+            <field name="model">cb.setup.configuration</field>
+            <field name="arch" type="xml">
+                <tree string="Application Details">
+					<field name="sms_fixed_balance" />
+                    <field name="sms_consumed"/>
+					<field name="application_last_date" /> 
+                </tree>
+            </field>
+        </record>
+		
+		<!-- Product Owner vs Product User form view-->
+		<record id="view_app_form_view" model="ir.ui.view">
+            <field name="name">Application setup</field>
+            <field name="model">cb.setup.configuration</field>
+            <field name="arch" type="xml">
+                <form string="Application Details" >
+                        <group>
+							<field name="sms_fixed_balance" string="SMS Fixed Balance"/>
+							<field name="sms_consumed" string="SMS Consumed" />
+							<field name="application_last_date" string="App Last Date" />
+						</group>	
+						<group>
+
+                        </group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_app_setup" model="ir.actions.act_window">
+            <field name="name">Application Setup</field>
+            <field name="res_model">cb.setup.configuration</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_app_setup" id="menu_action_app_setup"
+		        parent="menu_cb_product_owner" name="Application Details " sequence="5" />
+
+	 </data>
+</openerp>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

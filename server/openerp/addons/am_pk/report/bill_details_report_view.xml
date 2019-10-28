@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+		
+		<!--	<record id="view_bill_form" model="ir.ui.view">
+            <field name="name">Credit Customer Bill Detail Report</field>
+           <field name="model">credit.customer.bill.payment.report</field>
+            <field name="arch" type="xml">
+                <form string="Print Data" >
+                      <group>
+                            <field name="from_date"/>
+                            <field name="address"/>
+							<field name="mob_no"/>
+						</group>	
+						<group>
+                            <field name="to_date" />
+                            <field name="state"/>
+							
+                        </group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_bill_details_setup" model="ir.actions.act_window">
+            <field name="name">Credit Customer Bill Detail Report</field>
+            <field name="res_model">credit.customer.bill.payment.report</field> 
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		-->
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<!-- <menuitem  action="action_bill_details_setup" id="menu_action_bill_details"
+		        parent="menu_credits" name="Bill Payment Details" sequence="1" /> -->
+				
+        <!-- to receive amount report-->
+
+		<record model="ir.ui.view" id="to_recieve_report_form_view">
+			<field name="name">Income Report</field>
+			<field name="model">to.recieve.report</field>
+			<field name="arch" type="xml">
+				<form string="Income Report" version="7.0">
+					<style>
+						.oe_header_row{
+                              display:none;
+             			 	}
+       				</style>
+					<header>
+						<button  name="get_income_report" string="Download Income Report"
+							type="object" colspan="2" default_focus="2" />
+						<button string="Cancel"  special="cancel" />				
+					</header>
+					<group>
+						<group>
+							<field name="from_date"  required="1" />
+							<field name="place" />
+							<field name="bill_type" />
+						</group>
+						<group>
+							<field name="to_date"  required="1" />
+							<field name="state" />
+							<field name="customer_name" />
+						</group>
+					</group>
+				</form>
+			</field>
+		</record>
+		<record id="income_report_action" model="ir.actions.act_window">
+			<field name="name">To Receive Report</field>
+			<field name="res_model">to.recieve.report</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">form</field>
+			<field name="target">new</field>
+		</record>
+		<!-- <menuitem action="income_report_action" id="income_action_report" groups="group_credit_admin"
+			parent="menu_reports" name="To Recieve Report" sequence="02" />  -->
+
+
+    </data>
+</openerp>

@@ -1,0 +1,23 @@
+2018-08-03 14:43:27,029 18016 INFO ? werkzeug: 127.0.0.1 - - [03/Aug/2018 14:43:27] "GET / HTTP/1.1" 200 -
+2018-08-04 13:58:31,038 18016 ERROR openerp_7 openerp.sql_db: Connection to the database failed
+Traceback (most recent call last):
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\sql_db.py", line 442, in borrow
+  File "psycopg2\__init__.pyc", line 164, in connect
+OperationalError: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+
+2018-08-04 13:59:22,880 18016 ERROR openerp_7 openerp.sql_db: Connection to the database failed
+Traceback (most recent call last):
+  File "S:\OpenERP 7.0-20150328\server\.\openerp\sql_db.py", line 442, in borrow
+  File "psycopg2\__init__.pyc", line 164, in connect
+OperationalError: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+

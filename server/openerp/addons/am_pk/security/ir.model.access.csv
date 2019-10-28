@@ -1,0 +1,27 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+credit_customer_bill_owner,Credit Customer Bill owner,model_credit_customer_bill,group_credit_owner,1,1,1,0
+credit_customer_bill_details_owner,Credit Customer Bill details owner,model_credit_customer_bill_details,group_credit_owner,1,1,1,0
+credit_customer_payment_details_owner,Credit Customer payment details owner,model_credit_customer_payment_details,group_credit_owner,1,1,1,0
+payment_type_setup_owner,payment type setup owner,model_payment_type_setup,group_credit_owner,1,1,1,0
+bill_type_setup_owner,bill type setup owner,model_bill_type_setup,group_credit_owner,1,1,1,0
+to_recieve_report_detail_owner,to_recieve_report_detail owner,model_to_recieve_report_detail,group_credit_owner,1,1,1,0
+to_recieve_report_owner,to_recieve_report owner,model_to_recieve_report,group_credit_owner,1,1,1,0
+customer_bills_payments_owner,Credit Bills Payments Owner,model_customer_bills_payments,group_credit_owner,1,1,1,0
+,,,,,,,
+credit_customer_bill_staff,Credit Customer Bill Staff,model_credit_customer_bill,group_credit_staff,1,1,1,0
+credit_customer_bill_details_staff,Credit Customer Bill details staff,model_credit_customer_bill_details,group_credit_staff,1,1,1,0
+credit_customer_payment_details_staff,Credit Customer payment details staff,model_credit_customer_payment_details,group_credit_staff,1,1,1,0
+payment_type_setup_staff,payment type setup staff,model_payment_type_setup,group_credit_staff,1,1,1,0
+bill_type_setup_staff,bill type setup staff,model_bill_type_setup,group_credit_staff,1,1,1,0
+to_recieve_report_detail_staff,to_recieve_report_detail staff,model_to_recieve_report_detail,group_credit_staff,1,1,1,0
+to_recieve_report_staff,to_recieve_report staff,model_to_recieve_report,group_credit_staff,1,1,1,0
+customer_bills_payments_staff,Credit Bills Payments staff,model_customer_bills_payments,group_credit_staff,1,1,1,0
+,,,,,,,
+credit_customer_bill_admin,Credit Customer Bill admin,model_credit_customer_bill,group_credit_admin,1,1,1,1
+credit_customer_bill_details_admin,Credit Customer Bill details admin,model_credit_customer_bill_details,group_credit_admin,1,1,1,1
+credit_customer_payment_details_admin,Credit Customer payment details admin,model_credit_customer_payment_details,group_credit_admin,1,1,1,1
+payment_type_setup_admin,payment type setup admin,model_payment_type_setup,group_credit_admin,1,1,1,1
+bill_type_setup_admin,bill type setup admin,model_bill_type_setup,group_credit_admin,1,1,1,1
+to_recieve_report_detail_admin,to_recieve_report_detail admin,model_to_recieve_report_detail,group_credit_admin,1,1,1,1
+to_recieve_report_admin,to_recieve_report admin,model_to_recieve_report,group_credit_admin,1,1,1,1
+customer_bills_payments_admin,Credit Bills Payments admin,model_customer_bills_payments,group_credit_admin,1,1,1,1

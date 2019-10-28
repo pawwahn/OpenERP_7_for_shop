@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- Top menu item -->	
+	
+		
+		<!-- customer reg setup tree view-->
+		
+        <record id="view_gst_header_purchase_tree_view" model="ir.ui.view">
+            <field name="name">GST PURCHASE</field>
+            <field name="model">gst.header.purchase</field>
+            <field name="arch" type="xml">
+                <tree string="GST PURCHASE">
+                    <!-- <field name="sequence" readonly="1"/> -->
+                    
+					<field name="firm" />
+					<field name="month"/>
+					<field name="month_number"/>
+					<field name="financial_year"/>
+					<field name="bill_amount" sum="BILL AMOUNT" />
+					<field name="total_cgst" sum="TOTAL CGST" />
+					<field name="total_sgst" sum="TOTAL SGST"/>
+					<field name="total_igst" sum="TOTAL IGST"/>
+					<field name="total_tax" sum="TOTAL TAX"/>
+					<field name="total_bill_amount" sum="TOTAL BILL(Incl. Tax)" />
+					<field name="state" />
+                </tree>
+            </field>
+        </record>
+		
+		
+		<record id="view_gst_header_tree_view_search" model="ir.ui.view">
+            <field name="name">GST PURCHASE SEARCH</field>
+            <field name="model">gst.header.purchase</field>
+            <field name="arch" type="xml">
+                <search string="PURCHASE SEARCH">
+                    <field name="firm"/>
+                    <field name="financial_year"/>
+                    <field name="month_number"/>
+                    <group expand="1" string="Group By...">
+                        <filter name='financial_year' string="FINANCIAL YEAR" icon="terp-personal" domain="[]" context="{'group_by':'financial_year'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+		
+		<!-- GST form view-->
+		<record id="view_gst_purchase_form" model="ir.ui.view">
+            <field name="name">GST PURCHASE</field>
+            <field name="model">gst.header.purchase</field>
+            <field name="arch" type="xml">
+			
+                <form string='GST Form' version='7.0' class="oe_lunch" delete="false">
+                    <header>
+						<button name='print_purchase' string='PRINT PURCHASE' type="object" />
+						<button name='revoke' string='Revoke' type="object" />
+						<button name='cancel' string='Cancel' type="object" />
+						<button name='gst_submit' string='Submit For GST' type="object" />
+						<field name='state' widget='statusbar' statusbar_visible='draft,created,submit for gst,cancelled'/>
+                    </header>
+                    <sheet class='oe_form_sheet_width'>
+                        <group>
+                            <group>
+                                <!-- <field name="sequence"/> -->
+								<field name="month" string="Month" attrs="{'readonly': [('state','!=','draft')]}" />
+								<field name="type" string="Type" attrs="{'readonly': True}"/>
+								<field name="month_number" string="Month" attrs="{'readonly': [('state','!=','draft')]}" />
+                            </group>
+                            <group> 
+                                <field name="firm" attrs="{'readonly': [('state','!=','draft')]}" />
+								<field name="financial_year" attrs="{'readonly': [('state','!=','draft')]}" domain="[('status','=','active')]"/>
+					            <field name="status" attrs="{'readonly': [('state','!=','draft')]}" />
+								
+                            </group>
+                        </group>
+                        
+                        <!--<separator string='Select your order'/> -->
+						<notebook>
+						<page string="GST Purchase Details">
+                        <field name="gst_header_details_purchase_line" string="GST PURCHASE DETAILS" attrs="{'readonly': [('state','!=','draft'),('state','!=','created')]}" >
+								<tree string='List' editable='bottom' >
+									<field name="gst_header_id" invisible="1" />
+									<field name="bill_date" string="Bill Date(dd/mm/yyyy)"/>
+									<field name="bill_num" string="BILL NO."/>
+									<field name="purchase_from_many_to_one" string="Purchased From" on_change="on_change_purcahse_from(purchase_from_many_to_one,bill_num,bill_date)"/>
+									<!-- <field name="purchase_from" string="CUSTOMER NAME"/> -->
+									<field name="agent_id" string="Agency Name" />
+									<field name="gst_num" string="GST NO" on_change="on_change_gst_num(gst_num)"/>
+									<field name="bill_amount" string="SALE VALUE" sum="Total Bill"  on_change="on_change_price_type_purchase(bill_amount,gst_type)"/>
+									<field name="gst_type" on_change="on_change_price_type_purchase(bill_amount,gst_type)"/>
+									<field name="cgst" string="CGST" sum="Total CGST" on_change="on_change_gst_tax_values_purchase(cgst,sgst,igst,total_tax,bill_amount)"/>
+									<field name="sgst" string="SGST" sum="Total SGST" on_change="on_change_gst_tax_values_purchase(cgst,sgst,igst,total_tax,bill_amount)"/>
+									<field name="igst" string="IGST" sum="Total IGST" on_change="on_change_gst_tax_values_purchase(cgst,sgst,igst,total_tax,bill_amount)"/>
+									<field name="total_tax" string="TOT TAX" sum="Total Bill" on_change="on_change_gst_tax_values_purchase(cgst,sgst,igst,total_tax,bill_amount)"/>
+									<field name="total_with_gst" string="TOT BILL" sum="Total Bill"/>
+									<field name="hsn" string="HSN" />
+									<field name="place" string="PLACE"/>
+									<field name="country_state" string="STATE" no_open="false"/>
+									<field name="remarks" string="REMARKS" />
+									<field name="current_date" string="DATE TIME" />
+									
+						
+								</tree>
+							</field>
+						</page>
+						
+						</notebook>
+                        <!--<group class='oe_subtotal_footer oe_right'>
+                            <field name='bill_amount'/>							
+                        </group> -->
+                        <br/><br/>
+                    </sheet>
+                </form>
+				
+			</field>
+		</record>
+		
+		
+      
+        <record id="action_gst_header_purchase" model="ir.actions.act_window">
+            <field name="name">GST PURCHASE</field>
+			<field name="context">{'group_by':['financial_year','firm']}</field>
+            <field name="res_model">gst.header.purchase</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_gst_header_purchase" id="menu_action_gst_header_purchase"
+		        parent="menu_gst_header" name="GST PURCHASE" sequence="2" />	
+				
+	
+				
+				
+
+	 </data>
+</openerp>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

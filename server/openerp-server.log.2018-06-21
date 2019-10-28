@@ -1,0 +1,466 @@
+2018-06-21 19:35:06,907 17048 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-06-21 19:35:06,931 17048 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 19:35:06,950 17048 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-06-21 19:35:07,203 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:35:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:35:08,763 17048 INFO openerp_7 root: 2
+2018-06-21 19:35:08,765 17048 INFO openerp_7 root: *******???????????
+2018-06-21 19:35:08,765 17048 INFO openerp_7 root: browse_record(gst.purchased.from.setup, 2)
+2018-06-21 19:35:08,878 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:35:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:35:09,374 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:35:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:35:09,605 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:35:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:35:15,209 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:35:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:35:16,868 17048 INFO openerp_7 root: 1
+2018-06-21 19:35:16,871 17048 INFO openerp_7 root: *******???????????
+2018-06-21 19:35:16,871 17048 INFO openerp_7 root: browse_record(gst.purchased.from.setup, 1)
+2018-06-21 19:35:17,013 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:35:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:35:17,213 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:35:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:35:20,598 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:35:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:35:22,069 17048 INFO openerp_7 root: 2
+2018-06-21 19:35:22,073 17048 INFO openerp_7 root: *******???????????
+2018-06-21 19:35:22,075 17048 INFO openerp_7 root: browse_record(gst.purchased.from.setup, 2)
+2018-06-21 19:35:22,217 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:35:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:35:22,427 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:35:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:36:24,471 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:36:24] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:36:25,865 17048 INFO openerp_7 root: 1
+2018-06-21 19:36:25,868 17048 INFO openerp_7 root: *******???????????
+2018-06-21 19:36:25,868 17048 INFO openerp_7 root: browse_record(gst.purchased.from.setup, 1)
+2018-06-21 19:36:26,032 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:36:26] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:36:26,444 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:36:26] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:36:30,128 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:36:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:39:46,229 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:39:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:39:46,362 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:39:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:39:46,460 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:39:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:39:46,615 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:39:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:39:46,766 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:39:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:39:46,940 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:39:46] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 19:39:47,239 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:39:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:39:47,747 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:39:47] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 19:49:44,056 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:49:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:49:45,328 17048 INFO openerp_7 root: 2
+2018-06-21 19:49:45,332 17048 INFO openerp_7 root: *******???????????
+2018-06-21 19:49:45,334 17048 INFO openerp_7 root: browse_record(gst.purchased.from.setup, 2)
+2018-06-21 19:49:45,457 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:49:45] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:49:45,888 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:49:45] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:49:47,992 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:49:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:49:48,426 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:49:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:49:48,924 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:49:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:49:49,112 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:49:49] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 19:49:49,391 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:49:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 19:49:49,608 17048 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 19:49:49] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:13:59,522 17716 INFO ? openerp: OpenERP version 7.0-20150328
+2018-06-21 20:13:59,522 17716 INFO ? openerp: addons paths: S:\OpenERP 7.0-20150328\server\openerp\addons
+2018-06-21 20:13:59,522 17716 INFO ? openerp: database hostname: localhost
+2018-06-21 20:13:59,522 17716 INFO ? openerp: database port: 5432
+2018-06-21 20:13:59,523 17716 INFO ? openerp: database user: openpg
+2018-06-21 20:14:01,009 17716 WARNING ? openerp.addons.google_docs.google_docs: Please install latest gdata-python-client from http://code.google.com/p/gdata-python-client/downloads/list
+2018-06-21 20:14:02,605 17716 INFO ? openerp: OpenERP server is running, waiting for connections...
+2018-06-21 20:14:02,614 17716 INFO ? openerp.service.wsgi_server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-06-21 20:14:06,569 17716 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-06-21 20:14:06,628 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:14:06,653 17716 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-06-21 20:14:06,898 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:06] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:14:07,075 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:07] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:14:07,351 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:08,193 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:08] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:14:08,670 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:08] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:14:08,936 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:09,046 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:09,388 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:09,493 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:09,982 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:09] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:14:13,717 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:14,505 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:14] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:14,746 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:14] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:14:14,921 17716 INFO ? werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:14] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-06-21 20:14:15,170 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:19,542 17716 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-06-21 20:14:19,753 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:14:19,766 17716 INFO openerp_7 openerp.modules.module: module gst: creating or updating database tables
+2018-06-21 20:14:19,851 17716 ERROR openerp_7 openerp.sql_db: Programming error: column "name" named in key does not exist
+, in query ALTER TABLE "gst_state_code_setup" ADD CONSTRAINT "gst_state_code_setup_unique_name" unique(name)
+2018-06-21 20:14:19,852 17716 WARNING openerp_7 openerp.osv.orm.schema: Table 'gst_state_code_setup': unable to add 'unique(name)' constraint !
+ If you want to have it, you should update the records and execute manually:
+ALTER TABLE "gst_state_code_setup" ADD CONSTRAINT "gst_state_code_setup_unique_name" unique(name)
+2018-06-21 20:14:20,127 17716 INFO openerp_7 openerp.modules.loading: module gst: loading gst_view.xml
+2018-06-21 20:14:20,506 17716 INFO openerp_7 openerp.modules.loading: module gst: loading gst_purchase_view.xml
+2018-06-21 20:14:20,559 17716 INFO openerp_7 openerp.modules.loading: module gst: loading report/gst_sales_purchase_report_view.xml
+2018-06-21 20:14:20,612 17716 INFO openerp_7 openerp.modules.loading: module gst: loading security/gst_security.xml
+2018-06-21 20:14:20,772 17716 INFO openerp_7 openerp.modules.loading: module gst: loading security/ir.model.access.csv
+2018-06-21 20:14:20,931 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:14:20,934 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:14:20,937 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:14:20,940 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:14:20,943 17716 WARNING openerp_7 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-06-21 20:14:20,943 17716 WARNING openerp_7 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-06-21 20:14:20,943 17716 WARNING openerp_7 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-06-21 20:14:20,943 17716 WARNING openerp_7 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-06-21 20:14:20,943 17716 WARNING openerp_7 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-06-21 20:14:20,944 17716 WARNING openerp_7 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-06-21 20:14:20,944 17716 WARNING openerp_7 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-06-21 20:14:20,944 17716 WARNING openerp_7 openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-06-21 20:14:20,944 17716 WARNING openerp_7 openerp.modules.loading: The model gst.agent.setup has no access rules, consider adding one. E.g. access_gst_agent_setup,access_gst_agent_setup,model_gst_agent_setup,,1,1,1,1
+2018-06-21 20:14:20,944 17716 WARNING openerp_7 openerp.modules.loading: The model gst.purchased.from.setup has no access rules, consider adding one. E.g. access_gst_purchased_from_setup,access_gst_purchased_from_setup,model_gst_purchased_from_setup,,1,1,1,1
+2018-06-21 20:14:21,084 17716 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-06-21 20:14:21,085 17716 INFO openerp_7 openerp.addons.base.res.res_config: getting next operation
+2018-06-21 20:14:21,085 17716 INFO openerp_7 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x04CA05F0>
+2018-06-21 20:14:21,091 17716 INFO openerp_7 openerp.addons.base.res.res_config: next action is None
+2018-06-21 20:14:21,213 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:21] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-06-21 20:14:21,423 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:21] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:14:21,766 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:21] "GET /?db=openerp_7&ts=1529612061230 HTTP/1.1" 200 -
+2018-06-21 20:14:23,305 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:23] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-06-21 20:14:25,540 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:25] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 304 -
+2018-06-21 20:14:26,207 17716 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-06-21 20:14:26,316 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:26] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-06-21 20:14:26,515 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:26] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-06-21 20:14:27,413 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:27] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-06-21 20:14:27,558 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:27] "POST /web/session/modules HTTP/1.1" 200 -
+2018-06-21 20:14:28,111 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:28] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-06-21 20:14:28,463 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:28] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-06-21 20:14:28,686 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:28,789 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:28,884 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:28] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:14:29,002 17716 INFO ? werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:29] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-06-21 20:14:29,020 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:29] "POST /web/menu/load HTTP/1.1" 200 -
+2018-06-21 20:14:29,322 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:29,563 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:29] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-06-21 20:14:29,673 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:29,760 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:29] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:14:29,892 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:30,003 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:30,479 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:30] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:14:30,683 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:31,164 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:31,490 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:31,512 17716 INFO ? werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:31] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-06-21 20:14:31,653 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:31] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:14:31,752 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:31,990 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:32,559 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:32] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:14:36,296 17716 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-06-21 20:14:36,342 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:14:36,358 17716 INFO openerp_7 openerp.modules.module: module gst: creating or updating database tables
+2018-06-21 20:14:36,441 17716 ERROR openerp_7 openerp.sql_db: Programming error: column "name" named in key does not exist
+, in query ALTER TABLE "gst_state_code_setup" ADD CONSTRAINT "gst_state_code_setup_unique_name" unique(name)
+2018-06-21 20:14:36,441 17716 WARNING openerp_7 openerp.osv.orm.schema: Table 'gst_state_code_setup': unable to add 'unique(name)' constraint !
+ If you want to have it, you should update the records and execute manually:
+ALTER TABLE "gst_state_code_setup" ADD CONSTRAINT "gst_state_code_setup_unique_name" unique(name)
+2018-06-21 20:14:36,566 17716 INFO openerp_7 openerp.modules.loading: module gst: loading gst_view.xml
+2018-06-21 20:14:36,828 17716 INFO openerp_7 openerp.modules.loading: module gst: loading gst_purchase_view.xml
+2018-06-21 20:14:36,875 17716 INFO openerp_7 openerp.modules.loading: module gst: loading report/gst_sales_purchase_report_view.xml
+2018-06-21 20:14:36,907 17716 INFO openerp_7 openerp.modules.loading: module gst: loading security/gst_security.xml
+2018-06-21 20:14:37,042 17716 INFO openerp_7 openerp.modules.loading: module gst: loading security/ir.model.access.csv
+2018-06-21 20:14:37,178 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:14:37,181 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:14:37,184 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:14:37,187 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:14:37,188 17716 WARNING openerp_7 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-06-21 20:14:37,188 17716 WARNING openerp_7 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-06-21 20:14:37,188 17716 WARNING openerp_7 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-06-21 20:14:37,188 17716 WARNING openerp_7 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-06-21 20:14:37,188 17716 WARNING openerp_7 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-06-21 20:14:37,188 17716 WARNING openerp_7 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-06-21 20:14:37,188 17716 WARNING openerp_7 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-06-21 20:14:37,190 17716 WARNING openerp_7 openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-06-21 20:14:37,190 17716 WARNING openerp_7 openerp.modules.loading: The model gst.agent.setup has no access rules, consider adding one. E.g. access_gst_agent_setup,access_gst_agent_setup,model_gst_agent_setup,,1,1,1,1
+2018-06-21 20:14:37,190 17716 WARNING openerp_7 openerp.modules.loading: The model gst.purchased.from.setup has no access rules, consider adding one. E.g. access_gst_purchased_from_setup,access_gst_purchased_from_setup,model_gst_purchased_from_setup,,1,1,1,1
+2018-06-21 20:14:37,308 17716 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-06-21 20:14:37,309 17716 INFO openerp_7 openerp.addons.base.res.res_config: getting next operation
+2018-06-21 20:14:37,309 17716 INFO openerp_7 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x05C65E90>
+2018-06-21 20:14:37,313 17716 INFO openerp_7 openerp.addons.base.res.res_config: next action is None
+2018-06-21 20:14:37,421 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:37] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-06-21 20:14:37,907 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:37] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:14:37,973 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:37] "GET /?db=openerp_7&ts=1529612077444 HTTP/1.1" 200 -
+2018-06-21 20:14:38,196 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:38] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-06-21 20:14:38,594 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:38] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 304 -
+2018-06-21 20:14:39,259 17716 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-06-21 20:14:39,368 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:39] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-06-21 20:14:39,635 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:39] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-06-21 20:14:40,178 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:40] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-06-21 20:14:40,321 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:40] "POST /web/session/modules HTTP/1.1" 200 -
+2018-06-21 20:14:40,730 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:40] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-06-21 20:14:41,296 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:41] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:41,405 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:41] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:41,496 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:41] "POST /web/menu/load HTTP/1.1" 200 -
+2018-06-21 20:14:41,634 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:41] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:14:41,740 17716 INFO ? werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:41] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-06-21 20:14:41,765 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:41] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-06-21 20:14:41,950 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:41] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-06-21 20:14:42,187 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:42] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:42,394 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:42] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:42,546 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:42] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:14:42,667 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:42] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:42,887 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:42] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:43,332 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:43] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:14:43,477 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:43] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:43,676 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:43] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:43,888 17716 INFO ? werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:43] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-06-21 20:14:44,128 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:44,207 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:44] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:14:44,295 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:44,460 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:44] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:14:44,585 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:44] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:14:44,671 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:45,026 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:45] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:45,104 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:45] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:45,194 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:45] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:14:45,480 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:45] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:45,601 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:45] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:46,101 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:46,401 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:46] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:14:46,578 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:46] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:14:46,822 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:47,122 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:47,319 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:47,456 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:47,970 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:48,301 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:14:49,767 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:50,398 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:14:50,684 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:50] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:14:50,996 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:14:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:23,328 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:23] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:15:23,430 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:23] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:15:23,528 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:24,411 17716 INFO ? werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:24] "GET /am_pk/static/src/css/images/ui-icons_cc0000_256x240.png HTTP/1.1" 404 -
+2018-06-21 20:15:24,601 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:24] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:15:24,779 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:24] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:25,023 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:25] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:25,099 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:25] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:25,200 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:25] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:25,311 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:25] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:15:28,311 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:28,586 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:28,707 17716 INFO ? werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:28] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-06-21 20:15:29,052 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:15:29,118 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:31,056 17716 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-06-21 20:15:31,101 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:15:31,112 17716 INFO openerp_7 openerp.modules.module: module gst: creating or updating database tables
+2018-06-21 20:15:31,173 17716 ERROR openerp_7 openerp.sql_db: Programming error: column "name" named in key does not exist
+, in query ALTER TABLE "gst_state_code_setup" ADD CONSTRAINT "gst_state_code_setup_unique_name" unique(name)
+2018-06-21 20:15:31,173 17716 WARNING openerp_7 openerp.osv.orm.schema: Table 'gst_state_code_setup': unable to add 'unique(name)' constraint !
+ If you want to have it, you should update the records and execute manually:
+ALTER TABLE "gst_state_code_setup" ADD CONSTRAINT "gst_state_code_setup_unique_name" unique(name)
+2018-06-21 20:15:31,286 17716 INFO openerp_7 openerp.modules.loading: module gst: loading gst_view.xml
+2018-06-21 20:15:31,539 17716 INFO openerp_7 openerp.modules.loading: module gst: loading gst_purchase_view.xml
+2018-06-21 20:15:31,588 17716 INFO openerp_7 openerp.modules.loading: module gst: loading report/gst_sales_purchase_report_view.xml
+2018-06-21 20:15:31,625 17716 INFO openerp_7 openerp.modules.loading: module gst: loading security/gst_security.xml
+2018-06-21 20:15:31,786 17716 INFO openerp_7 openerp.modules.loading: module gst: loading security/ir.model.access.csv
+2018-06-21 20:15:31,959 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:15:31,960 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:15:31,963 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:15:31,966 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:15:31,967 17716 WARNING openerp_7 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-06-21 20:15:31,967 17716 WARNING openerp_7 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-06-21 20:15:31,967 17716 WARNING openerp_7 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-06-21 20:15:31,967 17716 WARNING openerp_7 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-06-21 20:15:31,967 17716 WARNING openerp_7 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-06-21 20:15:31,967 17716 WARNING openerp_7 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-06-21 20:15:31,967 17716 WARNING openerp_7 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-06-21 20:15:31,967 17716 WARNING openerp_7 openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-06-21 20:15:31,967 17716 WARNING openerp_7 openerp.modules.loading: The model gst.agent.setup has no access rules, consider adding one. E.g. access_gst_agent_setup,access_gst_agent_setup,model_gst_agent_setup,,1,1,1,1
+2018-06-21 20:15:31,967 17716 WARNING openerp_7 openerp.modules.loading: The model gst.purchased.from.setup has no access rules, consider adding one. E.g. access_gst_purchased_from_setup,access_gst_purchased_from_setup,model_gst_purchased_from_setup,,1,1,1,1
+2018-06-21 20:15:32,082 17716 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-06-21 20:15:32,085 17716 INFO openerp_7 openerp.addons.base.res.res_config: getting next operation
+2018-06-21 20:15:32,085 17716 INFO openerp_7 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x04A66790>
+2018-06-21 20:15:32,088 17716 INFO openerp_7 openerp.addons.base.res.res_config: next action is None
+2018-06-21 20:15:32,729 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:32] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-06-21 20:15:33,335 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:33] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:15:33,513 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:33] "GET /?db=openerp_7&ts=1529612132744 HTTP/1.1" 200 -
+2018-06-21 20:15:33,809 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:33] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-06-21 20:15:34,033 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:34] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 304 -
+2018-06-21 20:15:34,533 17716 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-06-21 20:15:34,631 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:34] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-06-21 20:15:34,865 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:34] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-06-21 20:15:35,230 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:35] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-06-21 20:15:35,375 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:35] "POST /web/session/modules HTTP/1.1" 200 -
+2018-06-21 20:15:35,815 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:35] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-06-21 20:15:36,181 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:36] "POST /web/menu/load HTTP/1.1" 200 -
+2018-06-21 20:15:36,332 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:36,414 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:36,528 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:36] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-06-21 20:15:36,647 17716 INFO ? werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:36] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-06-21 20:15:36,670 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:36] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:15:36,785 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:36] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:15:36,868 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:37,259 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:37,381 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:37,499 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:37] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 304 -
+2018-06-21 20:15:37,576 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:38,019 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:38] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:15:38,153 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:38] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:38,375 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:38] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:38,559 17716 INFO ? werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:38] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-06-21 20:15:38,828 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:38] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:38,917 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:38] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:15:39,017 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:39] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:39,247 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:39] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:15:39,680 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:15:39] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:25:42,121 17716 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-06-21 20:25:42,160 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:25:42,170 17716 INFO openerp_7 openerp.modules.module: module gst: creating or updating database tables
+2018-06-21 20:25:42,282 17716 ERROR openerp_7 openerp.sql_db: Programming error: column "name" named in key does not exist
+, in query ALTER TABLE "gst_state_code_setup" ADD CONSTRAINT "gst_state_code_setup_unique_name" unique(name)
+2018-06-21 20:25:42,282 17716 WARNING openerp_7 openerp.osv.orm.schema: Table 'gst_state_code_setup': unable to add 'unique(name)' constraint !
+ If you want to have it, you should update the records and execute manually:
+ALTER TABLE "gst_state_code_setup" ADD CONSTRAINT "gst_state_code_setup_unique_name" unique(name)
+2018-06-21 20:25:42,394 17716 INFO openerp_7 openerp.modules.loading: module gst: loading gst_view.xml
+2018-06-21 20:25:42,648 17716 INFO openerp_7 openerp.modules.loading: module gst: loading gst_purchase_view.xml
+2018-06-21 20:25:42,693 17716 INFO openerp_7 openerp.modules.loading: module gst: loading report/gst_sales_purchase_report_view.xml
+2018-06-21 20:25:42,724 17716 INFO openerp_7 openerp.modules.loading: module gst: loading security/gst_security.xml
+2018-06-21 20:25:42,861 17716 INFO openerp_7 openerp.modules.loading: module gst: loading security/ir.model.access.csv
+2018-06-21 20:25:43,012 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:25:43,013 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:25:43,016 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:25:43,019 17716 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-06-21 20:25:43,020 17716 WARNING openerp_7 openerp.modules.loading: The model gst.sales.purchase.report has no access rules, consider adding one. E.g. access_gst_sales_purchase_report,access_gst_sales_purchase_report,model_gst_sales_purchase_report,,1,1,1,1
+2018-06-21 20:25:43,020 17716 WARNING openerp_7 openerp.modules.loading: The model range.of.discount.setup has no access rules, consider adding one. E.g. access_range_of_discount_setup,access_range_of_discount_setup,model_range_of_discount_setup,,1,1,1,1
+2018-06-21 20:25:43,022 17716 WARNING openerp_7 openerp.modules.loading: The model customer.bill.history has no access rules, consider adding one. E.g. access_customer_bill_history,access_customer_bill_history,model_customer_bill_history,,1,1,1,1
+2018-06-21 20:25:43,022 17716 WARNING openerp_7 openerp.modules.loading: The model sms.details.setup has no access rules, consider adding one. E.g. access_sms_details_setup,access_sms_details_setup,model_sms_details_setup,,1,1,1,1
+2018-06-21 20:25:43,022 17716 WARNING openerp_7 openerp.modules.loading: The model cb.setup.configuration has no access rules, consider adding one. E.g. access_cb_setup_configuration,access_cb_setup_configuration,model_cb_setup_configuration,,1,1,1,1
+2018-06-21 20:25:43,022 17716 WARNING openerp_7 openerp.modules.loading: The model cashback.file.data has no access rules, consider adding one. E.g. access_cashback_file_data,access_cashback_file_data,model_cashback_file_data,,1,1,1,1
+2018-06-21 20:25:43,022 17716 WARNING openerp_7 openerp.modules.loading: The model cashback.summary has no access rules, consider adding one. E.g. access_cashback_summary,access_cashback_summary,model_cashback_summary,,1,1,1,1
+2018-06-21 20:25:43,022 17716 WARNING openerp_7 openerp.modules.loading: The model customer.dynamic.pay has no access rules, consider adding one. E.g. access_customer_dynamic_pay,access_customer_dynamic_pay,model_customer_dynamic_pay,,1,1,1,1
+2018-06-21 20:25:43,023 17716 WARNING openerp_7 openerp.modules.loading: The model gst.agent.setup has no access rules, consider adding one. E.g. access_gst_agent_setup,access_gst_agent_setup,model_gst_agent_setup,,1,1,1,1
+2018-06-21 20:25:43,023 17716 WARNING openerp_7 openerp.modules.loading: The model gst.purchased.from.setup has no access rules, consider adding one. E.g. access_gst_purchased_from_setup,access_gst_purchased_from_setup,model_gst_purchased_from_setup,,1,1,1,1
+2018-06-21 20:25:43,144 17716 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-06-21 20:25:43,147 17716 INFO openerp_7 openerp.addons.base.res.res_config: getting next operation
+2018-06-21 20:25:43,147 17716 INFO openerp_7 openerp.addons.base.res.res_config: getting next <openerp.addons.base.ir.ir_actions.ir_actions_todo object at 0x060902D0>
+2018-06-21 20:25:43,151 17716 INFO openerp_7 openerp.addons.base.res.res_config: next action is None
+2018-06-21 20:25:43,259 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:43] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-06-21 20:25:43,381 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:43] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:25:43,855 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:43] "GET /?db=openerp_7&ts=1529612743270 HTTP/1.1" 200 -
+2018-06-21 20:25:44,467 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:44] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-06-21 20:25:44,558 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:44] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 304 -
+2018-06-21 20:25:44,986 17716 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-06-21 20:25:45,118 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:45] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-06-21 20:25:45,640 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:45] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-06-21 20:25:45,970 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:45] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-06-21 20:25:46,082 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:46] "POST /web/session/modules HTTP/1.1" 200 -
+2018-06-21 20:25:46,638 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:46] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-06-21 20:25:46,769 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:46] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-06-21 20:25:47,111 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:47,178 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:47,267 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:47] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:25:47,390 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:47] "POST /web/menu/load HTTP/1.1" 200 -
+2018-06-21 20:25:47,430 17716 INFO ? werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:47] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-06-21 20:25:47,578 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:47,710 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:47,812 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:47] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:25:47,900 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:48,042 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:48,184 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:48] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 304 -
+2018-06-21 20:25:48,451 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:25:48,562 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:49,187 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:49,217 17716 INFO ? werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:49] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-06-21 20:25:49,305 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:49,625 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:49] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:25:49,714 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:50,213 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:50] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:25:52,049 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:52] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:25:52,326 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:52] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:25:52,835 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:52,901 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:53,015 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:53,269 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:53,423 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:53,999 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:53] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:25:56,654 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:56] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:25:57,131 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:57,210 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:57,308 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:57,529 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:57,630 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:58,072 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:58] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:25:59,401 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:25:59,950 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:25:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:26:00,164 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:26:00] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:26:00,377 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:26:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:26:06,897 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:26:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:26:34,779 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:26:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:26:34,967 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:26:34] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:26:35,211 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:26:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:26:35,368 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:26:35] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:26:35,634 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:26:35] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:26:35,747 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:26:35] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:43:52,908 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:43:52] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:43:53,252 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:43:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:43:53,543 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:43:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:43:53,842 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:43:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:43:54,095 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:43:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:43:54,849 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:43:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:43:55,348 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:43:55] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:43:57,701 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:43:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:43:58,128 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:43:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:02,453 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:02,707 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:02] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:44:07,470 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:25,025 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:25] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:25,177 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:25] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:44:25,499 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:25] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:26,270 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:26] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:44:26,496 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:26] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:26,697 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:26] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:44:27,051 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:27] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:44:28,578 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:28] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:44:28,891 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:29,132 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:29,426 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:30,095 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:30,625 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:31,569 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:31] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:44:32,407 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:32] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:44:32,808 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:33,028 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:33,240 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:33,384 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:33,907 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:34,161 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:34] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:44:36,414 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:36,671 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:36,915 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:36] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:44:43,323 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:43] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:43,868 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:43] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:44,253 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:44,845 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:44] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:44:45,441 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:45] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:44:52,071 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:52] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:44:52,292 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:52,526 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:52,615 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:52,711 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:52,848 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:53,288 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:53] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:44:57,641 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:57] "POST /web/action/load HTTP/1.1" 200 -
+2018-06-21 20:44:57,913 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:58,197 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:58,444 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:58,719 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:58,844 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:44:59,312 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:44:59] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:45:03,648 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:04,161 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:04,359 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-06-21 20:45:04,589 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:10,338 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:10] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:11,503 17716 INFO openerp_7 root: 1
+2018-06-21 20:45:11,507 17716 INFO openerp_7 root: *******???????????
+2018-06-21 20:45:11,507 17716 INFO openerp_7 root: browse_record(gst.purchased.from.setup, 1)
+2018-06-21 20:45:11,676 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:11] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:12,153 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:13,923 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:16,486 17716 INFO openerp_7 root: 2
+2018-06-21 20:45:16,486 17716 INFO openerp_7 root: *******???????????
+2018-06-21 20:45:16,486 17716 INFO openerp_7 root: browse_record(gst.purchased.from.setup, 2)
+2018-06-21 20:45:16,647 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:16] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:16,846 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:16] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:17,069 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:23,033 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:23,290 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:23,420 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:23,523 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:23,844 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:24,283 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:24] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-06-21 20:45:24,395 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:24] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-06-21 20:45:24,552 17716 INFO openerp_7 werkzeug: 127.0.0.1 - - [21/Jun/2018 20:45:24] "POST /web/dataset/search_read HTTP/1.1" 200 -

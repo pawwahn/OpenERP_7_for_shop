@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- Top menu item -->
+        <menuitem id='menu_accounts_skt' name='Account SKT' sequence="11"/>
+        <menuitem name="Configuration" parent="menu_accounts_skt" id="menu_accounts_configuration_skt" sequence="10" />
+		<menuitem name="Spendings" parent="menu_accounts_skt" id="menu_accounts_spendings_skt" sequence="1" />
+		
+		<!--  acc spending types setup starts  -->		
+		<!-- account spending types setup tree view -->
+		
+        <record id="account_spending_types_setup_tree" model="ir.ui.view">
+            <field name="name">account spending types</field>
+            <field name="model">account.spending.types.setup</field>
+            <field name="arch" type="xml">
+                <tree string="Spending Types">
+                   
+					<field name="date"/>
+                    <field name="name"/>
+                    <field name="status" />
+                </tree>
+            </field>
+        </record>
+		
+		<!-- account spending types setup tree view -->
+		<record id="account_spending_types_setup_form" model="ir.ui.view">
+            <field name="name">account spending types </field>
+            <field name="model">account.spending.types.setup</field>
+            <field name="arch" type="xml">
+			    <form string="Spending Types" >    
+						<group>
+                            <field name="date"/>
+                            <field name="name"/>
+							<field name="status" />
+							<field name="description" />
+						</group>	
+						<group>
+						</group>
+                </form>
+            </field>         
+        </record>
+		
+      
+        <record id="action_account_spending_types_setup" model="ir.actions.act_window">
+            <field name="name">Account Spending Types Setup</field>
+            <field name="res_model">account.spending.types.setup</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		<menuitem  action="action_account_spending_types_setup" id="menu_account_spending_types_setup"
+		        parent="menu_accounts_configuration_skt" name="Account Spending Types" sequence="10" />	
+		<!--  acc spending types setup ends  -->		
+				
+		<!-- account spendings tree view-->
+
+		<record id="view_account_spendings_tree" model="ir.ui.view">
+            <field name="name">Spendings</field>
+            <field name="model">account.spendings</field>
+            <field name="arch" type="xml">
+                <tree string="Account SKT" >
+                    <field name="acc_spend_sequence" />				
+				    <field name="created_date" />
+                    <field name="acc_spending_type_id"/>
+                    <field name="state"  />
+					<field name="final_amount"/>
+                </tree>
+            </field>
+        </record>
+		
+		<!-- account spendings form view-->
+		<record id="view_account_spendings_form" model="ir.ui.view">
+            <field name="name">Spendings</field>
+            <field name="model">account.spendings</field>
+            <field name="arch" type="xml">
+                <form string='Spending Form' version='7.0' class="oe_lunch" delete="false">
+                    <header>
+					    <button name='update' string='Update' type="object" />
+						<field name='state' widget='statusbar' statusbar_visible='new,in progress,financial year close,cancelled'/>
+                    </header>
+                   <sheet>
+                        <group>
+                            <group>
+                                <field name="acc_spend_sequence"/>
+								<field name="created_date" string='Created Date' />
+                            </group>
+                            <group> 
+							    <field name="name" attrs="{'readonly': [('state','==','in progress')]}"/>
+                                <field name="acc_spending_type_id" string='Spending Type' attrs="{'readonly': [('state','!=','new')]}" options="{'create': False, 'create_edit': False}"  />
+                            </group>
+                        </group>
+                        
+                        <separator string='Amount Spendings'/>
+                         <field name="acc_spending_details_line" string="Amount Spendings" >
+								  <tree string='List' editable='bottom'>
+							    <field name="account_spendings_id" invisible="1"  />
+									<field name="date" string="Date" style="width:15px;"/>
+									<field name="notes" string="Notes" />
+									<field name="amount" string="Amount" /> 
+								</tree>  
+							</field>  
+                        <group class='oe_subtotal_footer oe_right'>
+                            <field name='final_amount' attrs="{'readonly': [('state','not in','new')]}"/>
+                        </group>
+                        <br/><br/>
+                    </sheet> 
+                </form>
+			</field>
+		</record>
+		
+        <record id="action_account_spending" model="ir.actions.act_window">
+            <field name="name">Account Spendings</field>
+            <field name="res_model">account.spendings</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		
+		<record id="acc_spending_seq" model="ir.sequence.type">
+		    <field name="name">Account Spendings</field>
+			<field name="code">account.spending.sequence</field>
+	    </record>
+		
+		<record id="id_acc_spending_seq" model="ir.sequence">
+		    <field name="name">Account Spendings</field>
+			<field name="code">account.spending.sequence</field>
+			<field name="prefix">Acc/Spent/%(year)s/</field>
+			<field name="padding">5</field>
+			<field name="acc_spend_sequence" eval="False" />
+	    </record>
+
+		
+		 <!--View Search to group by employee and input/output (cashmoves)-->
+		<menuitem  action="action_account_spending" id="menu_action_acc_spending"
+		        parent="menu_accounts_spendings_skt" name="Spendings" sequence="1" />	
+		
+
+	 </data>
+</openerp>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+customer_bill_owner,Customer Bill owner,model_customer_bill,group_cashback_owner,1,1,1,1
+customer_bill_details_owner,Customer Bill details owner,model_customer_bill_details,group_cashback_owner,1,1,1,1
+customer_details_owner,Customer registration setup owner,model_customer_details_setup,group_cashback_owner,1,1,1,1
+customer_place_owner,Customer place owner,model_customer_place,group_cashback_owner,1,1,1,1
+customer_bill_staff,Customer Bill Staff,model_customer_bill,group_cashback_staff,1,1,1,0
+customer_bill_details_staff,Customer Bill details staff,model_customer_bill_details,group_cashback_staff,1,1,1,0
+customer_details_staff,Customer registration setup staff,model_customer_details_setup,group_cashback_staff,1,1,1,0
+customer_place_staff,Customer place staff,model_customer_place,group_cashback_staff,1,1,1,0
+customer_bill_admin,Customer Bill admin,model_customer_bill,group_cashback_admin,1,1,1,1
+customer_bill_details_admin,Customer Bill details admin,model_customer_bill_details,group_cashback_admin,1,1,1,1
+customer_details_admin,Customer registration setup admin,model_customer_details_setup,group_cashback_admin,1,1,1,1
+customer_place_admin,Customer place admin,model_customer_place,group_cashback_admin,1,1,1,1

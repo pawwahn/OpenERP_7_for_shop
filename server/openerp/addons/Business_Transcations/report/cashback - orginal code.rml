@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<document filename="Cashback Bill.pdf">
+  <template pageSize = "(23cm,29.7cm)" title="Cashback Bill" author="OpenERP" allowSplitting="20">
+    <pageTemplate id="first">
+      <pageGraphics>
+		<place x= "55" y="26" width="535" height="100">
+			<blockTable Style="Table8">
+				<tr>
+					<td>
+						<para style="Standard"><font color="white"></font></para>
+					</td>
+				</tr>
+			</blockTable>
+			<blockTable Style="Table1">
+				<tr>
+					<td>
+						<para style="Table_20_Heading1">Brought By(sign)</para>
+					</td>
+					<td>
+						<para style="Standard"><font color="white"></font></para>
+					</td>
+					<td>
+						<para style="Standard"><font color="white"></font></para>
+					</td>
+					<td>
+						<para style="Standard"><font color="white"></font></para>
+					</td>
+					<td>
+						<para style="Table_20_Heading1">Owner/Staff(sign)</para>
+					</td>
+				</tr>
+			</blockTable>
+		</place> 
+		<place x= "55" y="-45" width="535" height="100">
+			<para style="Standard"><font color="white"></font></para>
+		</place>
+		<place x= "55" y="-45" width="535" height="100">
+			<para style="Standard"><font color="white"></font></para>
+				<blockTable Style="Table8">
+				<tr>
+					<td>
+						<para style="footer" alignment="right">Page <pageNumber/><pageCount/></para>
+					</td>	
+						<drawString x="14cm" y="20cm"><pageCount/></drawString>
+				</tr>
+			</blockTable>
+		</place>
+		
+	  </pageGraphics>
+	  
+	  <frame id="first" x1="49.0" y1="39.0" width="555" height="772" />
+    </pageTemplate>
+</template>
+
+<stylesheet>
+	<blockTableStyle id="Table1">
+		<blockAlignment value="LEFT" />
+		<blockValign value="TOP" />
+		<lineStyle kind="GRID" colorName = "#000000" />
+		<lineStyle kind="OUTLINE" colorName = "black" thickness="0.5" />
+		<lineStyle kind="LINEBELOW" colorName = "#FFFFFF" start="0,3" stop="0,3"/>
+	</blockTableStyle>
+	
+	<blockTableStyle id="TableHeader">
+		<blockAlignment value="LEFT" />
+		<blockValign value="TOP" />
+		<lineStyle kind="GRID" colorName = "#FFFFFF" />
+		<lineStyle kind="OUTLINE" colorName = "#000000" thickness="0.6" />
+		<lineStyle kind="LINEBELOW" colorName = "#FFFFFF" start="0,0" stop="0,0"/>
+	</blockTableStyle>
+	
+	<blockTableStyle id="Table5">
+		<blockAlignment value="LEFT" />
+		<blockValign value="TOP" />
+		<lineStyle kind="LINEBEFORE" colorName = "#FFFFFF" start="0,0" stop="0,0"/>
+		<lineStyle kind="LINEAFTER" colorName = "#FFFFFF" start="0,0" stop="0,0"/>
+		<lineStyle kind="LINEABOVE" colorName = "#FFFFFF" start="0,0" stop="0,0"/>
+		<lineStyle kind="LINEBELOW" colorName = "#FFFFFF" start="0,0" stop="0,0"/>
+	</blockTableStyle>
+	
+	<blockTableStyle id="Table10">
+		<blockAlignment value="LEFT" />
+		<lineStyle kind="LINEBEFORE" colorName = "#FFFFFF" start="0,0" stop="0,0"/>
+		<lineStyle kind="LINEAFTER" colorName = "#FFFFFF" start="0,0" stop="0,0"/>
+	</blockTableStyle>
+	
+	<blockTableStyle id="Table8">
+		<blockAlignment value="LEFT" />
+		<blockValign value="TOP" />
+		<lineStyle kind="LINEBEFORE" colorName = "#FFFFFF" start="0,-1" stop="0,-1"/>
+		<lineStyle kind="LINEAFTER" colorName = "#FFFFFF" start="0,-1" stop="0,-1"/>
+		<lineStyle kind="LINEBELOW" colorName = "#FFFFFF" start="0,-1" stop="0,-1"/>
+	</blockTableStyle>
+	
+	<blockTableStyle id="Table9">
+		<blockAlignment value="LEFT" />
+		<blockValign value="TOP" />
+        <lineStyle kind="LINEABOVE" colorName = "#FFFFFF" start="0,0" stop="0,0"/>
+	</blockTableStyle>
+	
+	<blockTableStyle id="Table1_nb">
+		<blockAlignment value="LEFT" />
+		<blockValign value="TOP" />
+        <lineStyle kind="LINEABOVE" colorName = "#FFFFFF" start="0,0" stop="0,0"/>
+		<lineStyle kind="LINEABOVE" colorName = "#FFFFFF" start="1,0" stop="1,0"/>
+		<lineStyle kind="LINEABOVE" colorName = "#FFFFFF" start="2,0" stop="2,0"/>
+		<lineStyle kind="LINEBEFORE" colorName = "#FFFFFF" start="0,1" stop="0,-1"/>
+		<lineStyle kind="LINEBELOW" colorName = "#FFFFFF" start="0,-1" stop="0,-1"/>
+		<lineStyle kind="LINEBEFORE" colorName = "#FFFFFF" start="0,2" stop="0,-1"/>
+		<lineStyle kind="LINEBELOW" colorName = "#FFFFFF" start="0,-1" stop="0,-1"/>
+		<lineStyle kind="LINEABOVE" colorName = "#FFFFFF" start="1,2" stop="1,2"/>
+		<lineStyle kind="LINEABOVE" colorName = "#FFFFFF" start="2,2" stop="2,2"/>	
+	</blockTableStyle>
+	
+	<initialize>
+		<paraStyle name="all" alignment="justify" />
+	</initialize>
+	
+	<paraStyle name="Standard" font="Helvetica-Bold" alignment="CENTER" fontSize="14.0"/>
+	<paraStyle name="Standard_new" font="pegasus" alignment="CENTER" fontSize="14.0"/>
+	<paraStyle name="Standard_1" font="Helvetica-Bold" alignment="CENTER" fontSize="9.0"/>
+	<paraStyle name="bold" font="Helvetica-Bold" fontSize="10.0"/>
+	<paraStyle name="Sub_heading" font="Helvetica" alignment="CENTER" fontSize="12.0"/>
+	<paraStyle name="Sub_heading_1" font="Helvetica-Bold" fontSize="10.0"/>
+	<paraStyle name="Table_20_Heading1" font="Helvetica-Bold" fontSize="8.0"/>
+	<paraStyle name="Table_20_Contents" font="Helvetica-Bold" fontSize="8.0"/>
+	<paraStyle name="footer" font="Times-Bold" fontSize="11.0" leading="14" alignment="CENTER" spaceBefore="0.0" spaceAfter="0.0"/>
+</stylesheet>	
+
+<story>
+	 <para style="Standard_new">[[repeatIn(get_bill_report(data),'o')]]</para> 
+		<para style="Standard">
+			<font color="white"> </font>
+		</para>
+			
+	<blockTable colWidth="532" style="Table1_nb">
+		<tr>
+			<td>
+				<para style="Standard" alignment="center"> Sri Krishnaarjuna Textiles </para>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<para style="Sub_heading_1" alignment="center"> Shop No: 302, MGC Market,Chirala </para>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<para style="Sub_heading_1" alignment="center"> KSM: 9133378825 , KNR: 9290464275</para>
+			</td>
+		</tr>
+	</blockTable>
+	
+	<section>
+		<blockTable style="Table8">
+			<tr>
+				<td>
+					<para style="Standard"></para>
+				</td>
+			</tr>
+		</blockTable>
+		<blockTable style="Table8">
+			<tr>
+				<td>
+					<para style="Standard"></para>
+				</td>
+			</tr>
+		</blockTable>
+		<blockTable style="Table8">
+			<tr>
+				<td>
+					<para style="Standard"></para>
+				</td>
+			</tr>
+		</blockTable>
+	</section>
+	<blockTable style="TableHeader" alignment="justify">
+	    <tr>
+			<td>
+				<!-- <para><font color="white">empty data</font></para> -->
+				<para alignment="justify"><b>Bill Number     :</b> [[ o['bill_header']['bill_no'] ]]</para>
+			</td>
+			<td>
+				<!-- <para><font color="white">empty data</font></para> -->
+				<para alignment="right"><b>Bill Date     :</b> [[ o['bill_header']['bill_date'] ]]</para>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<!-- <para><font color="white">empty data</font></para> -->
+				<para alignment="justify"><b>Customer Name     : </b> [[ o['bill_header']['customer_name'] ]] </para>
+			</td>
+			<td>
+				<!-- <para><font color="white">empty data</font></para> -->
+				<para alignment="right"><b>Bill Amount     :</b> [[ o['bill_header']['bill_amount'] ]]</para>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<!-- <para><font color="white">empty data</font></para> -->
+				<para alignment="justify"><b>Mobile Number     :</b> [[ o['bill_header']['mob_no'] ]] </para>
+			</td>
+			<td>
+				<!-- <para><font color="white">empty data</font></para> -->
+				<para alignment="right"><b>Amount in Wallet     :</b> [[ o['bill_header']['amount_in_wallet'] ]]</para>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<!-- <para><font color="white">empty data</font></para> -->
+				<para alignment="justify"><b>Updated Cashback     :</b> [[ o['bill_header']['discount_for_next_purchase'] ]]</para>
+			</td>
+			<td>
+				<!-- <para><font color="white">empty data</font></para> -->
+				<para alignment="right"><b>Final Bill     :</b> [[ o['bill_header']['pay_final_bill'] ]]</para>
+			</td>
+		</tr>
+		
+    </blockTable>
+	<!-- <blockTable style="Table8">
+	<tr>
+		<td>
+			<para style="Standard">
+				<font color="white"></font>
+			</para>
+		</td>
+	</tr>
+	</blockTable>
+	<blockTable style="Table8">
+	<tr>
+		<td>
+			<para style="Standard">
+				<font color="white"></font>
+			</para>
+		</td>
+	</tr>
+	</blockTable> -->
+	<blockTable style="Table8">
+	<tr>
+		<td>
+			<para style="Standard">
+				<font color="white"></font>
+			</para>
+		</td>
+	</tr>
+	</blockTable>
+	<blockTable style="Table1" colWidth="500.0,40.0,10.0,10.0,20.0">
+	<tr>
+		<td><para style="Standard_1" alignment="left"><b>Product Name</b></para></td>
+		<td><para style="Standard_1" alignment="left"><b>Description</b></para></td>
+		<td><para style="Standard_1" alignment="left"><b>Quantity</b></para></td>
+		<td><para style="Standard_1" alignment="left"><b>Price</b></para></td>
+		<td><para style="Standard_1" alignment="left"><b>Sub Total</b></para></td>
+	</tr>
+	</blockTable>
+	<section>
+	
+	<!-- <para style="Standard">[[ repeatIn(get_bill_report(data),'o')]] </para>-->
+	<para style="Standard">[[ repeatIn(o['bill_detail'],'p')]]</para>
+	<!-- repeatIn(get_lines(o,objects),'lines') -->
+	<blockTable style="Table1" colWidth="500.0,40.0,10.0,10.0,20.0">
+	<tr>
+		<td><para alignment="left">[[ p['product_name'] ]]</para></td>
+		<td><para alignment="left">[[ p['description'] ]]</para></td>
+		<td><para alignment="right">[[ p['quantity'] ]]</para></td>
+		<td><para alignment="right">[[ p['price'] ]]</para></td>
+		<td><para alignment="right">[[ p['product_wise_tot_bill'] ]]</para></td>
+	</tr>
+	</blockTable>
+	</section>
+</story>
+</document>	

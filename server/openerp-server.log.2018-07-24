@@ -1,0 +1,323 @@
+2018-07-24 15:27:59,865 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:27:59] "GET /?db=openerp_7 HTTP/1.1" 200 -
+2018-07-24 15:28:02,819 3004 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:02] "GET /web/static/src/css/full.css HTTP/1.1" 200 -
+2018-07-24 15:28:09,562 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:09] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-07-24 15:28:13,867 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:13] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 200 -
+2018-07-24 15:28:16,815 3004 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:16] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
+2018-07-24 15:28:17,036 3004 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-07-24 15:28:17,365 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:17] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-07-24 15:28:18,316 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:18] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-07-24 15:28:25,525 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:25] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-07-24 15:28:26,342 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:26] "POST /web/session/modules HTTP/1.1" 200 -
+2018-07-24 15:28:27,881 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:27] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-07-24 15:28:28,290 3004 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:28] "GET /web/static/lib/datejs/globalization/en-US.js HTTP/1.1" 200 -
+2018-07-24 15:28:29,065 3004 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:29] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 -
+2018-07-24 15:28:37,940 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:37] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:28:40,023 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:40] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:28:40,246 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:40] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-24 15:28:40,607 3004 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:40] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-24 15:28:40,608 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:40] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:28:40,877 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:40] "POST /web/menu/load HTTP/1.1" 200 -
+2018-07-24 15:28:41,161 3004 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:41] "GET /web/static/src/font/mnmliconsv21-webfont.ttf HTTP/1.1" 200 -
+2018-07-24 15:28:41,161 3004 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:41] "GET /web/static/src/font/entypo-webfont.ttf HTTP/1.1" 200 -
+2018-07-24 15:28:41,315 3004 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:41] "GET /web/static/src/img/search_reset.gif HTTP/1.1" 200 -
+2018-07-24 15:28:41,421 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:41] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-24 15:28:42,464 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:42] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:28:42,834 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:42] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:28:43,247 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:43] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:28:43,700 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:43] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:28:43,920 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:43] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:28:44,930 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:28:45,970 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:45] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:28:58,433 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:58] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:28:58,779 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:58] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:28:59,164 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:28:59,697 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:28:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:29:01,933 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:29:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:29:02,384 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:29:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:29:03,206 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:29:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:29:03,934 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:29:03] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:29:15,065 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:29:15] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:29:15,503 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:29:15] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:29:16,128 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:29:16] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:29:16,789 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:29:16] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:29:19,470 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:29:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:29:19,908 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:29:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:29:20,661 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:29:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:29:20,828 3004 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:29:20] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:30:31,917 16856 INFO ? openerp: OpenERP version 7.0-20150328
+2018-07-24 15:30:31,917 16856 INFO ? openerp: addons paths: S:\OpenERP 7.0-20150328\server\openerp\addons
+2018-07-24 15:30:31,917 16856 INFO ? openerp: database hostname: localhost
+2018-07-24 15:30:31,917 16856 INFO ? openerp: database port: 5432
+2018-07-24 15:30:31,917 16856 INFO ? openerp: database user: openpg
+2018-07-24 15:31:12,085 16856 WARNING ? openerp.addons.google_docs.google_docs: Please install latest gdata-python-client from http://code.google.com/p/gdata-python-client/downloads/list
+2018-07-24 15:31:25,742 16856 INFO ? openerp: OpenERP server is running, waiting for connections...
+2018-07-24 15:31:26,056 16856 INFO ? openerp.service.wsgi_server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-07-24 15:31:41,359 16856 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:41] "GET / HTTP/1.1" 200 -
+2018-07-24 15:31:42,819 16856 INFO openerp_7 openerp.modules.loading: loading 1 modules...
+2018-07-24 15:31:43,033 16856 INFO openerp_7 openerp.modules.loading: loading 14 modules...
+2018-07-24 15:31:43,075 16856 INFO openerp_7 openerp.modules.loading: Modules loaded.
+2018-07-24 15:31:43,286 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:43] "GET /?db=openerp_7 HTTP/1.1" 200 -
+2018-07-24 15:31:43,956 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:43] "GET /web/webclient/css?db=openerp_7 HTTP/1.1" 200 -
+2018-07-24 15:31:44,927 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:44] "GET /web/webclient/js?db=openerp_7 HTTP/1.1" 200 -
+2018-07-24 15:31:45,684 16856 INFO openerp_7 openerp.service.web_services: successful login from 'admin' using database 'openerp_7'
+2018-07-24 15:31:45,921 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:45] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-07-24 15:31:46,118 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:46] "POST /web/webclient/qweblist HTTP/1.1" 200 -
+2018-07-24 15:31:48,200 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:48] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-07-24 15:31:48,477 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:48] "POST /web/session/modules HTTP/1.1" 200 -
+2018-07-24 15:31:49,332 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:49] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-07-24 15:31:50,565 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:31:50,901 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:50] "GET /web/binary/company_logo?session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-24 15:31:51,111 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:51] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:31:51,424 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:51] "POST /web/menu/load HTTP/1.1" 200 -
+2018-07-24 15:31:51,430 16856 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:51] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-24 15:31:51,611 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:51] "GET /web/binary/image?model=res.users&field=image_small&id=1&session_id=bc44542f0beb4f20b5fc4bf090287d06 HTTP/1.1" 200 -
+2018-07-24 15:31:51,976 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:51] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:31:52,141 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:52] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:31:52,700 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:52] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:31:53,286 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:31:53,549 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:31:53,707 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:31:53,881 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:53] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:31:54,246 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:31:54,887 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:54] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:31:58,216 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:58] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:31:58,523 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:58] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:31:59,108 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:31:59,236 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:31:59,405 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:31:59,673 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:31:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:00,553 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:00,835 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:00] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:32:07,213 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:07] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:32:07,500 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:07,861 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:08,434 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:08,595 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:09,085 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:09] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:09,796 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:09] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:32:13,121 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:13,309 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:13] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:24,789 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:24] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:32:24,983 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:24] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:25,355 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:25] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:25,555 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:25] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:25,819 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:25] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:26,404 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:26] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:26,634 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:26] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:32:28,460 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:28,698 16856 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:28] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 200 -
+2018-07-24 15:32:29,092 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:29,617 16856 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:29] "GET /web/static/src/img/down-arrow.png HTTP/1.1" 200 -
+2018-07-24 15:32:29,677 16856 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:29] "GET /web/static/src/img/ui/field_calendar.png HTTP/1.1" 200 -
+2018-07-24 15:32:29,799 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:29,874 16856 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:29] "GET /am_pk/static/src/css/images/ui-icons_cc0000_256x240.png HTTP/1.1" 404 -
+2018-07-24 15:32:43,486 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:43] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:32:43,780 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:43] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:32:44,003 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:46,411 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:46] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:32:46,835 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:51,752 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:51] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:52,099 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:52,288 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:52] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:32:52,795 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:52] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:32:53,210 16856 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:53] "GET /cashback/static/src/img/icon.png HTTP/1.1" 200 -
+2018-07-24 15:32:53,483 16856 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:32:53] "GET /base/static/src/img/icon.png HTTP/1.1" 200 -
+2018-07-24 15:33:00,361 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:33:08,049 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:33:08,602 16856 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:08] "GET /server/docutils/writers/html4css1/html4css1.css HTTP/1.1" 404 -
+2018-07-24 15:33:08,884 16856 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:08] "GET /web/static/src/img/placeholder.png HTTP/1.1" 200 -
+2018-07-24 15:33:10,344 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:10] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:33:11,808 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:11] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:33:56,204 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:56] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:33:56,369 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:56] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:33:56,680 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:56] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:33:57,075 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:33:57,299 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:33:57,398 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:57] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:33:58,096 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:33:58,362 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:33:58] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:34:06,703 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:34:06] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:34:06,999 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:34:06] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:34:07,305 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:34:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:34:07,704 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:34:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:34:07,927 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:34:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:34:08,085 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:34:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:34:08,569 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:34:08] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:34:09,000 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:34:09] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:34:50,147 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:34:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:34:50,467 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:34:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:35:12,325 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:35:12,427 16856 INFO openerp_7 root: 0.0
+2018-07-24 15:35:12,647 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:35:12,907 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:35:22,759 16856 INFO ? werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:22] "GET /am_pk/static/src/css/images/ui-icons_444444_256x240.png HTTP/1.1" 404 -
+2018-07-24 15:35:40,226 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:40] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:35:40,569 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:40] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:35:45,634 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:45] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:35:46,352 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:35:46,588 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:35:46,757 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:46] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:35:47,072 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:35:47,559 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:35:48,917 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:35:50,776 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:35:51,269 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:35:51] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:36:03,496 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:36:03] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:36:03,755 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:36:03] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:36:04,275 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:36:04] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:36:12,713 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:36:12] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:36:18,433 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:36:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:36:18,747 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:36:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:36:51,871 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:36:51] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:36:56,342 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:36:56] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:36:56,881 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:36:56] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:36:57,740 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:36:57] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-24 15:36:58,342 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:36:58] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:36:59,210 16856 WARNING openerp_7 openerp.sql_db: Cursor not closed explicitly
+Please enable sql debugging to trace the caller.
+2018-07-24 15:36:59,543 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:36:59] "GET /gst/export_gst_purchase_sales_report?id=5&db=openerp_7&uid=1&type=purchase HTTP/1.1" 200 -
+2018-07-24 15:37:31,746 16856 WARNING openerp_7 openerp.sql_db: ConnectionPool(used=0/count=4/max=64): Free leaked connection to 'host=localhost port=5432 user=openpg password=xxxxxxxxx dbname=openerp_7'
+2018-07-24 15:38:07,440 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:38:07] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-24 15:38:07,776 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:38:07] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:38:07,871 16856 WARNING openerp_7 openerp.sql_db: Cursor not closed explicitly
+Please enable sql debugging to trace the caller.
+2018-07-24 15:38:08,101 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:38:08] "GET /gst/export_gst_purchase_sales_report?id=5&db=openerp_7&uid=1&type=purchase HTTP/1.1" 200 -
+2018-07-24 15:38:32,756 16856 WARNING openerp_7 openerp.sql_db: ConnectionPool(used=0/count=4/max=64): Free leaked connection to 'host=localhost port=5432 user=openpg password=xxxxxxxxx dbname=openerp_7'
+2018-07-24 15:40:18,322 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:18] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:40:18,522 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:18] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:40:18,842 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:18] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:40:19,325 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:40:19,596 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:40:19,795 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:40:20,348 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:20] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:40:20,709 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:20] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:40:25,584 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:25] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:40:26,065 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:26] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:40:26,759 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:26] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:40:30,933 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:30] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:40:44,664 16856 INFO openerp_7 root: ****************
+2018-07-24 15:40:44,901 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:44] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:40:47,605 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:47] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:40:48,160 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:40:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:05,171 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:05] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:06,986 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:06] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:07,598 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:16,377 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:16] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:16,907 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:16] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:17,157 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:17] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:27,266 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:27,605 16856 INFO openerp_7 root: ****************
+2018-07-24 15:41:27,785 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:27,854 16856 INFO openerp_7 root: ########################## onchange mobile
+2018-07-24 15:41:27,854 16856 INFO openerp_7 root: browse_record(customer.details.setup, 1)
+2018-07-24 15:41:27,857 16856 INFO openerp_7 root: {'customer_address': 1, 'customer_name': u'Kota'}
+2018-07-24 15:41:28,068 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:28,114 16856 INFO openerp_7 root: ****************
+2018-07-24 15:41:28,318 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:28,493 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:33,598 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:36,388 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:36,696 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:36] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:49,236 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:49,471 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:49,772 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:49] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:41:58,403 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:41:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:42:15,382 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:42:22,273 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:42:26,555 16856 INFO openerp_7 root: check for vals *************
+2018-07-24 15:42:26,556 16856 INFO openerp_7 root: {'bill_no': u'ACC/Bill/2018/000001', u'credit_customer_bill_details_line': [[0, False, {u'description': u'hhhhhhh', u'price': 100, u'product_name': u'laptop', u'product_wise_tot_bill': 100, u'credit_customer_bill_id': False, u'return_qty': 0, u'quantity': 1}]], u'bill_amount': 0, u'discount_amount': 0, u'bill_type': 1, u'payment_notes': False, u'credit_customer_bill_payment_line': [], u'bill_notes': False, u'customer_address': 1, u'final_bill_amount': 0, u'customer_name': u'Kota', u'mob_no': 1, u'bill_date': u'2018-07-24'}
+2018-07-24 15:42:27,032 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:42:27,276 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:27] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:42:27,463 16856 INFO openerp_7 root: ****************
+2018-07-24 15:42:27,678 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:27] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:42:28,092 16856 INFO openerp_7 root: ****************
+2018-07-24 15:42:28,273 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:42:28,483 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:42:28,660 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:28] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:42:28,917 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:28] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:42:29,079 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:29] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:42:29,667 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:42:32,684 16856 INFO openerp_7 root: [1]
+2018-07-24 15:42:32,684 16856 INFO openerp_7 root: **************************************
+2018-07-24 15:42:32,684 16856 WARNING openerp_7 openerp.osv.expression: The domain term '('id', '=', [1])' should use the 'in' or 'not in' operator.
+2018-07-24 15:42:32,694 16856 WARNING openerp_7 openerp.osv.expression: The domain term '('id', '=', [1])' should use the 'in' or 'not in' operator.
+2018-07-24 15:42:32,701 16856 INFO openerp_7 root: *******************************=====================
+2018-07-24 15:42:32,703 16856 WARNING openerp_7 openerp.osv.expression: The domain term '('bill_id', '=', [1])' should use the 'in' or 'not in' operator.
+2018-07-24 15:42:32,704 16856 INFO openerp_7 root: 5555555555555555555555555
+2018-07-24 15:42:32,704 16856 INFO openerp_7 root: [1]
+2018-07-24 15:42:32,704 16856 INFO openerp_7 root: 1
+2018-07-24 15:42:32,934 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:32] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-24 15:42:33,288 16856 INFO openerp_7 root: ****************
+2018-07-24 15:42:33,421 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:42:33,608 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:33] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:42:33,828 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:42:34,095 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:42:34] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:43:28,206 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:43:28] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:43:31,823 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:43:31] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:43:33,671 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:43:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:43:33,970 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:43:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:43:48,025 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:43:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:43:48,237 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:43:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:43:48,782 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:43:48] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:43:54,930 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:43:54] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:43:59,767 16856 INFO openerp_7 root: 1
+2018-07-24 15:43:59,767 16856 INFO openerp_7 root: inside create of ccpd +++++++++++++++++++
+2018-07-24 15:43:59,769 16856 INFO openerp_7 root: browse_record(credit.customer.bill, 1)
+2018-07-24 15:43:59,770 16856 INFO openerp_7 root: browse_record(customer.details.setup, 1)
+2018-07-24 15:43:59,953 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:43:59] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:00,023 16856 INFO openerp_7 root: ****************
+2018-07-24 15:44:00,153 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:00,700 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:00] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:44:00,815 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:00] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:01,049 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:01,612 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:01] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:44:21,549 16856 INFO openerp_7 root: [1]
+2018-07-24 15:44:21,551 16856 INFO openerp_7 root: **************************************
+2018-07-24 15:44:21,551 16856 WARNING openerp_7 openerp.osv.expression: The domain term '('id', '=', [1])' should use the 'in' or 'not in' operator.
+2018-07-24 15:44:21,562 16856 WARNING openerp_7 openerp.osv.expression: The domain term '('id', '=', [1])' should use the 'in' or 'not in' operator.
+2018-07-24 15:44:21,578 16856 INFO openerp_7 root: *******************************=====================
+2018-07-24 15:44:21,578 16856 WARNING openerp_7 openerp.osv.expression: The domain term '('bill_id', '=', [1])' should use the 'in' or 'not in' operator.
+2018-07-24 15:44:21,581 16856 INFO openerp_7 root: 5555555555555555555555555
+2018-07-24 15:44:21,581 16856 INFO openerp_7 root: [1]
+2018-07-24 15:44:21,581 16856 INFO openerp_7 root: 1
+2018-07-24 15:44:21,793 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:21] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-24 15:44:21,871 16856 INFO openerp_7 root: ****************
+2018-07-24 15:44:22,003 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:22,325 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:22] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:44:22,502 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:22] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:23,096 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:23,371 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:23] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:44:49,923 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:49] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:44:50,128 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:50] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-07-24 15:44:50,306 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:50,585 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:50,841 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:50,996 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:50] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:51,558 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:51] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:51,792 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:51] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:44:58,335 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:44:58,589 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:44:58] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:01,845 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:01,890 16856 INFO openerp_7 root: 0.0
+2018-07-24 15:45:01,997 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:01] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:02,421 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:02] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:12,161 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:12] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:45:15,164 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:15,437 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:15,638 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:15,790 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:15] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:16,269 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:16] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:16,513 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:16] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-24 15:45:19,634 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:19,903 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:19] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:23,667 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:23,756 16856 INFO openerp_7 root: 0.0
+2018-07-24 15:45:23,756 16856 INFO openerp_7 root: ****************
+2018-07-24 15:45:23,895 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:23] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:28,092 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:28] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-24 15:45:32,220 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:32,342 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:32,486 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:32,740 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:32] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:33,203 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:33] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-24 15:45:33,651 16856 INFO openerp_7 werkzeug: 127.0.0.1 - - [24/Jul/2018 15:45:33] "POST /web/dataset/search_read HTTP/1.1" 200 -

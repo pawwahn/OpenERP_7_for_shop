@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+	<!-- Root menu --> 
+	    <menuitem name="Rate Finder" id="menu_rate_finder" sequence="09"/>
+        <menuitem name="Configuration" id="menu_rate_finder_config" parent="menu_rate_finder" sequence="02"/>
+		<menuitem name="Transcations" id="menu_rate_finder_transactions" parent="menu_rate_finder" sequence="01"/>
+		<menuitem id="rm_uploads" name="Upload" parent="menu_rate_finder" sequence="3" />
+
+
+
+<!-- company creation start-->
+		<!-- tree view -->
+		<record model="ir.ui.view" id="cmpny_tree_view">
+			<field name="name">Company Registration</field>
+			<field name="model">company.setup</field>
+			<field name="arch" type="xml">
+				<tree string="Company Registration">
+					<field name="company_name" string="Company Name"/>
+					<field name="company_description" string="Description" />
+                    <field name="status" string="Status" />	
+				</tree>
+			</field>
+		</record>	
+		
+		<!-- form view -->
+		<record model="ir.ui.view" id="cmpny_form_view">
+			<field name="name">Company Registration</field>
+			<field name="model">company.setup</field>
+				<field name="arch" type="xml">
+				<form string="Company Registration" version="7.0">
+				<sheet>
+				<group>
+						<group>
+							<field name="company_name" string="Company Name" style="width:50%%;text-transform: uppercase;" />
+							<field name="company_description" string="Description" style="width:50%%"/>
+							<field name="status" string="Status" style="width:50%%" />
+							
+						</group>
+						<!-- <group>
+							
+						    
+						</group> -->
+					</group>
+				</sheet>
+				</form>
+				</field>
+		</record>		
+		<record id="action_company_reg" model="ir.actions.act_window">
+			<field name="name">Company Registration</field>
+			<field name="res_model">company.setup</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<menuitem action="action_company_reg" id="comp_reg_setup_action"
+			parent="menu_rate_finder_config"  
+			string="Company Registration" sequence="01" />
+			
+<!-- company category creation start-->
+		<!-- tree view -->
+		<record model="ir.ui.view" id="category_tree_view">
+			<field name="name">Category Registration</field>
+			<field name="model">company.category</field>
+			<field name="arch" type="xml">
+				<tree string="Company Registration">
+					<field name="company_name_id" string="Company Name" />
+					<field name="category_name" string="Category" />
+                    <field name="status" string="Status" />	
+				</tree>
+			</field>
+		</record>	
+		
+		<!-- form view -->
+		<record model="ir.ui.view" id="company_form_view">
+			<field name="name">Category Registration</field>
+			<field name="model">company.category</field>
+				<field name="arch" type="xml">
+				<form string="Company Registration" version="7.0">
+				<sheet>
+				<group>
+						<group>
+							<field name="company_name_id" string="Company Name" />
+							<field name="category_name" domain="[('company_name_id','=',company_name_id),('status','=','active')]" string="Category" />
+							<field name="status" string="Status" />	
+						</group>
+						<group>
+							
+							
+						</group>
+					</group>
+				</sheet>
+				</form>
+				</field>
+		</record>		
+		<record id="action_category_reg" model="ir.actions.act_window">
+			<field name="name">Category Registration</field>
+			<field name="res_model">company.category</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<menuitem action="action_category_reg" id="cat_reg_setup_action"
+			parent="menu_rate_finder_config"  
+			string="Company Registration" sequence="02" />
+			
+			
+<!-- size setup start-->
+		<!-- tree view -->
+		<record model="ir.ui.view" id="siz_setup_tree_view">
+			<field name="name">Size Setup</field>
+			<field name="model">company.category.size</field>
+			<field name="arch" type="xml">
+				<tree string="Size Setup">
+					<field name="company_name_id" string="Company" />
+					<field name="category_name" string="Category Name" />	
+                    <field name="category_size" string="Size" />
+                    <field name="pur_rate" string="Purchase Rate" />
+                    <field name="sale_rate" string="Sale Rate" />
+                    <field name="status" string="Status" />		
+				</tree>
+			</field>
+		</record>
+
+		<!-- search view  start-->
+		<record id="pay_bill_tree_search" model="ir.ui.view">
+		<field name="name">company.category.size.search</field>
+            <field name="model">company.category.size</field>
+            <field name="arch" type="xml">
+			<search string="state">
+				    <field name="company_name_id" string="Company"/>
+					<field name="category_name" string="Category Name"/>
+                    <field name="category_size" string="Product or Size"/>
+			</search>
+		</field>
+		</record>
+
+		<!-- search view  end-->
+		
+		<!-- form view -->
+		<record model="ir.ui.view" id="siz_setup_form_view">
+			<field name="name">Size/Sub Category</field>
+			<field name="model">company.category.size</field>
+				<field name="arch" type="xml">
+				<form string="Size/Sub Category" version="7.0">
+				<sheet>
+				<group>
+					<group>
+						<field name="company_name_id" string="Company" options="{'limit': 5, 'create': False, 'create_edit': False}"/>
+						<field name="category_name"  domain="[('company_name_id','=',company_name_id),('status','=','active')]" string="Category Name" options="{'limit': 5, 'create': False, 'create_edit': False}"/>
+                    	<field name="category_size" string="Product or Size" />
+						<field name="status" string="Status" />
+					</group>
+					<group>
+						<field name="pur_rate" string="Purchase Rate" on_change="on_change_price(pur_rate,gst_per)" />
+                        <field name="gst_per" string="GST Percentage" on_change="on_change_price(pur_rate,gst_per)" />
+						<field name="price_inc_tax" string="Taxed Price" />
+						<field name="sale_rate" string="Sale Rate" />
+					</group>
+				</group>
+					<b>Note:</b> Transport Charges are not added. Please add the transport charges while entering the Selling Price
+				</sheet>
+				</form>
+				</field>
+		</record>		
+		<record id="action_size_setup" model="ir.actions.act_window">
+			<field name="name">Size/Sub Category</field>
+			<field name="res_model">company.category.size</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<menuitem action="action_size_setup" id="size_setup_action"
+			parent="menu_rate_finder_config"  
+			string="Size or Sub Category" sequence="03" />
+			
+	<!-- transcation start-->
+	
+		<!-- form view -->
+		
+		<record model="ir.ui.view" id="transcation_rates_form_view">
+			<field name="name">Rate Finder</field>
+			<field name="model">company.category.rate</field>
+				<field name="arch" type="xml">
+				<form string="Bill" create="false" edit="false" version="7.0" >
+					<sheet>
+						<group>
+							<group>
+								
+								<field name="company_name_id" string="Company Name" on_change="on_change_company(company_name_id)" no_open="true" style="width:100%%;height:30px;" options="{'limit': 5, 'create': False, 'create_edit': False}" />
+								<field name="category_name_id" string="Category" on_change="on_change_category(category_name_id)" no_open="true" domain="[('company_name_id','=',company_name_id),('status','=','active')]" options="{'limit': 5, 'create': False, 'create_edit': False}" style="width:100%%;height:30px;" />
+								<field name="category_size" string="Size" on_change="on_change_size(category_size)" no_open="true" options="{'limit': 5, 'create': False, 'create_edit': False}" domain="[('category_name','=',category_name_id),('status','=','active')]" style="width:100%%;height:30px;"/>
+			                    <field name="pur_rate" string="Purchase Rate" groups="rate_finder.group_rate_finder_admin,rate_finder.group_rate_finder_owner" style="width:100%%;height:30px;" />
+			                    <field name="sale_price" string="Sale Rate(Incl GST)" style="width:180%%;height:30px;"/>
+							</group>
+							<group></group>
+						
+						</group>
+		
+					</sheet>
+				</form>
+				</field>
+		</record>	
+		
+		<record model="ir.ui.view" id="transcation_rate_tree_view">
+			<field name="name">Rate Finder</field>
+			<field name="model">company.category.rate</field>
+			<field name="arch" type="xml">
+				<tree string="Size Setup" create="false" edit="false">
+					<field name="company_name_id" string="Company" />
+					<field name="category_name_id" string="Category Name" />	
+                    <field name="category_size" string="Size" />
+                    <field name="pur_rate" string="Purchase Rate"/>
+                    <field name="sale_price" string="Sale Rate" />	
+				</tree>
+			</field>
+		</record>
+			
+		<record id="action_trans_rates" model="ir.actions.act_window">
+			<field name="name">Rate Finder</field>
+			<field name="res_model">company.category.rate</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">form</field>
+			<!--<field name="target">new</field>-->
+		</record>
+		
+		
+		<menuitem action="action_trans_rates" id="trans_rate_finder_action"
+			parent="menu_rate_finder_transactions"  
+			string="Rate Finder" sequence="01" />
+
+		<!--Author : Kota Pavan  -->
+		<!-- Rates upload start  -->
+        <record model="ir.ui.view" id="upload_rate_form_view">
+            <field name="name">Rates Upload</field>
+            <field name="model">rf.rates.upload</field>
+            <field name="arch" type="xml">
+                <form string="Upload Product Rates Excel Sheet" version="7.0">
+                	<style>
+						.oe_header_row{
+                                display:none;
+               			 }
+       				 </style>
+                    <header>
+                        <button name="export_rf_template" string="Download Template"
+                            type="object" colspan="2" default_focus="2" />
+                        <button  name="read_excel" string="Upload"
+                            type="object" colspan="2" default_focus="2"  />
+                        <button  name="download_errors" string="Download Error File"
+                            type="object" colspan="2" default_focus="2" />
+                    </header>
+                    <group>
+                        <group>
+                            <field name="file_name" invisible="1" />
+                            <field name="file" filename="file_name" />
+                            <field name="name" invisible="1" />
+                            <field name="data" nolabel="1" readonly="1" fieldname="name" />
+                        </group>
+                         <group>
+                          </group>
+                    </group>
+                </form>
+             </field>
+        </record>
+
+     <record id="upload_rate_details_action" model="ir.actions.act_window">
+            <field name="name">Upload Price Details</field>
+            <field name="res_model">rf.rates.upload</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+	<menuitem action="upload_rate_details_action" name="Price Upload" id="menu_rf_upload" parent="rm_uploads" sequence="1"/>
+
+			
+			
+</data>
+</openerp>			
+			
+			
+	
