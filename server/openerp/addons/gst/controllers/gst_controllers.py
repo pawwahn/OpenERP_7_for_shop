@@ -94,3 +94,24 @@ class gst_report(http.Controller):
                     headers=[('Content-Type', 'application/octet-stream'),
                             ('Content-Disposition', content_disposition(filename,req))])
         return req.not_found()
+
+    @http.httprequest
+    def export_gst_day_wise_report(self, req, id, db, uid, type, s_action=None, **kw):
+        path = req.httprequest.path[1:].split('/')
+        cr = pooler.get_db(db).cursor()
+        pool = pooler.get_pool(db)
+        model = pool.get('gst.sales.purchase.report')
+        obj = model.browse(cr, int(uid), int(id))
+        cr.execute('select report_data from gst_sales_purchase_report where id =%s', (id,))
+        vals = cr.dictfetchall()
+        if vals:
+            filecontent = vals[0]['report_data']
+            if type == 'purchase':
+                filename = "Purchase Summary Report.xlsx"
+            else:
+                filename = "Sales Summary Report.xlsx"
+            if filecontent and filename:
+                return req.make_response(filecontent,
+                                         headers=[('Content-Type', 'application/octet-stream'),
+                                                  ('Content-Disposition', content_disposition(filename, req))])
+        return req.not_found()
