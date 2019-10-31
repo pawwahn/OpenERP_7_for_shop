@@ -100,9 +100,9 @@ class gst_report(http.Controller):
         path = req.httprequest.path[1:].split('/')
         cr = pooler.get_db(db).cursor()
         pool = pooler.get_pool(db)
-        model = pool.get('gst.sales.purchase.report')
+        model = pool.get('gst.daywise.sale.report')
         obj = model.browse(cr, int(uid), int(id))
-        cr.execute('select report_data from gst_sales_purchase_report where id =%s', (id,))
+        cr.execute('select report_data from gst_day_wise_sale_report where id =%s', (id,))
         vals = cr.dictfetchall()
         if vals:
             filecontent = vals[0]['report_data']
