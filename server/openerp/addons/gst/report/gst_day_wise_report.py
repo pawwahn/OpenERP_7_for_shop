@@ -26,12 +26,13 @@ TYPE = [('purchase', 'Purchase'),
         ]
 
 
-class gst_daywise_sale_report(osv.Model):
+class gst_day_wise_sale_report(osv.Model):
     _name = 'gst.daywise.sale.report'
     _columns = {
         'firm': fields.selection(FIRM, 'Firm', required=True, select=True),
-        'from_date': fields.date('Bill Date', size=10, required=True),
-        'financial_year': fields.many2one('gst.financial.years', 'Financial Year', required=True),
+        'from_date': fields.date('From Date', size=10, required=True),
+        'to_date': fields.date('To Date', size=10, required=True),
+        #'financial_year': fields.many2one('gst.financial.years', 'Financial Year', required=True),
         'report_data': fields.binary('File', readonly=True),
         'name': fields.char('Filename', size=50, readonly=True),
 
